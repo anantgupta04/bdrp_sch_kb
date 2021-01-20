@@ -1,4 +1,4 @@
-Lithostrat. unit,NPDID lithostrat. unit,Level,"Lithostrat. unit, parent",Country
+unit,NPDIDunit,Level,parentunit,country
 AGAT FM,2,FORMATION,CROMER KNOLL GP,Norway
 ALKE FM,211,FORMATION,HEGRE GP,Norway
 AMUNDSEN FM,4,FORMATION,DUNLIN GP,United Kingdom
