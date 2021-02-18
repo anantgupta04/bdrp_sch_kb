@@ -1,5 +1,5 @@
 def neatstr(string):
-    return string.replace(' ', '').strip()
+    return string.replace(' ', '').strip().lower()
 
 def capletter(string):
     string = string.strip()

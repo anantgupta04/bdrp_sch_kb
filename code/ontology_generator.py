@@ -10,29 +10,50 @@ class Ontology():
     
     def generate_TBox(self):
         
+        # Unit class
         self.graph.add((self.gkb.Unit, RDF.type, RDFS.Class))
-
+        
+        # Unit properties
         self.graph.add((self.gkb.located_in, RDF.type, RDF.Property))
         self.graph.add((self.gkb.located_in, RDFS.domain, self.gkb.Unit))
         self.graph.add((self.gkb.located_in, RDFS.range, RDFS.Literal))
 
-        self.graph.add((self.gkb.has_age, RDF.type, RDF.Property))
-        self.graph.add((self.gkb.has_age, RDFS.domain, self.gkb.Unit))
-        self.graph.add((self.gkb.has_age, RDFS.range, RDFS.Literal))
+        self.graph.add((self.gkb.age, RDF.type, RDF.Property))
+        self.graph.add((self.gkb.age, RDFS.domain, self.gkb.Unit))
+        self.graph.add((self.gkb.age, RDFS.range, RDFS.Literal))
 
-        self.graph.add((self.gkb.has_lithology, RDF.type, RDF.Property))
-        self.graph.add((self.gkb.has_lithology, RDFS.domain, self.gkb.Unit))
-        self.graph.add((self.gkb.has_lithology, RDFS.range, RDFS.Literal))
+        self.graph.add((self.gkb.lithology, RDF.type, RDF.Property))
+        self.graph.add((self.gkb.lithology, RDFS.domain, self.gkb.Unit))
+        self.graph.add((self.gkb.lithology, RDFS.range, RDFS.Literal))
+        self.graph.add((self.gkb.is_in, RDF.type, RDF.Property))
 
+        # Unit subclasses
         self.graph.add((self.gkb.Group, RDFS.subClassOf, self.gkb.Unit))
         self.graph.add((self.gkb.Formation, RDFS.subClassOf, self.gkb.Unit))
         self.graph.add((self.gkb.Wellbore, RDFS.subClassOf, self.gkb.Unit))
         self.graph.add((self.gkb.Member, RDFS.subClassOf, self.gkb.Unit))
         self.graph.add((self.gkb.Core, RDFS.subClassOf, self.gkb.Wellbore))
 
-        self.graph.add((self.gkb.is_in, RDF.type, RDF.Property))
+        # Wellbore properties
+        self.graph.add((self.gkb.topdepth, RDF.type, RDF.Property))
+        self.graph.add((self.gkb.topdepth, RDFS.domain, self.gkb.Wellbore))
+        self.graph.add((self.gkb.topdepth, RDFS.range, RDFS.Literal))
 
-    def generate_ABox(self):
+        self.graph.add((self.gkb.bottomdepth, RDF.type, RDF.Property))
+        self.graph.add((self.gkb.bottomdepth, RDFS.domain, self.gkb.Wellbore))
+        self.graph.add((self.gkb.bottomdepth, RDFS.range, RDFS.Literal))
+
+        self.graph.add((self.gkb.completion_date, RDF.type, RDF.Property))
+        self.graph.add((self.gkb.completion_date, RDFS.domain, self.gkb.Wellbore))
+        self.graph.add((self.gkb.completion_date, RDFS.range, RDFS.Literal))
+
+        # Core properties
+        self.graph.add((self.gkb.core_length, RDF.type, RDF.Property))
+        self.graph.add((self.gkb.core_length, RDFS.domain, self.gkb.Core))
+        self.graph.add((self.gkb.core_length, RDFS.range, RDFS.Literal))
+
+
+    def load_units(self):
         
         df = pd.read_csv('../data/lithostrat_units.csv')
         groups = df[df['level'] =='GROUP']
@@ -43,15 +64,15 @@ class Ontology():
             group_uri = URIRef(self.gkb.Group + '/' + neatstr(row['unit']))
             self.graph.add((group_uri, RDF.type, self.gkb.Group))
             self.graph.add((group_uri, RDFS.label, Literal(row['unit'].strip())))
-            self.graph.add((group_uri, self.gkb.has_lithology, Literal(row['lithology'])))
-            self.graph.add((group_uri, self.gkb.has_age, Literal(row['age'])))
+            self.graph.add((group_uri, self.gkb.lithology, Literal(row['lithology'])))
+            self.graph.add((group_uri, self.gkb.age, Literal(row['age'])))
 
         for _, row in formations.iterrows():
             formation_uri = URIRef(self.gkb.Formation + '/' + neatstr(row['unit']))
             self.graph.add((formation_uri, RDF.type, self.gkb.Formation))
             self.graph.add((formation_uri, RDFS.label, Literal(row['unit'].strip())))
-            self.graph.add((formation_uri, self.gkb.has_lithology, Literal(row['lithology'])))
-            self.graph.add((formation_uri, self.gkb.has_age, Literal(row['age'])))
+            self.graph.add((formation_uri, self.gkb.lithology, Literal(row['lithology'])))
+            self.graph.add((formation_uri, self.gkb.age, Literal(row['age'])))
 
             if row['parent']:
                 parent_uri = getattr(self.gkb, capletter(row['level'])) + '/' + neatstr(str(row['parent']))
@@ -61,12 +82,60 @@ class Ontology():
             member_uri = URIRef(self.gkb.Member + '/' + neatstr(row['unit']))
             self.graph.add((member_uri, RDF.type, self.gkb.Member))
             self.graph.add((member_uri, RDFS.label, Literal(row['unit'].strip())))
-            self.graph.add((member_uri, self.gkb.has_lithology, Literal(row['lithology'])))
-            self.graph.add((member_uri, self.gkb.has_age, Literal(row['age'])))
+            self.graph.add((member_uri, self.gkb.lithology, Literal(row['lithology'])))
+            self.graph.add((member_uri, self.gkb.age, Literal(row['age'])))
             
             if row['parent']:
                 parent_uri = getattr(self.gkb, capletter(row['level'])) + '/' + neatstr(row['parent'])
                 self.graph.add((member_uri, self.gkb.is_in, parent_uri))
+
+
+    def load_wellbores(self):
+
+        df = pd.read_csv('../data/litho_wellbore.csv')
+
+        for _, row in df.iterrows():
+            core_uri = URIRef(self.gkb.Core + '/' + neatstr(str(row['wellbore_name'])))
+            wellbore_uri = URIRef(self.gkb.Core + '/' + neatstr(str(row['wellbore_name'])))
+            try:
+                next(self.graph.subjects(predicate=RDF.type, object=self.gkb.Core))
+                is_core = True
+            except StopIteration:
+                is_core = False
+
+            if is_core:
+                self.graph.add((core_uri, self.gkb.topdepth, Literal(row['topdepth'])))
+                self.graph.add((core_uri, self.gkb.bottomdepth, Literal(row['bottomdepth'])))
+            else:
+                parent_uri = getattr(self.gkb, capletter(row['unit_level'])) + '/' + neatstr(str(row['unit_name']))
+                self.graph.add((wellbore_uri, RDF.type, self.gkb.Wellbore))
+                self.graph.add((wellbore_uri, RDFS.label, Literal(row['wellbore_name'].strip())))
+                self.graph.add((wellbore_uri, self.gkb.is_in, parent_uri))
+                self.graph.add((wellbore_uri, self.gkb.completion_date, Literal(row['completion_date'])))
+    
+
+    def load_cores(self):
+        
+        df = pd.read_csv('../data/core.csv')
+
+        for _, row in df.iterrows():
+            core_uri = URIRef(self.gkb.Core + '/' + neatstr(str(row['wellbore_name'])))
+            parent_uri = getattr(self.gkb, capletter(row['unit_level'])) + '/' + neatstr(str(row['unit_name']))
+            self.graph.add((core_uri, RDF.type, self.gkb.Core))
+            self.graph.add((core_uri, RDFS.label, Literal(row['wellbore_name'].strip())))
+            if row['core_length'] != 0:
+                self.graph.add((core_uri, self.gkb.core_length, Literal(row['core_length'])))
+            self.graph.add((core_uri, self.gkb.is_in, parent_uri))
+            self.graph.add((core_uri, self.gkb.completion_date, Literal(row['completion_date'])))
+
+
+    def generate_ABox(self):
+
+        self.load_units()
+        self.load_cores()
+        self.load_wellbores()
+        
+
 
 
 
