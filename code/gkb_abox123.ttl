@@ -1,253 +1,45 @@
-@prefix ns1: <http://www.semanticweb.org/gkb#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ns1:agatfm a ns1:Formation ;
-    ns1:belongs_to ns1:cromerknollgp ;
-    ns1:has_well ns1:01-03-05,
-        ns1:01-10-04,
-        ns1:02-11-04,
-        <http://www.semanticweb.org/gkb#35/3-1>,
-        <http://www.semanticweb.org/gkb#35/3-2>,
-        <http://www.semanticweb.org/gkb#35/3-4>,
-        <http://www.semanticweb.org/gkb#35/3-5>,
-        <http://www.semanticweb.org/gkb#35/3-6>,
-        <http://www.semanticweb.org/gkb#35/3-7s>,
-        <http://www.semanticweb.org/gkb#35/6-2s>,
-        <http://www.semanticweb.org/gkb#35/9-3>,
-        <http://www.semanticweb.org/gkb#35/9-5>,
-        <http://www.semanticweb.org/gkb#36/1-1>,
-        <http://www.semanticweb.org/gkb#36/1-2>,
-        <http://www.semanticweb.org/gkb#36/7-3>,
-        <http://www.semanticweb.org/gkb#36/7-4>,
-        <http://www.semanticweb.org/gkb#6205/3-1r> ;
-    ns1:located_in "Norway" .
+<http://www.semanticweb.org/gkb#Formation/agatfm> a <http://www.semanticweb.org/gkb#Formation> .
 
-ns1:alkefm a ns1:Formation ;
-    ns1:belongs_to ns1:hegregp ;
-    ns1:has_well <http://www.semanticweb.org/gkb#33/12-2>,
-        <http://www.semanticweb.org/gkb#33/2-2s> ;
-    ns1:located_in "Norway" .
+<http://www.semanticweb.org/gkb#Formation/alkefm> a <http://www.semanticweb.org/gkb#Formation> .
 
-ns1:amundsenfm a ns1:Formation ;
-    ns1:belongs_to ns1:dunlingp ;
-    ns1:has_well <http://www.semanticweb.org/gkb#24/12-1r> ;
-    ns1:located_in "United Kingdom" .
+<http://www.semanticweb.org/gkb#Formation/amundsenfm> a <http://www.semanticweb.org/gkb#Formation> .
 
-ns1:andrewfm a ns1:Formation ;
-    ns1:belongs_to ns1:rogalandgp ;
-    ns1:located_in "United Kingdom" .
+<http://www.semanticweb.org/gkb#Formation/andrewfm> a <http://www.semanticweb.org/gkb#Formation> .
 
-ns1:balderfm a ns1:Formation ;
-    ns1:belongs_to ns1:rogalandgp ;
-    ns1:located_in "Norway" .
+<http://www.semanticweb.org/gkb#Formation/balderfm> a <http://www.semanticweb.org/gkb#Formation> .
 
-ns1:blodøksfm a ns1:Formation ;
-    ns1:belongs_to ns1:shetlandgp ;
-    ns1:located_in "Norway" .
+<http://www.semanticweb.org/gkb#Formation/blodøksfm> a <http://www.semanticweb.org/gkb#Formation> .
 
-ns1:blærerotfm a ns1:Formation ;
-    ns1:belongs_to ns1:billefjordengp ;
-    ns1:located_in "Norway" .
+<http://www.semanticweb.org/gkb#Formation/blærerotfm> a <http://www.semanticweb.org/gkb#Formation> .
 
-ns1:broomfm a ns1:Formation ;
-    ns1:belongs_to ns1:brentgp ;
-    ns1:located_in "United Kingdom" .
+<http://www.semanticweb.org/gkb#Formation/broomfm> a <http://www.semanticweb.org/gkb#Formation> .
 
-ns1:bryggefm a ns1:Formation ;
-    ns1:belongs_to ns1:hordalandgp ;
-    ns1:located_in "United Kingdom" .
+<http://www.semanticweb.org/gkb#Formation/bryggefm> a <http://www.semanticweb.org/gkb#Formation> .
 
-ns1:brynefm a ns1:Formation ;
-    ns1:belongs_to ns1:vestlandgp ;
-    ns1:located_in "Norway" .
+<http://www.semanticweb.org/gkb#Formation/brynefm> a <http://www.semanticweb.org/gkb#Formation> .
 
-ns1:burtonfm a ns1:Formation ;
-    ns1:belongs_to ns1:dunlingp ;
-    ns1:located_in "United Kingdom" .
+<http://www.semanticweb.org/gkb#Formation/burtonfm> a <http://www.semanticweb.org/gkb#Formation> .
 
-ns1:børglumunit a ns1:Formation ;
-    ns1:belongs_to ns1:boknfjordgp ;
-    ns1:located_in "Norway" .
+<http://www.semanticweb.org/gkb#Formation/børglumunit> a <http://www.semanticweb.org/gkb#Formation> .
 
-ns1:cookfm a ns1:Formation ;
-    ns1:belongs_to ns1:dunlingp ;
-    ns1:located_in "United Kingdom" .
+<http://www.semanticweb.org/gkb#Formation/cookfm> a <http://www.semanticweb.org/gkb#Formation> .
 
-<http://www.semanticweb.org/gkb#delfinfm(informal)> a ns1:Formation ;
-    ns1:belongs_to ns1:shetlandgp ;
-    ns1:located_in "Norway" .
+<http://www.semanticweb.org/gkb#Formation/delfinfm(informal)> a <http://www.semanticweb.org/gkb#Formation> .
 
-ns1:drakefm a ns1:Formation ;
-    ns1:belongs_to ns1:dunlingp ;
-    ns1:located_in "United Kingdom" .
+<http://www.semanticweb.org/gkb#Formation/drakefm> a <http://www.semanticweb.org/gkb#Formation> .
 
-ns1:draupnefm a ns1:Formation ;
-    ns1:belongs_to ns1:vikinggp ;
-    ns1:located_in "Norway" .
+<http://www.semanticweb.org/gkb#Formation/draupnefm> a <http://www.semanticweb.org/gkb#Formation> .
 
-ns1:egersundfm a ns1:Formation ;
-    ns1:belongs_to ns1:boknfjordgp ;
-    ns1:located_in "Norway" .
+<http://www.semanticweb.org/gkb#Formation/egersundfm> a <http://www.semanticweb.org/gkb#Formation> .
 
-<http://www.semanticweb.org/gkb#eggafm(informal)> a ns1:Formation ;
-    ns1:belongs_to ns1:rogalandgp ;
-    ns1:located_in "United Kingdom" .
+<http://www.semanticweb.org/gkb#Formation/eggafm(informal)> a <http://www.semanticweb.org/gkb#Formation> .
 
-ns1:eirikssonfm a ns1:Formation ;
-    ns1:belongs_to ns1:statfjordgp ;
-    ns1:located_in "Denmark" .
+<http://www.semanticweb.org/gkb#Formation/eirikssonfm> a <http://www.semanticweb.org/gkb#Formation> .
 
-ns1:ekofiskfm a ns1:Formation ;
-    ns1:belongs_to ns1:shetlandgp ;
-    ns1:located_in "Norway" .
+<http://www.semanticweb.org/gkb#Formation/ekofiskfm> a <http://www.semanticweb.org/gkb#Formation> .
 
-ns1:01-03-05 a ns1:Wellbore ;
-    ns1:bottom_depth 3780 ;
-    ns1:completed_in "11.02.1990" ;
-    ns1:core_length 0 ;
-    ns1:top_depth 3179 .
+<http://www.semanticweb.org/gkb#Group> a <http://www.w3.org/2002/07/owl#Class> .
 
-ns1:01-10-04 a ns1:Wellbore ;
-    ns1:bottom_depth 2670 ;
-    ns1:completed_in "23.11.1995" ;
-    ns1:core_length 0 ;
-    ns1:top_depth 2564 .
-
-ns1:02-11-04 a ns1:Wellbore ;
-    ns1:bottom_depth 2730 ;
-    ns1:completed_in "28.12.1997" ;
-    ns1:core_length 0 ;
-    ns1:top_depth 2700 .
-
-<http://www.semanticweb.org/gkb#24/12-1r> a ns1:Wellbore ;
-    ns1:bottom_depth 4774 ;
-    ns1:completed_in "14.08.1978" ;
-    ns1:core_length 0 ;
-    ns1:top_depth 4698 .
-
-<http://www.semanticweb.org/gkb#33/12-2> a ns1:Wellbore ;
-    ns1:bottom_depth 4048 ;
-    ns1:completed_in "23.08.1974" ;
-    ns1:core_length 0 ;
-    ns1:top_depth 3749 .
-
-<http://www.semanticweb.org/gkb#33/2-2s> a ns1:Wellbore ;
-    ns1:bottom_depth 3276 ;
-    ns1:completed_in "10.06.2015" ;
-    ns1:core_length 0 ;
-    ns1:top_depth 3113 .
-
-<http://www.semanticweb.org/gkb#35/3-1> a ns1:Wellbore ;
-    ns1:bottom_depth 4020 ;
-    ns1:completed_in "26.10.1976" ;
-    ns1:core_length 0 ;
-    ns1:top_depth 3805 .
-
-<http://www.semanticweb.org/gkb#35/3-2> a ns1:Wellbore ;
-    ns1:bottom_depth 3722 ;
-    ns1:completed_in "26.10.1980" ;
-    ns1:core_length 59 ;
-    ns1:top_depth 3528 .
-
-<http://www.semanticweb.org/gkb#35/3-4> a ns1:Wellbore ;
-    ns1:bottom_depth 3583 ;
-    ns1:completed_in "06.06.1981" ;
-    ns1:core_length 97 ;
-    ns1:top_depth 3345 .
-
-<http://www.semanticweb.org/gkb#35/3-5> a ns1:Wellbore ;
-    ns1:bottom_depth 3510 ;
-    ns1:completed_in "31.03.1982" ;
-    ns1:core_length 65 ;
-    ns1:top_depth 3219 .
-
-<http://www.semanticweb.org/gkb#35/3-6> a ns1:Wellbore ;
-    ns1:bottom_depth 2958 ;
-    ns1:completed_in "02.04.2002" ;
-    ns1:core_length 0 ;
-    ns1:top_depth 2955 .
-
-<http://www.semanticweb.org/gkb#35/3-7s> a ns1:Wellbore ;
-    ns1:bottom_depth 3998 ;
-    ns1:completed_in "01.10.2009" ;
-    ns1:core_length 51 ;
-    ns1:top_depth 3596 .
-
-<http://www.semanticweb.org/gkb#35/6-2s> a ns1:Wellbore ;
-    ns1:bottom_depth 3391 ;
-    ns1:completed_in "04.04.2009" ;
-    ns1:core_length 0 ;
-    ns1:top_depth 3015 .
-
-<http://www.semanticweb.org/gkb#35/9-3> a ns1:Wellbore ;
-    ns1:bottom_depth 2703 ;
-    ns1:completed_in "11.11.1997" ;
-    ns1:core_length 39 ;
-    ns1:top_depth 2658 .
-
-<http://www.semanticweb.org/gkb#35/9-5> a ns1:Wellbore ;
-    ns1:bottom_depth 3114 ;
-    ns1:completed_in "07.02.2010" ;
-    ns1:core_length 0 ;
-    ns1:top_depth 2975 .
-
-<http://www.semanticweb.org/gkb#36/1-1> a ns1:Wellbore ;
-    ns1:bottom_depth 1358 ;
-    ns1:completed_in "14.06.1975" ;
-    ns1:core_length 0 ;
-    ns1:top_depth 1218 .
-
-<http://www.semanticweb.org/gkb#36/1-2> a ns1:Wellbore ;
-    ns1:bottom_depth 2865 ;
-    ns1:completed_in "27.10.1975" ;
-    ns1:core_length 0 ;
-    ns1:top_depth 2815 .
-
-<http://www.semanticweb.org/gkb#36/7-3> a ns1:Wellbore ;
-    ns1:bottom_depth 2632 ;
-    ns1:completed_in "06.01.2002" ;
-    ns1:core_length 0 ;
-    ns1:top_depth 2555 .
-
-<http://www.semanticweb.org/gkb#36/7-4> a ns1:Wellbore ;
-    ns1:bottom_depth 2554 ;
-    ns1:completed_in "26.09.2016" ;
-    ns1:core_length 117 ;
-    ns1:top_depth 2428 .
-
-<http://www.semanticweb.org/gkb#6205/3-1r> a ns1:Wellbore ;
-    ns1:bottom_depth 3780 ;
-    ns1:completed_in "30.11.1990" ;
-    ns1:core_length 0 ;
-    ns1:top_depth 3179 .
-
-ns1:billefjordengp a ns1:Group .
-
-ns1:brentgp a ns1:Group .
-
-ns1:cromerknollgp a ns1:Group .
-
-ns1:hegregp a ns1:Group .
-
-ns1:hordalandgp a ns1:Group .
-
-ns1:statfjordgp a ns1:Group .
-
-ns1:vestlandgp a ns1:Group .
-
-ns1:vikinggp a ns1:Group .
-
-ns1:boknfjordgp a ns1:Group .
-
-ns1:rogalandgp a ns1:Group .
-
-ns1:shetlandgp a ns1:Group .
-
-ns1:dunlingp a ns1:Group .
-
-ns1:Group a <http://www.w3.org/2002/07/owl#Class> .
-
-ns1:Formation a <http://www.w3.org/2002/07/owl#Class> .
-
-ns1:Wellbore a <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/gkb#Formation> a <http://www.w3.org/2002/07/owl#Class> .
 

@@ -19,15 +19,15 @@ class ABox_Generator():
 		df = pd.read_csv('../data/mini_formations.csv')
 
 		formations = df['unit'].unique()
-		self.graph.add((URIRef(self.gkb_ns.Formation), RDF.type, OWL.Class))
-		self.graph.add((URIRef(self.gkb_ns.Group), RDF.type, OWL.Class))
+		self.graph.add((self.gkb_ns.Formation, RDF.type, OWL.Class))
+		self.graph.add((self.gkb_ns.Group, RDF.type, OWL.Class))
 		for form in formations:
 
-			form_uri = rdflib.URIRef(self.gkb_ns + form.replace(' ', '').strip().lower())
-			self.graph.add((form_uri, self.rdf_ns.type, URIRef(self.gkb_ns.Formation)))
-			# self.graph.add((form_uri, self.gkb_ns, URIRef))
-			# self.graph.add((form_uri, self.owl_ns.disjointWith, self.gkb_ns.Wellbore))
-			# self.graph.add((form_uri, self.owl_ns.disjointWith, self.gkb_ns.Group))
+			form_uri = rdflib.URIRef(self.gkb_ns.Formation + '/'+form.replace(' ', '').strip().lower())
+			self.graph.add((form_uri, RDF.type, self.gkb_ns.Formation))
+			self.graph.add((form_uri, self.gkb_ns, URIRef))
+			self.graph.add((form_uri, self.owl_ns.disjointWith, self.gkb_ns.Wellbore))
+			self.graph.add((form_uri, self.owl_ns.disjointWith, self.gkb_ns.Group))
 
 			form_df = df[df['unit']==form]
 
@@ -35,7 +35,7 @@ class ABox_Generator():
 
 				group_uri = rdflib.URIRef(self.gkb_ns + str(row['parentunit']).replace(' ', '').strip().lower())
 
-				self.graph.add((group_uri, self.rdf_ns.type, URIRef(self.gkb_ns.Group)))
+				self.graph.add((group_uri, RDF.type, self.gkb_ns.Group))
 				self.graph.add((form_uri, self.gkb_ns.belongs_to, group_uri))
 				self.graph.add((form_uri, self.gkb_ns.located_in, Literal(row['country'])))
 
@@ -54,8 +54,8 @@ class ABox_Generator():
 
 			for _, row in well_df.iterrows():
 
-				form_uri = rdflib.URIRef(self.gkb_ns + str(row['formation']).replace(' ', '').strip().lower())
-				self.graph.add((form_uri, self.rdf_ns.type, URIRef(self.gkb_ns.Formation)))
+				form_uri = rdflib.URIRef(self.gkb_ns.Formation +'/'+ str(row['formation']).replace(' ', '').strip().lower())
+				self.graph.add((form_uri, RDF.type, self.gkb_ns.Formation))
 				self.graph.add((form_uri, self.gkb_ns.has_well, well_uri))
 				self.graph.add((well_uri, self.gkb_ns.completed_in, Literal(row['completiondate'])))
 				self.graph.add((well_uri, self.gkb_ns.top_depth, Literal(row['topdepth'])))
@@ -70,5 +70,5 @@ class ABox_Generator():
 
 abox_gen = ABox_Generator()
 abox_gen.generate_formations_abox()
-abox_gen.generate_wellbores_abox()
+# abox_gen.generate_wellbores_abox()
 abox_gen.save()

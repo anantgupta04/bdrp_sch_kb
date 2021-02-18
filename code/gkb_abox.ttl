@@ -1,0 +1,7 @@
+
+<http://www.semanticweb.org/gkb#formation/ekofisk> a <http://www.semanticweb.org/gkb#formation> .
+
+<http://www.semanticweb.org/gkb#well> a <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.semanticweb.org/gkb#formation> a <http://www.w3.org/2002/07/owl#Class> .
+
