@@ -1,9 +1,10 @@
 import pandas as pd
 import datetime
 import numpy as np
+from random import sample
 
-inpath = '../new_data/core.csv'
-outpath = '../data/core.csv'
+inpath = '../new_data/litho_wellbore.csv'
+outpath = '../data/litho_wellbore_unique.csv'
 df = pd.read_csv(inpath,
                 header=0
                 )
@@ -31,8 +32,12 @@ df = pd.read_csv(inpath,
 # print(df.head(10))
 # print(df.columns)
 
-not_cores = df[df['core_length']==0].index
-df.drop(not_cores, inplace=True)
-print(df.head(10))
+# not_cores = df[df['core_length']==0].index
+# df.drop(not_cores, inplace=True)
+unique = df.wellbore_id.unique()
+for elem in unique:
+    indices = list(df[df['wellbore_id'] == elem].index)
+    to_drop = sample(indices, len(indices)-1)
+    df.drop(to_drop, inplace=True)
 
-# df.to_csv(outpath, index=False)
+df.to_csv(outpath, index=False)
