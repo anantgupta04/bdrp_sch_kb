@@ -1,6 +1,7 @@
-from rdflib import Graph, Namespace, URIRef, RDF, OWL, Literal, RDFS
+from rdflib import Graph, Namespace, URIRef, RDF, RDFS, OWL, Literal
+import numpy as np
 import pandas as pd
-from utils import neatstr, capletter
+from utils import *
 
 class Ontology():
 
@@ -10,8 +11,9 @@ class Ontology():
     
     def generate_TBox(self):
         
-        # Unit class
+        # Classes
         self.graph.add((self.gkb.Unit, RDF.type, RDFS.Class))
+        self.graph.add((self.gkb.Wellbore, RDF.type, RDFS.Class))
         
         # Unit properties
         self.graph.add((self.gkb.located_in, RDF.type, RDF.Property))
@@ -30,11 +32,15 @@ class Ontology():
         # Unit subclasses
         self.graph.add((self.gkb.Group, RDFS.subClassOf, self.gkb.Unit))
         self.graph.add((self.gkb.Formation, RDFS.subClassOf, self.gkb.Unit))
-        self.graph.add((self.gkb.Wellbore, RDFS.subClassOf, self.gkb.Unit))
+        # self.graph.add((self.gkb.Wellbore, RDFS.subClassOf, self.gkb.Unit))
         self.graph.add((self.gkb.Member, RDFS.subClassOf, self.gkb.Unit))
         self.graph.add((self.gkb.Core, RDFS.subClassOf, self.gkb.Wellbore))
 
         # Wellbore properties
+        self.graph.add((self.gkb.has_unit, RDF.type, RDF.Property))
+        self.graph.add((self.gkb.has_unit, RDFS.domain, self.gkb.Wellbore))
+        self.graph.add((self.gkb.has_unit, RDFS.range, self.gkb.Unit))
+
         self.graph.add((self.gkb.topdepth, RDF.type, RDF.Property))
         self.graph.add((self.gkb.topdepth, RDFS.domain, self.gkb.Wellbore))
         self.graph.add((self.gkb.topdepth, RDFS.range, RDFS.Literal))
@@ -107,10 +113,10 @@ class Ontology():
                 self.graph.add((core_uri, self.gkb.topdepth, Literal(row['topdepth'])))
                 self.graph.add((core_uri, self.gkb.bottomdepth, Literal(row['bottomdepth'])))
             else:
-                parent_uri = getattr(self.gkb, capletter(row['unit_level'])) + '/' + neatstr(str(row['unit_name']))
+                unit_uri = getattr(self.gkb, capletter(row['unit_level'])) + '/' + neatstr(str(row['unit_name']))
                 self.graph.add((wellbore_uri, RDF.type, self.gkb.Wellbore))
                 self.graph.add((wellbore_uri, RDFS.label, Literal(row['wellbore_name'].strip())))
-                self.graph.add((wellbore_uri, self.gkb.is_in, parent_uri))
+                self.graph.add((wellbore_uri, self.gkb.has_unit, unit_uri))
                 self.graph.add((wellbore_uri, self.gkb.completion_date, Literal(row['completion_date'])))
     
 
@@ -120,12 +126,12 @@ class Ontology():
 
         for _, row in df.iterrows():
             core_uri = URIRef(self.gkb.Core + '/' + neatstr(str(row['wellbore_name'])))
-            parent_uri = getattr(self.gkb, capletter(row['unit_level'])) + '/' + neatstr(str(row['unit_name']))
+            unit_uri = getattr(self.gkb, capletter(row['unit_level'])) + '/' + neatstr(str(row['unit_name']))
             self.graph.add((core_uri, RDF.type, self.gkb.Core))
             self.graph.add((core_uri, RDFS.label, Literal(row['wellbore_name'].strip())))
             if row['core_length'] != 0:
                 self.graph.add((core_uri, self.gkb.core_length, Literal(row['core_length'])))
-            self.graph.add((core_uri, self.gkb.is_in, parent_uri))
+            self.graph.add((core_uri, self.gkb.has_unit, unit_uri))
             self.graph.add((core_uri, self.gkb.completion_date, Literal(row['completion_date'])))
 
 
@@ -158,18 +164,27 @@ class Ontology():
     def new_source(self, file):
         df = pd.read_csv(file, index_col=0)
         classname = file.split('/')[-1].split('.')[0]
-        class_uri = getattr(self.gkb, classname)
-        instance = df.columns[0]
-        properties = df.columns[1:]
+        class_idx = maincol(classname, df.columns)
+        class_col = df.columns[class_idx]
+        ppty_cols = df.columns[:class_idx] + df.columns[class_idx+1:]
 
         self.graph.parse('test.ttl', format='turtle')
-        classes = self.graph.subjects(predicate=RDF.type, object=OWL.Class)
-        for c in classes:
-            print(c)
+        ont_classes = self.graph.subjects(predicate=RDF.type, object=RDFS.Class)
+        ont_properties = self.graph.subjects(predicate=RDF.type, object=RDF.Property)
+
+        # ont_class = np.argmax([word_compare(c, class_col) for c in ont_classes])
+        for ppty in ont_properties:
+
+        # if ont_class:
+            # class_uri = getattr(self.gkb, ont_class)
+        # else:
+            # class_uri = getattr(self.gkb, classname)
+        
+        
 
 
     def save(self):
-	    self.graph.serialize(destination='test.ttl', format='turtle')
+        self.graph.serialize(destination='test.ttl', format='turtle')
 
 
 g = Ontology()
@@ -179,3 +194,4 @@ g.generate_TBox()
 g.generate_ABox()
 
 g.save()
+
