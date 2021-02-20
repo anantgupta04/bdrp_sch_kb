@@ -92,13 +92,13 @@ class Ontology():
 
     def load_wellbores(self):
 
-        df = pd.read_csv('../data/litho_wellbore.csv')
+        df = pd.read_csv('../data/litho_wellbore_unique.csv')
 
         for _, row in df.iterrows():
             core_uri = URIRef(self.gkb.Core + '/' + neatstr(str(row['wellbore_name'])))
-            wellbore_uri = URIRef(self.gkb.Core + '/' + neatstr(str(row['wellbore_name'])))
+            wellbore_uri = URIRef(self.gkb.Wellbore + '/' + neatstr(str(row['wellbore_name'])))
             try:
-                next(self.graph.subjects(predicate=RDF.type, object=self.gkb.Core))
+                next(self.graph.triples((core_uri, RDF.type, self.gkb.Core)))
                 is_core = True
             except StopIteration:
                 is_core = False
@@ -116,7 +116,7 @@ class Ontology():
 
     def load_cores(self):
         
-        df = pd.read_csv('../data/core.csv')
+        df = pd.read_csv('../data/core_unique.csv')
 
         for _, row in df.iterrows():
             core_uri = URIRef(self.gkb.Core + '/' + neatstr(str(row['wellbore_name'])))
