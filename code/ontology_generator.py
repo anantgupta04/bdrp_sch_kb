@@ -162,23 +162,80 @@ class Ontology():
 
 
     def new_source(self, file):
+
+        class_uri = ''  # source means class
         df = pd.read_csv(file, index_col=0)
         classname = file.split('/')[-1].split('.')[0]
-        class_idx = maincol(classname, df.columns)
+        # col with names of class instances
+        class_idx = maincol(classname, df.columns[:2])
         class_col = df.columns[class_idx]
+        # rest are properties
         ppty_cols = df.columns[:class_idx] + df.columns[class_idx+1:]
 
+        # reading the current graph
         self.graph.parse('test.ttl', format='turtle')
-        ont_classes = self.graph.subjects(predicate=RDF.type, object=RDFS.Class)
-        ont_properties = self.graph.subjects(predicate=RDF.type, object=RDF.Property)
+        ont_classes = list(self.graph.subjects(predicate=RDF.type, object=RDFS.Class))
+        ont_properties = list(self.graph.subjects(predicate=RDF.type, object=RDF.Property))
 
-        # ont_class = np.argmax([word_compare(c, class_col) for c in ont_classes])
-        for ppty in ont_properties:
+        # get the closest existing class name
+        ont_class = ont_classes[np.argmax([word_compare(c, class_col) for c in ont_classes])]
+        if ont_class:
+            class_uri = getattr(self.gkb, ont_class)
+        else:
+            # create new class
+            class_uri = getattr(self.gkb, classname)
+            self.graph.add((class_uri, RDF.type, RDFS.Class))
 
-        # if ont_class:
-            # class_uri = getattr(self.gkb, ont_class)
-        # else:
-            # class_uri = getattr(self.gkb, classname)
+
+        col_ppty_dict = {}  # to keep col -> ppty_uri
+        col_class = {}      # cols that contain classes: col -> class
+        col_literal = []    # cols that contain literals
+        for col in ppty_cols:
+            ppty_uri = ''
+            # get the closest existing property name
+            ont_property = ont_properties[np.argmax([word_compare(c, col) for c in ont_classes])]
+            if ont_property:
+                ppty_uri = getattr(self.gkb, ont_property)
+            else:
+                # create a new property
+                ppty_uri = getattr(self.gkb, neatstr(col, space='_'))
+                self.graph.add((ppty_uri, RDF.type, RDF.Property))
+                self.graph.add((ppty_uri, RDFS.domain, class_uri))
+                # word_compare if sim > 70% then return sim, else return None
+                # col contains classes or literals
+                range_type = ont_classes[np.argmax([word_compare(c, class_col) for c in ont_classes])]
+                if range_type:
+                    # if classes
+                    self.graph.add((ppty_uri, RDFS.range, range_type))
+                    col_class[col] = range_type
+                else:
+                    # if literals   
+                    self.graph.add((ppty_uri, RDFS.range, RDFS.Literal))
+                    col_literal.append(col)
+
+            # col -> corresponding uri
+            col_ppty_dict[col] = ppty_uri
+
+        for _, row in df.iterrows():
+            instance_uri = URIRef(class_uri + '/' + neatstr(str(row[class_col])))
+            self.graph.add((instance_uri, RDF.type, class_uri))
+            for col in col_literal:
+                self.graph.add((instance_uri, col_ppty_dict[col], Literal(row[col])))
+            for col, range_type in col_class.items():
+                self.graph.add((instance_uri, col_ppty_dict[col], range_type))
+        
+    def get_classes(self):
+        class_uris = self.graph.subjects(predicate=RDF.type, object=RDFS.Class)
+        classes = [c.split(self.gkb)[1] for c in class_uris]
+        return classes
+    
+    def get_properties(self):
+        ppty_uris = self.graph.subjects(predicate=RDF.type, object=RDF.Property)
+        properties = [ppty.split(self.gkb)[1] for ppty in ppty_uris]
+        return properties
+    
+
+        
         
         
 
@@ -192,6 +249,11 @@ g = Ontology()
 # g.new_source('../data/mini_formations.csv')
 g.generate_TBox()
 g.generate_ABox()
+cand = 'lsuBottomDepth'
+classes = g.get_properties()
+# print(classes)
+print(maincol('wellbore', ['wlbName', 'WlbWell']))
+# print(closest(cand, classes))
 
-g.save()
+# g.save()
 
