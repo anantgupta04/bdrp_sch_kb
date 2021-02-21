@@ -1,4 +1,4 @@
-field_name,operator,status,discovery_wellbore,completion_date,area,supply_base,field_id,wellbore_id
+field_name,operator,status,discovery_wellbore,completion_date,situated_in,supply_base,field_id,wellbore_id
 ALBUSKJELL,ConocoPhillips Skandinavia AS,Shut down, 1/6-1,1972-11-26,North Sea,,43437,239
 ALVE,Equinor Energy AS,Producing, 6507/3-1,1990-10-26,Norwegian Sea,Sandnessjøen,4444332,1533
 ALVHEIM,Aker BP ASA,Producing, 24/6-2,1998-08-07,North Sea,,2845712,3397

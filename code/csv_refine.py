@@ -3,12 +3,16 @@ import datetime
 import numpy as np
 from random import sample
 
-inpath = '../new_data/litho_wellbore.csv'
-outpath = '../data/litho_wellbore_unique.csv'
+inpath = '../new_data/discovery.csv'
+outpath = '../test_data/discovery.csv'
 df = pd.read_csv(inpath,
                 header=0
                 )
-
+to_drop = []
+for i in df.columns:
+    if 'id' in i:
+        to_drop.append(i)
+df.drop(to_drop, axis=1, inplace=True)
 # lithology = {}
 # age = {}
 # badrows = []
@@ -29,15 +33,15 @@ df = pd.read_csv(inpath,
 # print(df.head(100))
 
 # print(lithology)
-# print(df.head(10))
+print(df.head(10))
 # print(df.columns)
 
 # not_cores = df[df['core_length']==0].index
 # df.drop(not_cores, inplace=True)
-unique = df.wellbore_id.unique()
-for elem in unique:
-    indices = list(df[df['wellbore_id'] == elem].index)
-    to_drop = sample(indices, len(indices)-1)
-    df.drop(to_drop, inplace=True)
+# unique = df.wellbore_id.unique()
+# for elem in unique:
+#     indices = list(df[df['wellbore_id'] == elem].index)
+#     to_drop = sample(indices, len(indices)-1)
+#     df.drop(to_drop, inplace=True)
 
 df.to_csv(outpath, index=False)

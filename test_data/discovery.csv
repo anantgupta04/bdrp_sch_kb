@@ -1,0 +1,553 @@
+discovery_name,operator,status,resource,wellbore,site,field,year
+1/2-1 Blane,Repsol Norge AS,Producing,OIL,1/2-1,North Sea,BLANE,1989
+1/3-1,OMV (Norge) AS,Production is unlikely,GAS,1/3-1,North Sea,,1968
+1/3-11 (Ipswich),OMV (Norge) AS,Production is unlikely,OIL,1/3-11,North Sea,,2008
+1/3-3 Tambar,Aker BP ASA,Producing,OIL,1/3-3,North Sea,TAMBAR,1983
+1/3-6 Oselvar,DNO Norge AS,Shut down,GAS/CONDENSATE,1/3-6,North Sea,OSELVAR,1991
+1/3-K-5 Tambar Øst,Aker BP ASA,Producing,OIL,1/3-K-5,North Sea,TAMBAR ØST,2007
+1/5-2 Flyndre,Petrogas NEO UK Ltd,Producing,OIL,1/5-2,North Sea,FLYNDRE,1974
+1/5-3 S,,Production is unlikely,OIL,1/5-3 S,North Sea,,1998
+1/6-1 Albuskjell,ConocoPhillips Skandinavia AS,Shut down,GAS/CONDENSATE,1/6-1,North Sea,ALBUSKJELL,1972
+1/9-1 Tommeliten Alpha,ConocoPhillips Skandinavia AS,Production in clarification phase,GAS/CONDENSATE,1/9-1,North Sea,,1977
+1/9-4 Tommeliten Gamma,ConocoPhillips Skandinavia AS,Shut down,GAS/CONDENSATE,1/9-4,North Sea,TOMMELITEN GAMMA,1978
+15/12 (Flemming),Repsol Norge AS,Production is unlikely,,?,North Sea,,1991
+15/12-12 Rev,Repsol Norge AS,Producing,OIL/GAS,15/12-12,North Sea,REV,2001
+15/12-18 A,OKEA ASA,Included in other discovery,OIL,15/12-18 A,North Sea,,2007
+15/12-18 S (Storskrymten),OKEA ASA,Production in clarification phase,OIL,15/12-18 S,North Sea,,2007
+15/12-19,A/S Norske Shell,Included in other discovery,GAS,15/12-19,North Sea,GAUPE,2008
+15/12-20 S,Chrysaor Norge AS,Included in other discovery,OIL,15/12-20 S,North Sea,VARG,2008
+15/12-21 (Grevling),OKEA ASA,Production in clarification phase,OIL,15/12-21,North Sea,,2009
+15/12-4 Varg,Chrysaor Norge AS,Shut down,OIL,15/12-4,North Sea,VARG,1984
+15/12-8,Chrysaor Norge AS,Production is unlikely,GAS/CONDENSATE,15/12-8,North Sea,,1991
+15/3-1 S Gudrun,Equinor Energy AS,Producing,GAS/CONDENSATE,15/3-1 S,North Sea,GUDRUN,1975
+15/3-12 S,Equinor Energy AS,Production not evaluated,OIL,15/3-12 S,North Sea,,2020
+15/3-4 (Sigrun),Equinor Energy AS,Production not evaluated,OIL/GAS,15/3-4,North Sea,,1982
+15/3-9,Equinor Energy AS,Included in other discovery,OIL/GAS,15/3-9,North Sea,GUDRUN,2010
+15/5 (J-Struktur),,Production is unlikely,GAS,?,,,1984
+15/5 Enoch,Repsol Sinopec North Sea Limited,Producing,OIL,?,North Sea,ENOCH,1985
+15/5-1 Gina Krog,Equinor Energy AS,Producing,OIL/GAS,15/5-1,North Sea,GINA KROG,1978
+15/5-2 Eirin,Equinor Energy AS,Production not evaluated,GAS,15/5-2,North Sea,,1978
+15/5-5 Glitne,Aker BP ASA,Shut down,OIL,15/5-5,North Sea,GLITNE,1995
+15/6-10 (Freke),Aker BP ASA,Production is unlikely,GAS/CONDENSATE,15/6-10,North Sea,,2009
+15/6-12 (McHenry),Equinor Energy AS,Production is unlikely,OIL,15/6-12,North Sea,,2011
+15/6-13,Equinor Energy AS,Production is unlikely,OIL/GAS,15/6-13,North Sea,,2015
+15/6-3 Sleipner Vest,Equinor Energy AS,Producing,GAS,15/6-3,North Sea,SLEIPNER VEST,1974
+15/8-1 Utgard,Equinor Energy AS,Producing,GAS,15/8-1,North Sea,UTGARD,1982
+15/9-15 Gungne,Equinor Energy AS,Producing,GAS,15/9-15,North Sea,GUNGNE,1982
+15/9-17 Loke,Equinor Energy AS,Included in other discovery,GAS/CONDENSATE,15/9-17,North Sea,SLEIPNER ØST,1983
+15/9-19 S Volve,,Shut down,OIL,15/9-19 SR,North Sea,VOLVE,1993
+15/9-20 S,Equinor Energy AS,Included in other discovery,GAS/CONDENSATE,15/9-20 S,North Sea,GUNGNE,1994
+15/9-9 Sleipner Øst,Equinor Energy AS,Producing,GAS/CONDENSATE,15/9-9,North Sea,SLEIPNER ØST,1981
+15/9-B-1,Equinor Energy AS,Included in other discovery,GAS/CONDENSATE,15/9-B-1,North Sea,SLEIPNER VEST,2009
+16/1-12 (Rolvsnes),Lundin Energy Norway AS,Production in clarification phase,OIL,16/1-12,North Sea,,2009
+16/1-14 (Apollo),Lundin Energy Norway AS,Production is unlikely,OIL,16/1-14,North Sea,,2010
+16/1-26 S,Aker BP ASA,Production not evaluated,OIL/GAS,16/1-26 S,North Sea,,2016
+16/1-29 S (Lille Prinsen),Equinor Energy AS,Production not evaluated,OIL/GAS,16/1-29 S,North Sea,,2018
+16/1-4,Lundin Energy Norway AS,Production is unlikely,GAS/CONDENSATE,16/1-4,North Sea,,1993
+16/1-6 S (Verdandi),Equinor Energy AS,Production is unlikely,GAS,16/1-6 S,North Sea,,2003
+16/1-7,Aker BP ASA,Included in other discovery,OIL,16/1-7,North Sea,IVAR AASEN,2004
+16/1-8 Edvard Grieg,Lundin Energy Norway AS,Producing,OIL,16/1-8,North Sea,EDVARD GRIEG,2007
+16/1-9 Ivar Aasen,Aker BP ASA,Producing,OIL,16/1-9,North Sea,IVAR AASEN,2008
+16/2-3 (Ragnarock),Equinor Energy AS,Production not evaluated,OIL,16/2-3,North Sea,,2007
+16/2-4,Equinor Energy AS,Production not evaluated,OIL/GAS,16/2-4,North Sea,,2007
+16/2-5,Equinor Energy AS,Production not evaluated,GAS,16/2-5,North Sea,,2009
+16/2-6 Johan Sverdrup,Equinor Energy AS,Producing,OIL,16/2-6,North Sea,JOHAN SVERDRUP,2010
+16/4-4 (Biotitt),,Production is unlikely,GAS/CONDENSATE,16/4-4,North Sea,,2007
+16/4-6 S Solveig,Lundin Energy Norway AS,Approved for production,OIL,16/4-6 S,North Sea,SOLVEIG,2013
+16/5-8 S (Goddo),Lundin Energy Norway AS,Production is unlikely,OIL,16/5-8 S,North Sea,,2019
+16/7-10,,Production is unlikely,GAS,16/7-10,North Sea,,2011
+16/7-2,,Production is unlikely,GAS,16/7-2,North Sea,,1982
+16/7-4 Sigyn,Equinor Energy AS,Producing,GAS/CONDENSATE,16/7-4,North Sea,SIGYN,1982
+16/7-7 S,Equinor Energy AS,Included in other discovery,OIL,16/7-7 S,North Sea,SIGYN,1997
+17/12-1 Vette,Repsol Norge AS,Production in clarification phase,OIL,17/12-1 R,North Sea,,1972
+17/12-2 (Brisling),Repsol Norge AS,Production is unlikely,OIL,17/12-2,North Sea,,1973
+17/3-1,,Production is unlikely,GAS,17/3-1,North Sea,,1995
+18/10-1 (Mackerel),Repsol Norge AS,Production is unlikely,OIL,18/10-1,North Sea,,1980
+2/1-11,,Production is unlikely,OIL,2/1-11,North Sea,,1997
+2/11-10 S,Aker BP ASA,Included in other discovery,OIL,2/11-10 S,North Sea,HOD,1994
+2/11-2 Hod,Aker BP ASA,Producing,OIL,2/11-2,North Sea,HOD,1974
+2/1-17 S (Kark),,Production is unlikely,OIL,2/1-17 S,North Sea,,2019
+2/12-1 Mjølner,INEOS E&P Norge AS,Production likely but unclarified,OIL,2/12-1,North Sea,,1987
+2/1-3 Gyda,Repsol Norge AS,Shut down,OIL,2/1-3,North Sea,GYDA,1980
+2/1-9 Gyda Sør,Repsol Norge AS,Included in other discovery,OIL,2/1-9,North Sea,GYDA,1991
+2/2-1 (Møyfrid),A/S Norske Shell,Production is unlikely,OIL/GAS,2/2-1,North Sea,,1982
+2/2-2 (Desmond),A/S Norske Shell,Production is unlikely,GAS,2/2-2,North Sea,,1982
+2/2-5 (Bumblebee),A/S Norske Shell,Production is unlikely,OIL,2/2-5,North Sea,,1992
+2/3-1 (Løven),A/S Norske Shell,Production is unlikely,GAS,2/3-1,North Sea,,1969
+2/4-10,ConocoPhillips Skandinavia AS,Production is unlikely,OIL,2/4-10,North Sea,,1973
+2/4-11 (Espen),Aker BP ASA,Production is unlikely,OIL,2/4-11,North Sea,,1974
+2/4-14,Aker BP ASA,Production is unlikely,OIL,2/4-14,North Sea,,1989
+2/4-17 Tjalve,ConocoPhillips Skandinavia AS,Production not evaluated,GAS/CONDENSATE,2/4-17,North Sea,,1992
+2/4-2 Ekofisk,ConocoPhillips Skandinavia AS,Producing,OIL,2/4-2,North Sea,EKOFISK,1969
+2/4-21 (King Lear),Aker BP ASA,Production in clarification phase,GAS/CONDENSATE,2/4-21,North Sea,,2012
+2/4-22 S (Romeo),Aker BP ASA,Production is unlikely,OIL,2/4-22 S,North Sea,,2015
+2/4-23 S (Julius),Aker BP ASA,Included in other discovery,GAS/CONDENSATE,2/4-23 S,North Sea,,2015
+2/4-6 Vest Ekofisk,ConocoPhillips Skandinavia AS,Shut down,GAS/CONDENSATE,2/4-6,North Sea,VEST EKOFISK,1970
+2/5-1 Tor,ConocoPhillips Skandinavia AS,Producing,OIL,2/5-1,North Sea,TOR,1970
+2/5-11 (Tjatse),MOL Norge AS,Production is unlikely,OIL,2/5-11,North Sea,,1997
+2/5-3 (Sørøst Tor),DNO Norge AS,Production is unlikely,OIL,2/5-3,North Sea,,1972
+2/5-4 (Siv),DNO Norge AS,Production is unlikely,OIL,2/5-4,North Sea,,1972
+2/5-7,MOL Norge AS,Production is unlikely,OIL,2/5-7,North Sea,,1984
+2/6-5,MOL Norge AS,Production is unlikely,OIL,2/6-5,North Sea,,1997
+2/7-1 Eldfisk,ConocoPhillips Skandinavia AS,Producing,OIL,2/7-1,North Sea,ELDFISK,1970
+2/7-19 (Ebba),ConocoPhillips Skandinavia AS,Production is unlikely,OIL,2/7-19,North Sea,,1981
+2/7-2,ConocoPhillips Skandinavia AS,Production is unlikely,OIL/GAS,2/7-2,North Sea,,1971
+2/7-20 Embla,ConocoPhillips Skandinavia AS,Producing,OIL,2/7-20,North Sea,EMBLA,1988
+2/7-22,OMV (Norge) AS,Production is unlikely,GAS,2/7-22,North Sea,,1990
+2/7-29,OMV (Norge) AS,Production is unlikely,OIL,2/7-29,North Sea,,1994
+2/7-31,ConocoPhillips Skandinavia AS,Included in other discovery,OIL,2/7-31,North Sea,,1999
+2/7-4 Edda,ConocoPhillips Skandinavia AS,Shut down,OIL,2/7-4,North Sea,EDDA,1972
+2/7-8,ConocoPhillips Skandinavia AS,Included in other discovery,OIL,2/7-8,North Sea,ELDFISK,1973
+2/8-6 Valhall,Aker BP ASA,Producing,OIL,2/8-6,North Sea,VALHALL,1975
+24/12-3 S,,Production is unlikely,OIL,24/12-3 S,North Sea,,1996
+24/6-1 (Peik),Equinor Energy AS,Production likely but unclarified,GAS/CONDENSATE,24/6-1,North Sea,,1985
+24/6-2 Alvheim,Aker BP ASA,Producing,OIL/GAS,24/6-2,North Sea,ALVHEIM,1998
+24/6-4 Alvheim,Aker BP ASA,Included in other discovery,OIL/GAS,24/6-4,North Sea,ALVHEIM,2003
+24/9-10 S (Caterpillar),Aker BP ASA,Production not evaluated,OIL,24/9-10 S,North Sea,,2011
+24/9-12 S (Frosk),Aker BP ASA,Production in clarification phase,OIL,24/9-12 S,North Sea,,2018
+24/9-13 (Rumpetroll),Aker BP ASA,Production not evaluated,GAS,24/9-13,North Sea,,2019
+24/9-14 S (Froskelår),Aker BP ASA,Production likely but unclarified,OIL/GAS,24/9-14 S,North Sea,,2019
+24/9-15 S (Froskelår Nordøst),Aker BP ASA,Production likely but unclarified,OIL,24/9-15 S,North Sea,,2019
+24/9-3,Aker BP ASA,Production is unlikely,OIL,24/9-3,North Sea,,1981
+24/9-5 Volund,Aker BP ASA,Producing,OIL,24/9-5,North Sea,VOLUND,1994
+24/9-9 S Bøyla,Aker BP ASA,Producing,OIL,24/9-9 S,North Sea,BØYLA,2009
+25/10-11,ConocoPhillips Skandinavia AS,Production is unlikely,GAS,25/10-11,North Sea,,2011
+25/10-8 Hanz,Aker BP ASA,Approved for production,OIL/GAS,25/10-8,North Sea,HANZ,1997
+25/1-1 Frigg,Equinor Energy AS,Shut down,GAS,25/1-1,North Sea,FRIGG,1971
+25/11-1 Balder,Vår Energi AS,Producing,OIL,25/11-1,North Sea,BALDER,1967
+25/1-11 R Skogul,Aker BP ASA,Producing,OIL,25/1-11 R,North Sea,SKOGUL,2010
+25/11-15 Grane,Equinor Energy AS,Producing,OIL,25/11-15,North Sea,GRANE,1991
+25/11-16 Svalin,Equinor Energy AS,Producing,OIL,25/11-16,North Sea,SVALIN,1992
+25/11-24 (Jakob Sør),Equinor Energy AS,Production is unlikely,OIL,25/11-24,North Sea,,2007
+25/11-25 S Svalin,Equinor Energy AS,Included in other discovery,OIL,25/11-25 S,North Sea,SVALIN,2008
+25/11-27 (F-struktur),Equinor Energy AS,Included in other discovery,OIL,25/11-27,North Sea,,2013
+25/1-4 Nordøst Frigg,Equinor Energy AS,Shut down,GAS,25/1-4,North Sea,NORDØST FRIGG,1974
+25/1-9 (Litjklakken),Aker BP ASA,Production is unlikely,OIL/GAS,25/1-9,North Sea,,1986
+25/2-1 Øst Frigg,Aker BP ASA,Shut down,GAS,25/2-1,North Sea,ØST FRIGG,1973
+25/2-10 S (Frigg-GammaDelta),Aker BP ASA,Production in clarification phase,OIL/GAS,25/2-10 S,North Sea,,1986
+25/2-17,Aker BP ASA,Included in other discovery,OIL,25/2-17,North Sea,,2009
+25/2-18 S (Langfjellet),Aker BP ASA,Production in clarification phase,OIL,25/2-18 S,North Sea,,2016
+25/2-21 (Liatårnet),Aker BP ASA,Production not evaluated,OIL,25/2-21,North Sea,,2019
+25/2-4 Lille-Frigg,Aker BP ASA,Shut down,GAS/CONDENSATE,25/2-4,North Sea,LILLE-FRIGG,1975
+25/2-5 Lille Frøy,Aker BP ASA,Production in clarification phase,OIL/GAS,25/2-5,North Sea,,1976
+25/4-1 Heimdal,Equinor Energy AS,Producing,GAS,25/4-1,North Sea,HEIMDAL,1972
+25/4-10 A,Aker BP ASA,Production is unlikely,GAS,25/4-10 A,North Sea,,2009
+25/4-10 S,Aker BP ASA,Included in other discovery,OIL,25/4-10 S,North Sea,ALVHEIM,2009
+25/4-2 (Trine),Aker BP ASA,Production in clarification phase,OIL,25/4-2,North Sea,,1973
+25/4-3 (Gekko),Aker BP ASA,Included in other discovery,OIL/GAS,25/4-3,North Sea,ALVHEIM,1974
+25/4-6 S Vale,Spirit Energy Norway AS,Producing,GAS/CONDENSATE,25/4-6 S,North Sea,VALE,1991
+25/4-7 Alvheim,Aker BP ASA,Included in other discovery,OIL,25/4-7,North Sea,ALVHEIM,2003
+25/4-9 S Vilje,Aker BP ASA,Producing,OIL,25/4-9 S,North Sea,VILJE,2003
+25/5-1 Frøy,Aker BP ASA,Shut down,OIL,25/5-1,North Sea,FRØY,1987
+25/5-3 Skirne,Total E&P Norge AS,Producing,GAS/CONDENSATE,25/5-3,North Sea,SKIRNE,1990
+25/5-4 Byggve,Total E&P Norge AS,Included in other discovery,GAS/CONDENSATE,25/5-4,North Sea,SKIRNE,1991
+25/5-5 (Tir),Aker BP ASA,Production is unlikely,OIL,25/5-5,North Sea,,1995
+25/5-7 Atla,Total E&P Norge AS,Producing,GAS/CONDENSATE,25/5-7,North Sea,ATLA,2010
+25/5-9 (Trell),Aker BP ASA,Production in clarification phase,OIL,25/5-9,North Sea,,2014
+25/6-1,Vår Energi AS,Production is unlikely,OIL,25/6-1,North Sea,,1986
+25/6-5 S (Skirne Øst),Vår Energi AS,Production is unlikely,GAS/CONDENSATE,25/6-5 S,North Sea,,2015
+25/7-2,ConocoPhillips Skandinavia AS,Production is unlikely,GAS/CONDENSATE,25/7-2,North Sea,,1990
+25/7-3 Jotun,Vår Energi AS,Included in other discovery,OIL,25/7-3,North Sea,JOTUN,1995
+25/7-5,Aker BP ASA,Included in other discovery,OIL,25/7-5,North Sea,ALVHEIM,1997
+25/7-7 (Busta),ConocoPhillips Skandinavia AS,Production not evaluated,GAS/CONDENSATE,25/7-7,North Sea,,2019
+25/7-8 S,ConocoPhillips Skandinavia AS,Production is unlikely,OIL/GAS,25/7-8 S,North Sea,,2020
+25/8-1 (Ringhorne Forseti),Vår Energi AS,Included in other discovery,OIL,25/8-1,North Sea,BALDER,1970
+25/8-10 S Ringhorne,Vår Energi AS,Included in other discovery,OIL,25/8-10 S,North Sea,BALDER,1997
+25/8-11 Ringhorne,Vår Energi AS,Included in other discovery,OIL,25/8-11,North Sea,BALDER,1997
+25/8-14 S,Vår Energi AS,Producing,OIL,25/8-14 S,North Sea,RINGHORNE ØST,2003
+25/8-16 S (Eitri),Vår Energi AS,Production is unlikely,OIL,25/8-16 S,North Sea,,2009
+25/8-17 Jette,,Shut down,OIL,25/8-17,North Sea,JETTE,2009
+25/8-19 S (Iving),MOL Norge AS,Production not evaluated,OIL/GAS,25/8-19 S,North Sea,,2019
+25/8-4 (D-struktur),Equinor Energy AS,Decided for production,OIL,25/8-4,North Sea,,1992
+25/8-5 S Jotun,Vår Energi AS,Shut down,OIL,25/8-5 S,North Sea,JOTUN,1994
+25/8-8 S Jotun,Vår Energi AS,Included in other discovery,OIL,25/8-8 S,North Sea,JOTUN,1995
+25/8-9,Vår Energi AS,Production is unlikely,OIL,25/8-9,North Sea,,1997
+25/8-C-20,Vår Energi AS,Included in other discovery,OIL,25/8-C-20,North Sea,BALDER,2003
+26/10-1 (Zulu Øst),Equinor Energy AS,Production is unlikely,GAS,26/10-1,North Sea,,2015
+29/3-1,Equinor Energy AS,Production is unlikely,OIL/GAS,29/3-1,North Sea,,1986
+29/6 Islay,Total E&P UK Ltd,Producing,GAS,?,North Sea,ISLAY,2008
+29/6-1,Equinor Energy AS,Included in other discovery,GAS/CONDENSATE,29/6-1,North Sea,MARTIN LINGE,1982
+3/7-4 Trym,DNO Norge AS,Producing,GAS/CONDENSATE,3/7-4,North Sea,TRYM,1990
+3/7-8 S (Trym Sør),DNO Norge AS,Production in clarification phase,OIL/GAS,3/7-8 S,North Sea,,2013
+30/10-2 Odin,Equinor Energy AS,Shut down,GAS,30/10-2,North Sea,ODIN,1974
+30/10-6,Suncor Energy Norge AS,Production is unlikely,GAS,30/10-6,North Sea,,1992
+30/11-10 (Krafla Nord),Equinor Energy AS,Included in other discovery,OIL,30/11-10,North Sea,,2014
+30/11-11 S (Madam Felle),Equinor Energy AS,Included in other discovery,OIL,30/11-11 S,North Sea,,2016
+30/11-12 S (Askja Sørøst),Equinor Energy AS,Included in other discovery,OIL,30/11-12 S,North Sea,,2016
+30/11-13 (Beerenberg),Equinor Energy AS,Included in other discovery,GAS/CONDENSATE,30/11-13,North Sea,,2016
+30/11-14 (Slemmestad),Equinor Energy AS,Included in other discovery,GAS,30/11-14,North Sea,,2016
+30/11-14 B (Haraldsplass),Equinor Energy AS,Included in other discovery,OIL/GAS,30/11-14 B,North Sea,,2016
+30/11-5 (Steinbit),Equinor Energy AS,Included in other discovery,GAS/CONDENSATE,30/11-5,North Sea,,1997
+30/11-7 (Fulla),Aker BP ASA,Production in clarification phase,GAS/CONDENSATE,30/11-7,North Sea,,2009
+30/11-8 A,Equinor Energy AS,Included in other discovery,OIL/GAS,30/11-8 A,North Sea,,2011
+30/11-8 S (Krafla),Equinor Energy AS,Production in clarification phase,OIL,30/11-8 S,North Sea,,2011
+30/11-9 A (Askja Øst),Equinor Energy AS,Included in other discovery,OIL,30/11-9 A,North Sea,,2014
+30/11-9 S (Askja),Equinor Energy AS,Included in other discovery,GAS,30/11-9 S,North Sea,,2013
+30/2-1 Huldra,Equinor Energy AS,Shut down,GAS/CONDENSATE,30/2-1,North Sea,HULDRA,1982
+30/2-5 S,Equinor Energy AS,Production not evaluated,GAS/CONDENSATE,30/2-5 S,North Sea,,2020
+30/3-2  Veslefrikk,Equinor Energy AS,Producing,OIL,30/3-2 R,North Sea,VESLEFRIKK,1981
+30/3-6 S,Equinor Energy AS,Included in other discovery,OIL,30/3-6 S,North Sea,VESLEFRIKK,1994
+30/3-7 A,Equinor Energy AS,Included in other discovery,GAS,30/3-7 A,North Sea,VESLEFRIKK,1998
+30/3-7 B,Equinor Energy AS,Included in other discovery,OIL,30/3-7 B,North Sea,VESLEFRIKK,1998
+30/3-7 S,Equinor Energy AS,Included in other discovery,GAS,30/3-7 S,North Sea,VESLEFRIKK,1995
+30/3-9,,Production is unlikely,GAS/CONDENSATE,30/3-9,North Sea,,2000
+30/4-3 S,Equinor Energy AS,Included in other discovery,OIL/GAS,30/4-3 S,North Sea,MARTIN LINGE,2016
+30/5-3 A,Equinor Energy AS,Production is unlikely,GAS,30/5-3 A,North Sea,,2009
+30/5-3 S (Corvus),Equinor Energy AS,Production likely but unclarified,GAS,30/5-3 S,North Sea,,2009
+30/6-1 Oseberg,Equinor Energy AS,Producing,OIL/GAS,30/6-1,North Sea,OSEBERG,1979
+30/6-14,Equinor Energy AS,Included in other discovery,OIL,30/6-14,North Sea,OSEBERG ØST,1984
+30/6-15 Oseberg Vest,Equinor Energy AS,Included in other discovery,OIL/GAS,30/6-15,North Sea,OSEBERG,1984
+30/6-16,Equinor Energy AS,Production is unlikely,OIL,30/6-16,North Sea,,1985
+30/6-17 R,Equinor Energy AS,Included in other discovery,OIL/GAS,30/6-17 R,North Sea,OSEBERG,1986
+30/6-18 (Kappa),Equinor Energy AS,Included in other discovery,OIL/GAS,30/6-18,North Sea,OSEBERG,1985
+30/6-19 (Beta Sadel),Equinor Energy AS,Included in other discovery,OIL,30/6-19,North Sea,OSEBERG ØST,1986
+30/6-26 (Gamma Vest),Equinor Energy AS,Included in other discovery,OIL/GAS,30/6-26,North Sea,OSEBERG,2001
+30/6-27,Equinor Energy AS,Included in other discovery,OIL/GAS,30/6-27,North Sea,OSEBERG,2001
+30/6-28 S,Equinor Energy AS,Included in other discovery,OIL,30/6-28 S,North Sea,OSEBERG,2012
+30/6-29 S (Alfa Nord Cook),Equinor Energy AS,Included in other discovery,OIL,30/6-29 S,North Sea,OSEBERG,2015
+30/6-30 (Rungne),,Production is unlikely,GAS/CONDENSATE,30/6-30,North Sea,,2018
+30/6-5 Oseberg Øst,Equinor Energy AS,Producing,OIL,30/6-5,North Sea,OSEBERG ØST,1981
+30/6-9,Equinor Energy AS,Included in other discovery,OIL/GAS,30/6-9,North Sea,OSEBERG,1982
+30/7-2,Equinor Energy AS,Included in other discovery,OIL,30/7-2,North Sea,MARTIN LINGE,1975
+30/7-6 Martin Linge,Equinor Energy AS,Approved for production,GAS/CONDENSATE,30/7-6 R,North Sea,MARTIN LINGE,1978
+30/8-1 S Tune,Equinor Energy AS,Producing,GAS/CONDENSATE,30/8-1 S,North Sea,TUNE,1995
+30/8-1 SR,Equinor Energy AS,Production is unlikely,GAS/CONDENSATE,30/8-1 SR,North Sea,,1996
+30/8-3,Equinor Energy AS,Production is unlikely,GAS,30/8-3,North Sea,,1998
+30/8-4 S,Equinor Energy AS,Production is unlikely,OIL,30/8-4 S,North Sea,,2009
+30/9-10 Oseberg Sør,Equinor Energy AS,Included in other discovery,OIL,30/9-10,North Sea,OSEBERG SØR,1990
+30/9-13 S Oseberg Sør,Equinor Energy AS,Included in other discovery,OIL/GAS,30/9-13 S,North Sea,OSEBERG SØR,1991
+30/9-15 Oseberg Sør,Equinor Energy AS,Included in other discovery,OIL,30/9-15,North Sea,OSEBERG SØR,1994
+30/9-16 K Oseberg Sør,Equinor Energy AS,Included in other discovery,OIL/GAS,30/9-16,North Sea,OSEBERG SØR,1994
+30/9-19,Equinor Energy AS,Included in other discovery,OIL/GAS,30/9-19,North Sea,OSEBERG,1998
+30/9-20 S,Equinor Energy AS,Included in other discovery,OIL,30/9-20 S,North Sea,OSEBERG SØR,2002
+30/9-21 A,Equinor Energy AS,Production is unlikely,OIL,30/9-21 A,North Sea,,2008
+30/9-22 Stjerne,Equinor Energy AS,Included in other discovery,OIL/GAS,30/9-22,North Sea,OSEBERG SØR,2009
+30/9-27 S (Parkes),Equinor Energy AS,Included in other discovery,OIL,30/9-27 S,North Sea,OSEBERG,2015
+30/9-28 S,Equinor Energy AS,Included in other discovery,GAS,30/9-28 S,North Sea,OSEBERG SØR,2016
+30/9-3 Oseberg Sør,Equinor Energy AS,Producing,OIL,30/9-3,North Sea,OSEBERG SØR,1984
+30/9-4 S Oseberg Sør,Equinor Energy AS,Included in other discovery,OIL/GAS,30/9-4 S,North Sea,OSEBERG SØR,1985
+30/9-5 S Oseberg Sør,Equinor Energy AS,Included in other discovery,GAS,30/9-5 S,North Sea,OSEBERG SØR,1985
+30/9-6 Oseberg Sør,Equinor Energy AS,Included in other discovery,OIL,30/9-6,North Sea,OSEBERG SØR,1987
+30/9-7 Oseberg Sør,Equinor Energy AS,Included in other discovery,OIL,30/9-7,North Sea,OSEBERG SØR,1988
+30/9-9 Oseberg Sør,Equinor Energy AS,Included in other discovery,OIL,30/9-9,North Sea,OSEBERG SØR,1989
+31/1-2 S,Equinor Energy AS,Production not evaluated,OIL/GAS,31/1-2 S,North Sea,,2021
+31/2-1 (Troll Vest),Equinor Energy AS,Producing,OIL/GAS,31/2-1,North Sea,TROLL,1979
+31/2-N-11 H,Equinor Energy AS,Shut down,OIL,31/2-N-11 H,North Sea,TROLL BRENT B,2005
+31/4-11,Wintershall Dea Norge AS,Included in other discovery,OIL,31/4-11,North Sea,BRAGE,2000
+31/4-3 Brage,Wintershall Dea Norge AS,Producing,OIL,31/4-3,North Sea,BRAGE,1980
+31/4-A-1-A,Wintershall Dea Norge AS,Included in other discovery,OIL,31/4-A-1 A,North Sea,BRAGE,2008
+31/4-A-30 B,Wintershall Dea Norge AS,Included in other discovery,OIL,31/4-A-30 B,North Sea,BRAGE,2004
+31/6-1 (Troll Øst),Equinor Energy AS,Producing,OIL/GAS,31/6-1,North Sea,TROLL,1983
+31/7-1 (Brasse),DNO Norge AS,Production in clarification phase,OIL/GAS,31/7-1,North Sea,,2016
+33/12-1 Statfjord,Equinor Energy AS,Producing,OIL,33/12-1,North Sea,STATFJORD,1974
+33/12-8 A Skinfaks,Equinor Energy AS,Included in other discovery,OIL/GAS,33/12-8 A,North Sea,GULLFAKS SØR,2002
+33/12-8 S Skinfaks,Equinor Energy AS,Included in other discovery,OIL/GAS,33/12-8 S,North Sea,GULLFAKS SØR,2002
+33/12-9 S (Skinfaks Sør),Equinor Energy AS,Included in other discovery,OIL,33/12-9 S,North Sea,GULLFAKS SØR,2012
+33/2-2 S (Morkel),Suncor Energy Norge AS,Production is unlikely,OIL,33/2-2 S,North Sea,,2015
+33/9  Murchison,,Shut down,OIL,?,North Sea,MURCHISON,1975
+33/9-19 S Sygna,Equinor Energy AS,Producing,OIL,33/9-19 S,North Sea,SYGNA,1996
+33/9-6 DELTA,,Shut down,OIL,33/9-6,North Sea,,1976
+33/9-7 Statfjord Øst,Equinor Energy AS,Producing,OIL,33/9-7,North Sea,STATFJORD ØST,1976
+33/9-8 Statfjord Nord,Equinor Energy AS,Producing,OIL,33/9-8,North Sea,STATFJORD NORD,1977
+34/10-1 Gullfaks,Equinor Energy AS,Producing,OIL,34/10-1,North Sea,GULLFAKS,1978
+34/10-17 Rimfaks,Equinor Energy AS,Included in other discovery,OIL/GAS,34/10-17,North Sea,GULLFAKS SØR,1983
+34/10-2 Gullfaks Sør,Equinor Energy AS,Producing,OIL/GAS,34/10-2,North Sea,GULLFAKS SØR,1978
+34/10-23 Valemon,Equinor Energy AS,Producing,GAS/CONDENSATE,34/10-23,North Sea,VALEMON,1985
+34/10-34 Gullfaks Vest,Equinor Energy AS,Included in other discovery,OIL,34/10-34,North Sea,GULLFAKS,1991
+34/10-37 Gullveig,Equinor Energy AS,Included in other discovery,OIL/GAS,34/10-37,North Sea,GULLFAKS SØR,1995
+34/10-40 S,Equinor Energy AS,Production is unlikely,GAS,34/10-40 S,North Sea,,1995
+34/10-43 S,Equinor Energy AS,Included in other discovery,OIL,34/10-43 S,North Sea,GULLFAKS SØR,2001
+34/10-44 S (Rimfaks Lunde),Equinor Energy AS,Included in other discovery,OIL/GAS,34/10-44 S,North Sea,GULLFAKS SØR,2001
+34/10-45 B,Equinor Energy AS,Included in other discovery,GAS/CONDENSATE,34/10-45 B,North Sea,GULLFAKS,2003
+34/10-45 S,Equinor Energy AS,Included in other discovery,GAS/CONDENSATE,34/10-45 S,North Sea,GULLFAKS,2002
+34/10-46 A,Equinor Energy AS,Included in other discovery,OIL/GAS,34/10-46 A,North Sea,GULLFAKS,2002
+34/10-46 S,Equinor Energy AS,Included in other discovery,GAS,34/10-46 S,North Sea,GULLFAKS,2002
+34/10-47 S Gulltopp,Equinor Energy AS,Included in other discovery,OIL,34/10-47 S,North Sea,GULLFAKS SØR,2002
+34/10-48 S Gimle,Equinor Energy AS,Producing,OIL,34/10-48 S,North Sea,GIMLE,2004
+34/10-49 S (Alun),Equinor Energy AS,Included in other discovery,OIL,34/10-49 S,North Sea,GULLFAKS SØR,2006
+34/10-49 S (Epidot),Equinor Energy AS,Included in other discovery,OIL,34/10-49 S,North Sea,GULLFAKS SØR,2006
+34/10-52 A,Equinor Energy AS,Included in other discovery,GAS,34/10-52 A,North Sea,GULLFAKS SØR,2011
+34/10-52 B,Equinor Energy AS,Included in other discovery,OIL/GAS,34/10-52 B,North Sea,GULLFAKS SØR,2011
+34/10-53 A,Equinor Energy AS,Included in other discovery,GAS/CONDENSATE,34/10-53 A,North Sea,GULLFAKS SØR,2011
+34/10-53 S,Equinor Energy AS,Included in other discovery,GAS/CONDENSATE,34/10-53 S,North Sea,GULLFAKS SØR,2011
+34/10-54 A,Equinor Energy AS,Included in other discovery,GAS,34/10-54 A,North Sea,,2014
+34/10-54 S (Valemon Nord),Equinor Energy AS,Production likely but unclarified,GAS/CONDENSATE,34/10-54 S,North Sea,,2014
+34/10-55 S,Equinor Energy AS,Producing,OIL/GAS,34/10-55 S,North Sea,SINDRE,2017
+34/10-A-8,Equinor Energy AS,Included in other discovery,OIL,34/10-A-8,North Sea,GULLFAKS,2012
+34/10-C-18 A,Equinor Energy AS,Included in other discovery,OIL/GAS,34/10-C-18 A,North Sea,GIMLE,2013
+34/10-K-2 H (Gullveig),Equinor Energy AS,Included in other discovery,GAS,34/10-K-2 H,North Sea,GULLFAKS SØR,1998
+34/11-1 Kvitebjørn,Equinor Energy AS,Producing,GAS/CONDENSATE,34/11-1,North Sea,KVITEBJØRN,1994
+34/11-2 S (Nøkken),Equinor Energy AS,Production likely but unclarified,GAS,34/11-2 S,North Sea,,1996
+34/11-6 S (Valemon Vest),Equinor Energy AS,Included in other discovery,GAS,34/11-6 S,North Sea,VALEMON,2017
+34/12-1 (Afrodite),Equinor Energy AS,Production likely but unclarified,GAS/CONDENSATE,34/12-1,North Sea,,2008
+34/3-1 S Knarr,A/S Norske Shell,Producing,OIL,34/3-1 S,North Sea,KNARR,2008
+34/3-3 S,A/S Norske Shell,Included in other discovery,OIL,34/3-3 S,North Sea,KNARR,2011
+34/4-1 Snorre,Equinor Energy AS,Producing,OIL,34/4-1,North Sea,SNORRE,1979
+34/4-10 (Beta Brent),Equinor Energy AS,Production is unlikely,OIL,34/4-10 R,North Sea,,2000
+34/4-11 (Beta),Equinor Energy AS,Production not evaluated,OIL,34/4-11,North Sea,,2010
+34/4-12 S,Equinor Energy AS,Production is unlikely,OIL,34/4-12 S,North Sea,,2010
+34/4-15 A (Sjøpølse),Neptune Energy Norge AS,Production not evaluated,OIL,34/4-15 A,North Sea,,2020
+34/4-15 S (Dugong),Neptune Energy Norge AS,Production not evaluated,OIL,34/4-15 S,North Sea,,2020
+34/4-5,Neptune Energy Norge AS,Production is unlikely,OIL,34/4-5,North Sea,,1984
+34/5-1 S,,Production is unlikely,OIL,34/5-1 S,North Sea,,2010
+34/6-2 S (Garantiana),Equinor Energy AS,Production in clarification phase,OIL,34/6-2 S,North Sea,,2012
+34/6-3 A (Akkar),Equinor Energy AS,Production is unlikely,OIL,34/6-3 A,North Sea,,2014
+34/7-1-10 AH,Equinor Energy AS,Included in other discovery,OIL,34/7-I-10 AH,North Sea,TORDIS,2020
+34/7-12 Tordis,Equinor Energy AS,Producing,OIL,34/7-12,North Sea,TORDIS,1987
+34/7-18,Equinor Energy AS,Included in other discovery,OIL,34/7-18,North Sea,TORDIS,1991
+34/7-21 Borg,Equinor Energy AS,Included in other discovery,OIL,34/7-21,North Sea,TORDIS,1992
+34/7-22 Tordis Øst,Equinor Energy AS,Included in other discovery,OIL,34/7-22,North Sea,TORDIS,1993
+34/7-23 S,Equinor Energy AS,Included in other discovery,OIL,34/7-23 S,North Sea,VIGDIS,1994
+34/7-25 S,Equinor Energy AS,Included in other discovery,OIL,34/7-25 S,North Sea,TORDIS,1996
+34/7-34,Equinor Energy AS,Included in other discovery,OIL,34/7-34,North Sea,VIGDIS,2009
+34/7-8 Vigdis,Equinor Energy AS,Producing,OIL,34/7-8,North Sea,VIGDIS,1986
+34/7-E-4 AH (Lomre),Equinor Energy AS,Production not evaluated,OIL,34/7-E-4 AH,North Sea,,2020
+34/7-H-2,Equinor Energy AS,Production is unlikely,OIL,34/7-H-2 H,North Sea,,2013
+34/8-1 Visund,Equinor Energy AS,Producing,OIL/GAS,34/8-1,North Sea,VISUND,1986
+34/8-12 S,Equinor Energy AS,Included in other discovery,OIL,34/8-12 S,North Sea,GIMLE,2001
+34/8-14 S Visund Sør,Equinor Energy AS,Producing,OIL/GAS,34/8-14 S,North Sea,VISUND SØR,2008
+34/8-16 S (Iapetus Øst),Equinor Energy AS,Production is unlikely,GAS/CONDENSATE,34/8-16 S,North Sea,,2015
+34/8-17 S,Equinor Energy AS,Included in other discovery,GAS,34/8-17 S,North Sea,VISUND,2014
+34/8-18 S (Telesto),Equinor Energy AS,Included in other discovery,OIL,34/8-18 S,North Sea,VISUND,2019
+34/8-4 S,Equinor Energy AS,Included in other discovery,GAS/CONDENSATE,34/8-4 S,North Sea,VISUND,1991
+34/8-7,,Production is unlikely,GAS,34/8-7 R,North Sea,,1993
+35/10-1,Equinor Energy AS,Production is unlikely,OIL,35/10-1,North Sea,,1992
+35/10-2,Equinor Energy AS,Production is unlikely,GAS,35/10-2,North Sea,,1996
+35/10-4 A (Gnomoria),Equinor Energy AS,Production is unlikely,OIL,35/10-4 A,North Sea,,2018
+35/11-13 Byrding,Equinor Energy AS,Producing,OIL/GAS,35/11-13,North Sea,BYRDING,2005
+35/11-15 S Fram H-Nord,Equinor Energy AS,Producing,OIL,35/11-15 S,North Sea,FRAM H-NORD,2007
+35/11-17 (F-Vest),Equinor Energy AS,Included in other discovery,OIL/GAS,35/11-17,North Sea,FRAM,2014
+35/11-18 (Syrah),Wintershall Dea Norge AS,Production is unlikely,OIL,35/11-18,North Sea,,2015
+35/11-2 Vega Sør,Wintershall Dea Norge AS,Included in other discovery,OIL/GAS,35/11-2,North Sea,VEGA,1987
+35/11-20 B (Beaujolais),Wintershall Dea Norge AS,Production is unlikely,OIL,35/11-20 B,North Sea,,2016
+35/11-20 S (Orion),Wintershall Dea Norge AS,Production is unlikely,OIL,35/11-20 S,North Sea,,2016
+35/11-22 S (Bergand),Equinor Energy AS,Production is unlikely,OIL,35/11-22 S,North Sea,,2019
+35/11-23 (Echino Sør),Equinor Energy AS,Included in other discovery,OIL/GAS,35/11-23,North Sea,FRAM,2019
+35/11-24 S (Swisher),Equinor Energy AS,Production not evaluated,OIL/GAS,35/11-24 S,North Sea,,2020
+35/11-4 Fram,Equinor Energy AS,Producing,OIL/GAS,35/11-4,North Sea,FRAM,1990
+35/11-5,Equinor Energy AS,Production is unlikely,OIL/GAS,35/11-5,North Sea,,1991
+35/11-7,Equinor Energy AS,Included in other discovery,OIL/GAS,35/11-7,North Sea,FRAM,1992
+35/11-8 S,Equinor Energy AS,Included in other discovery,OIL/GAS,35/11-8 S,North Sea,FRAM,1996
+35/11-B-23-H,Equinor Energy AS,Included in other discovery,OIL,35/11-B-23 H,North Sea,FRAM,2008
+35/12-2 (Grosbeak),Wellesley Petroleum AS,Production in clarification phase,OIL/GAS,35/12-2,North Sea,,2009
+35/12-6 S,Wellesley Petroleum AS,Production not evaluated,OIL,35/12-6 S,North Sea,,2018
+35/2-1 (Peon),Equinor Energy AS,Production in clarification phase,GAS,35/2-1,North Sea,,2005
+35/3-2 Agat,,Production is unlikely,GAS,35/3-2,North Sea,,1980
+35/3-7 S,,Included in other discovery,GAS,35/3-7 S,North Sea,,2009
+35/8-1 Vega,Wintershall Dea Norge AS,Producing,GAS/CONDENSATE,35/8-1,North Sea,VEGA,1981
+35/8-2 Vega,Wintershall Dea Norge AS,Included in other discovery,GAS/CONDENSATE,35/8-2,North Sea,VEGA,1982
+35/8-3 (Aurora),OKEA ASA,Production likely but unclarified,GAS,35/8-3,North Sea,,1988
+35/8-6 A (Robbins),Wintershall Dea Norge AS,Production is unlikely,OIL,35/8-6 A,North Sea,,2016
+35/9-1 Gjøa,Neptune Energy Norge AS,Producing,OIL/GAS,35/9-1,North Sea,GJØA,1989
+35/9-14,,Production is unlikely,OIL,35/9-14,North Sea,,2018
+35/9-2,Neptune Energy Norge AS,Included in other discovery,OIL/GAS,35/9-2,North Sea,GJØA,1991
+35/9-3,Neptune Energy Norge AS,Production is unlikely,OIL/GAS,35/9-3,North Sea,,1997
+35/9-6 S,,Production is unlikely,OIL/GAS,35/9-6 S,North Sea,,2010
+35/9-7 Nova,Wintershall Dea Norge AS,Approved for production,OIL,35/9-7,North Sea,NOVA,2012
+36/7-1,Neptune Energy Norge AS,Included in other discovery,OIL/GAS,36/7-1,North Sea,GJØA,1996
+36/7-2,Wintershall Dea Norge AS,Production is unlikely,OIL,36/7-2,North Sea,,1997
+36/7-4 Duva,Neptune Energy Norge AS,Approved for production,OIL/GAS,36/7-4,North Sea,DUVA,2016
+5604/22 (Lulita),,Production is unlikely,,?,,,1991
+6/3-1 PI,A/S Norske Shell,Shut down,OIL/GAS,6/3-1,North Sea,GAUPE,1985
+6201/11-1,Equinor Energy AS,Production is unlikely,OIL,6201/11-1,Norwegian Sea,,1987
+6201/11-3 R (Albert),Equinor Energy AS,Production is unlikely,OIL,6201/11-3 R,Norwegian Sea,,2012
+6204/10-2,,Production is unlikely,GAS,6204/10-2 R,Norwegian Sea,,1997
+6204/11-1,,Production is unlikely,GAS,6204/11-1,Norwegian Sea,,1994
+6302/6-1 (Tulipan),A/S Norske Shell,Production is unlikely,GAS,6302/6-1,Norwegian Sea,,2005
+6305/5-1 Ormen lange,A/S Norske Shell,Producing,GAS,6305/5-1,Norwegian Sea,ORMEN LANGE,1997
+6306/5-1,Neptune Energy Norge AS,Production is unlikely,GAS,6306/5-1,Norwegian Sea,,1997
+6405/10-1 (Midnattsol),A/S Norske Shell,Production is unlikely,GAS,6405/10-1,Norwegian Sea,,2007
+6405/7-1 (Ellida),Aker BP ASA,Production is unlikely,OIL,6405/7-1,Norwegian Sea,,2003
+6406/1-1 (Erlend Nord),Equinor Energy AS,Production is unlikely,GAS/CONDENSATE,6406/1-1,Norwegian Sea,,2001
+6406/11-1 S,Neptune Energy Norge AS,Production is unlikely,OIL,6406/11-1 S,Norwegian Sea,,1991
+6406/1-2 (Sklinna),Equinor Energy AS,Production is unlikely,GAS/CONDENSATE,6406/1-2,Norwegian Sea,,2003
+6406/12-3 A (Bue),Neptune Energy Norge AS,Included in other discovery,OIL,6406/12-3 A,Norwegian Sea,FENJA,2014
+6406/12-3 S Fenja,Neptune Energy Norge AS,Approved for production,OIL/GAS,6406/12-3 S,Norwegian Sea,FENJA,2014
+6406/12-4 S (Boomerang),Neptune Energy Norge AS,Production is unlikely,OIL,6406/12-4 S,Norwegian Sea,,2015
+6406/12-G-1 H,Neptune Energy Norge AS,Production not evaluated,OIL,6406/12-G-1 H,Norwegian Sea,,2020
+6406/2-1 Lavrans,Equinor Energy AS,Production in clarification phase,GAS/CONDENSATE,6406/2-1,Norwegian Sea,,1995
+6406/2-3 Kristin,Equinor Energy AS,Producing,GAS/CONDENSATE,6406/2-3,Norwegian Sea,KRISTIN,1997
+6406/2-6 Ragnfrid,Equinor Energy AS,Production is unlikely,GAS/CONDENSATE,6406/2-6,Norwegian Sea,,1998
+6406/2-7 (Erlend),Equinor Energy AS,Production likely but unclarified,GAS/CONDENSATE,6406/2-7,Norwegian Sea,,1999
+6406/2-8 (Imsa),,Production is unlikely,OIL,6406/2-8,Norwegian Sea,,2015
+6406/2-9 S (Ragnfrid Nord),Equinor Energy AS,Production is unlikely,GAS/CONDENSATE,6406/2-9 S,Norwegian Sea,,2019
+6406/3-10 (Bergknapp),Wintershall Dea Norge AS,Production not evaluated,OIL,6406/3-10,Norwegian Sea,,2020
+6406/3-2 Trestakk,Equinor Energy AS,Producing,OIL,6406/3-2,Norwegian Sea,TRESTAKK,1986
+6406/3-8 Maria,Wintershall Dea Norge AS,Producing,OIL/GAS,6406/3-8,Norwegian Sea,MARIA,2010
+6406/3-9,,Production is unlikely,OIL,6406/3-9,Norwegian Sea,,2012
+6406/5-1,Equinor Energy AS,Production is unlikely,GAS/CONDENSATE,6406/5-1,Norwegian Sea,,2002
+6406/6-3 (Mjøsa),,Production is unlikely,GAS,6406/6-3,Norwegian Sea,,2013
+6406/6-4 S,,Production is unlikely,GAS/CONDENSATE,6406/6-4 S,Norwegian Sea,,2015
+6406/6-6 S (Jasper),Equinor Energy AS,Production is unlikely,GAS,6406/6-6 S,Norwegian Sea,,2018
+6406/9-1 Linnorm,A/S Norske Shell,Production in clarification phase,GAS,6406/9-1,Norwegian Sea,,2005
+6406/9-3 (Onyx Sør),,Production is unlikely,GAS,6406/9-3,Norwegian Sea,,2013
+6407/1-2 Tyrihans Sør,Equinor Energy AS,Producing,GAS/CONDENSATE,6407/1-2,Norwegian Sea,TYRIHANS,1983
+6407/1-3 Tyrihans Nord,Equinor Energy AS,Included in other discovery,GAS/CONDENSATE,6407/1-3,Norwegian Sea,TYRIHANS,1984
+6407/1-6 S,Equinor Energy AS,Production is unlikely,GAS/CONDENSATE,6407/1-6 S,Norwegian Sea,,2013
+6407/1-7,,Production is unlikely,GAS/CONDENSATE,6407/1-7,Norwegian Sea,,2014
+6407/1-8 S (Sierra),Equinor Energy AS,Production not evaluated,GAS,6407/1-8 S,Norwegian Sea,,2020
+6407/2-5 S (Nona),Equinor Energy AS,Production in clarification phase,OIL/GAS,6407/2-5 S,Norwegian Sea,,2009
+6407/2-6 S (Flyndretind),Equinor Energy AS,Production in clarification phase,OIL/GAS,6407/2-6 S,Norwegian Sea,,2010
+6407/4-1 (Spinell Sør),,Production is unlikely,GAS/CONDENSATE,6407/4-1,Norwegian Sea,,1985
+6407/5-2 S (Cortina),,Production is unlikely,GAS,6407/5-2 S,Norwegian Sea,,2011
+6407/6-3 Mikkel,Equinor Energy AS,Producing,GAS/CONDENSATE,6407/6-3,Norwegian Sea,MIKKEL,1987
+6407/6-6 Mikkel Sør,Equinor Energy AS,Production in clarification phase,GAS,6407/6-6,Norwegian Sea,,2008
+6407/6-7 S Mikkel Sør,Equinor Energy AS,Included in other discovery,GAS,6407/6-7 S,Norwegian Sea,,2009
+6407/7-1 S Njord,Equinor Energy AS,Producing,OIL,6407/7-1 S,Norwegian Sea,NJORD,1986
+6407/7-6,Equinor Energy AS,Included in other discovery,GAS/CONDENSATE,6407/7-6,Norwegian Sea,NJORD,2000
+6407/7-7 S,Equinor Energy AS,Included in other discovery,GAS/CONDENSATE,6407/7-7 S,Norwegian Sea,NJORD,2007
+6407/7-8 (Noatun),Equinor Energy AS,Production likely but unclarified,GAS,6407/7-8,Norwegian Sea,,2008
+6407/7-9 A,Equinor Energy AS,Included in other discovery,GAS,6407/7-9 A,Norwegian Sea,,2016
+6407/7-9 S,Equinor Energy AS,Production likely but unclarified,OIL/GAS,6407/7-9 S,Norwegian Sea,,2016
+6407/8-2 (Tau),,Production is unlikely,OIL/GAS,6407/8-2,Norwegian Sea,,1994
+6407/8-4 A,,Included in other discovery,GAS,6407/8-4 A,Norwegian Sea,,2008
+6407/8-4 S,Equinor Energy AS,Production is unlikely,GAS,6407/8-4 S,Norwegian Sea,,2008
+6407/8-5 A,Equinor Energy AS,Included in other discovery,OIL,6407/8-5 A,Norwegian Sea,HYME,2009
+6407/8-5 S Hyme,Equinor Energy AS,Producing,OIL,6407/8-5 S,Norwegian Sea,HYME,2009
+6407/8-6 Bauge,Equinor Energy AS,Approved for production,OIL,6407/8-6,Norwegian Sea,BAUGE,2013
+6407/9-1 Draugen,OKEA ASA,Producing,OIL,6407/9-1,Norwegian Sea,DRAUGEN,1984
+6407/9-9 (Hasselmus),OKEA ASA,Production in clarification phase,OIL/GAS,6407/9-9,Norwegian Sea,,1999
+6506/11-10 (Hades-Iris),OMV (Norge) AS,Production likely but unclarified,GAS/CONDENSATE,6506/11-10,Norwegian Sea,,2018
+6506/11-2 (Lange),Equinor Energy AS,Production likely but unclarified,OIL/GAS,6506/11-2,Norwegian Sea,,1991
+6506/11-7 Morvin,Equinor Energy AS,Producing,OIL/GAS,6506/11-7,Norwegian Sea,MORVIN,2001
+6506/12-1 Smørbukk,Equinor Energy AS,Included in other discovery,GAS/CONDENSATE,6506/12-1,Norwegian Sea,ÅSGARD,1985
+6506/12-12 S,Equinor Energy AS,Included in other discovery,GAS/CONDENSATE,6506/12-12 S,Norwegian Sea,ÅSGARD,2009
+6506/12-3 (Lysing),Equinor Energy AS,Production in clarification phase,OIL,6506/12-3,Norwegian Sea,,1985
+6506/12-3 Smørbukk Sør,Equinor Energy AS,Included in other discovery,OIL,6506/12-3,Norwegian Sea,ÅSGARD,1985
+6506/5-1 S (Nidhogg),Aker BP ASA,Production not evaluated,GAS,6506/5-1 S,Norwegian Sea,,2020
+6506/6-1 (Victoria),ConocoPhillips Skandinavia AS,Production is unlikely,GAS,6506/6-1,Norwegian Sea,,2000
+6506/9-2 S (Fogelberg),Spirit Energy Norway AS,Production in clarification phase,GAS/CONDENSATE,6506/9-2 S,Norwegian Sea,,2010
+6506/9-3 (Smørbukk Nord),Equinor Energy AS,Included in other discovery,GAS/CONDENSATE,6506/9-3,Norwegian Sea,ÅSGARD,2013
+6507/10-2 S (Novus),,Production is unlikely,OIL/GAS,6507/10-2 S,Norwegian Sea,,2014
+6507/11-1 Midgard,Equinor Energy AS,Producing,OIL/GAS,6507/11-1,Norwegian Sea,ÅSGARD,1981
+6507/11-6 Sigrid,Equinor Energy AS,Production in clarification phase,GAS/CONDENSATE,6507/11-6,Norwegian Sea,,2001
+6507/11-8,Equinor Energy AS,Shut down,GAS,6507/11-8,Norwegian Sea,YTTERGRYTA,2007
+6507/11-9 (Natalia),Equinor Energy AS,Production in clarification phase,GAS,6507/11-9,Norwegian Sea,,2008
+6507/2-2 Marulk,Vår Energi AS,Producing,GAS,6507/2-2,Norwegian Sea,MARULK,1992
+6507/2-5 S (Ørn),Equinor Energy AS,Production likely but unclarified,GAS,6507/2-5 S,Norwegian Sea,,2019
+6507/3-1 Alve,Equinor Energy AS,Producing,GAS/CONDENSATE,6507/3-1,Norwegian Sea,ALVE,1990
+6507/3-10 (Klara),Aker BP ASA,Production is unlikely,OIL,6507/3-10,Norwegian Sea,,2013
+6507/3-12 (Osprey),Equinor Energy AS,Production not evaluated,GAS,6507/3-12,Norwegian Sea,,2017
+6507/3-13,Equinor Energy AS,Production not evaluated,OIL/GAS,6507/3-13,Norwegian Sea,,2019
+6507/3-3 (Idun),Aker BP ASA,Included in other discovery,GAS,6507/3-3,Norwegian Sea,SKARV,1999
+6507/3-5 S,Equinor Energy AS,Included in other discovery,OIL/GAS,6507/3-5 S,Norwegian Sea,ALVE,2008
+6507/3-7 (Idun Nord),Aker BP ASA,Production likely but unclarified,GAS,6507/3-7,Norwegian Sea,,2009
+6507/3-8 (Gjøk),Equinor Energy AS,Production in clarification phase,GAS,6507/3-8,Norwegian Sea,,2009
+6507/3-9 S Ærfugl Nord,Aker BP ASA,Approved for production,GAS/CONDENSATE,6507/3-9 S,Norwegian Sea,ÆRFUGL NORD,2012
+6507/4-1 (Warka),ConocoPhillips Skandinavia AS,Production not evaluated,GAS,6507/4-1,Norwegian Sea,,2020
+6507/5-1 Skarv,Aker BP ASA,Producing,OIL/GAS,6507/5-1,Norwegian Sea,SKARV,1998
+6507/5-10 S (Slagugle),ConocoPhillips Skandinavia AS,Production not evaluated,OIL,6507/5-10 S,Norwegian Sea,,2020
+6507/5-3 Ærfugl,Aker BP ASA,Producing,GAS,6507/5-3,Norwegian Sea,ÆRFUGL,2000
+6507/5-9 S (Shrek),Aker BP ASA,Production likely but unclarified,OIL/GAS,6507/5-9 S,Norwegian Sea,,2019
+6507/7-13,ConocoPhillips Skandinavia AS,Production likely but unclarified,OIL,6507/7-13,Norwegian Sea,,2001
+6507/7-14 S Dvalin,Wintershall Dea Norge AS,Producing,GAS,6507/7-14 S,Norwegian Sea,DVALIN,2010
+6507/7-15 S Dvalin,Wintershall Dea Norge AS,Included in other discovery,GAS,6507/7-15 S,Norwegian Sea,DVALIN,2012
+6507/7-16 S (Canela),DNO Norge AS,Production is unlikely,OIL/GAS,6507/7-16 S,Norwegian Sea,,2019
+6507/7-2 Heidrun,Equinor Energy AS,Producing,OIL/GAS,6507/7-2,Norwegian Sea,HEIDRUN,1985
+6507/8-4 Heidrun Nord,Equinor Energy AS,Included in other discovery,OIL/GAS,6507/8-4,Norwegian Sea,HEIDRUN,1990
+6507/8-9 (Carmen),Equinor Energy AS,Production likely but unclarified,GAS,6507/8-9,Norwegian Sea,,2017
+6508/1-2,,Production is unlikely,OIL/GAS,6508/1-2,Norwegian Sea,,2011
+6603/12-1 (Gro),,Production is unlikely,GAS,6603/12-1,Norwegian Sea,,2009
+6604/10-1,Wintershall Dea Norge AS,Production is unlikely,GAS,6604/10-1,Norwegian Sea,,2010
+6604/5-1 (Balderbrå),Wintershall Dea Norge AS,Production is unlikely,GAS,6604/5-1,Norwegian Sea,,2018
+6605/8-1,,Production is unlikely,GAS,6605/8-1,Norwegian Sea,,2005
+6607/12-2 S (Alve Nord),Aker BP ASA,Production likely but unclarified,OIL/GAS,6607/12-2 S,Norwegian Sea,,2011
+6607/12-3,Equinor Energy AS,Production is unlikely,GAS,6607/12-3,Norwegian Sea,,2012
+6607/12-4,Aker BP ASA,Production not evaluated,OIL/GAS,6607/12-4,Norwegian Sea,,2020
+6608/10-11 S (Trost),Equinor Energy AS,Included in other discovery,GAS,6608/10-11 S,Norwegian Sea,URD,2006
+6608/10-12 Skuld,Equinor Energy AS,Producing,OIL,6608/10-12,Norwegian Sea,SKULD,2008
+6608/10-14 S Skuld,Equinor Energy AS,Included in other discovery,OIL/GAS,6608/10-14 S,Norwegian Sea,SKULD,2010
+6608/10-15 (Svale Nord),Equinor Energy AS,Included in other discovery,OIL,6608/10-15,Norwegian Sea,URD,2013
+6608/10-17 S (Cape Vulture),Equinor Energy AS,Production in clarification phase,OIL/GAS,6608/10-17 S,Norwegian Sea,,2017
+6608/10-2 Norne,Equinor Energy AS,Producing,OIL/GAS,6608/10-2,Norwegian Sea,NORNE,1992
+6608/10-4,Equinor Energy AS,Included in other discovery,OIL,6608/10-4,Norwegian Sea,NORNE,1994
+6608/10-6 Svale,Equinor Energy AS,Producing,OIL,6608/10-6,Norwegian Sea,URD,2000
+6608/10-8 Stær,Equinor Energy AS,Included in other discovery,OIL,6608/10-8,Norwegian Sea,URD,2002
+6608/10-9 Lerke,Equinor Energy AS,Included in other discovery,OIL,6608/10-9,Norwegian Sea,URD,2003
+6608/11-2 (Falk),,Production is unlikely,OIL,6608/11-2,Norwegian Sea,,2000
+6608/11-4 Linerle,,Included in other discovery,OIL,6608/11-4,Norwegian Sea,,2004
+6611/1-1 (Toutatis),Wintershall Dea Norge AS,Production is unlikely,OIL,6611/1-1,Norwegian Sea,,2019
+6705/10-1 (Asterix),Equinor Energy AS,Production in clarification phase,GAS,6705/10-1,Norwegian Sea,,2009
+6706/11-2 (Gymir),Equinor Energy AS,Production is unlikely,GAS,6706/11-2,Norwegian Sea,,2015
+6706/12-1,Equinor Energy AS,Included in other discovery,GAS,6706/12-1,Norwegian Sea,AASTA HANSTEEN,2008
+6706/12-2 (Snefrid Nord),Equinor Energy AS,Included in other discovery,OIL/GAS,6706/12-2,Norwegian Sea,AASTA HANSTEEN,2015
+6706/12-3 (Roald Rygg),,Production is unlikely,GAS,6706/12-3,Norwegian Sea,,2015
+6706/6-1 (Hvitveis),,Production is unlikely,GAS,6706/6-1,Norwegian Sea,,2003
+6707/10-1 Aasta Hansteen,Equinor Energy AS,Producing,GAS,6707/10-1,Norwegian Sea,AASTA HANSTEEN,1997
+6707/10-2 A,Equinor Energy AS,Production is unlikely,GAS,6707/10-2 A,Norwegian Sea,,2008
+6707/10-2 S,Equinor Energy AS,Included in other discovery,GAS,6707/10-2 S,Norwegian Sea,AASTA HANSTEEN,2008
+6707/10-3 S (Ivory),Spirit Energy Norway AS,Production is unlikely,GAS,6707/10-3 S,Norwegian Sea,,2014
+7/11-1 Cod,ConocoPhillips Skandinavia AS,Shut down,GAS/CONDENSATE,7/11-1,North Sea,COD,1968
+7/11-12 A,,Production is unlikely,GAS,7/11-12 A,North Sea,,2011
+7/11-5 Mime,Aker BP ASA,Shut down,OIL,7/11-5,North Sea,MIME,1982
+7/11-7,ConocoPhillips Skandinavia AS,Included in other discovery,OIL,7/11-7,North Sea,COD,1983
+7/12-2 Ula,Aker BP ASA,Producing,OIL,7/12-2,North Sea,ULA,1976
+7/12-5 (Ula North),Aker BP ASA,Production is unlikely,OIL,7/12-5,North Sea,,1981
+7/7-2 Brynhild,Lundin Energy Norway AS,Shut down,OIL,7/7-2,North Sea,BRYNHILD,1992
+7/8-3 (Krabbe),Aker BP ASA,Production is unlikely,OIL,7/8-3,North Sea,,1983
+7019/1-1,,Production is unlikely,GAS,7019/1-1,Barents Sea,,2000
+7119/12-3,,Production is unlikely,GAS,7119/12-3,Barents Sea,,1983
+7120/1-2,Lundin Energy Norway AS,Production is unlikely,OIL,7120/1-2,Barents Sea,,1989
+7120/12-2 (Alke Sør),Vår Energi AS,Production in clarification phase,GAS,7120/12-2,Barents Sea,,1981
+7120/12-3 (Alke Nord),Vår Energi AS,Included in other discovery,GAS,7120/12-3,Barents Sea,,1983
+7120/1-3 (Gohta),Lundin Energy Norway AS,Production likely but unclarified,OIL/GAS,7120/1-3,Barents Sea,,2013
+7120/2-3 S (Skalle),Lundin Energy Norway AS,Production is unlikely,GAS,7120/2-3 S,Barents Sea,,2011
+7120/7-1 (Askeladd Vest),Equinor Energy AS,Included in other discovery,GAS,7120/7-1,Barents Sea,SNØHVIT,1982
+7120/7-2 (Askeladd Sentral),Equinor Energy AS,Included in other discovery,GAS,7120/7-2,Barents Sea,SNØHVIT,1983
+7120/8-1 (Askeladd),Equinor Energy AS,Included in other discovery,GAS,7120/8-1,Barents Sea,SNØHVIT,1981
+7120/9-1 (Albatross),Equinor Energy AS,Included in other discovery,GAS,7120/9-1,Barents Sea,SNØHVIT,1982
+7121/4-1 Snøhvit,Equinor Energy AS,Producing,OIL/GAS,7121/4-1,Barents Sea,SNØHVIT,1984
+7121/4-2 (Snøhvit Nord),Equinor Energy AS,Included in other discovery,GAS,7121/4-2,Barents Sea,SNØHVIT,1985
+7121/5-2 (Snøhvit Beta),Equinor Energy AS,Production likely but unclarified,OIL/GAS,7121/5-2,Barents Sea,,1986
+7121/7-2 (Albatross Sør),Equinor Energy AS,Included in other discovery,GAS,7121/7-2,Barents Sea,SNØHVIT,1986
+7121/8-1 (Blåmann),,Production is unlikely,GAS,7121/8-1,Barents Sea,,2017
+7122/6-1 (Tornerose),Equinor Energy AS,Production likely but unclarified,GAS/CONDENSATE,7122/6-1,Barents Sea,,1987
+7122/7-1 Goliat,Vår Energi AS,Producing,OIL/GAS,7122/7-1,Barents Sea,GOLIAT,2000
+7122/7-3,Vår Energi AS,Included in other discovery,OIL,7122/7-3,Barents Sea,GOLIAT,2006
+7122/7-4 S (Klappmys),Vår Energi AS,Included in other discovery,OIL,7122/7-4 S,Barents Sea,GOLIAT,2006
+7124/3-1 (Bamse),,Production is unlikely,OIL/GAS,7124/3-1,Barents Sea,,1987
+7125/1-1 (Binne),,Production is unlikely,OIL,7125/1-1,Barents Sea,,1988
+7125/4-1 (Nucula),Equinor Energy AS,Production is unlikely,OIL/GAS,7125/4-1,Barents Sea,,2007
+7128/4-1 (Omd Vest),,Production is unlikely,OIL/GAS,7128/4-1,Barents Sea,,1994
+7130/4-1 (Ørnen),,Production is unlikely,GAS,7130/4-1,Barents Sea,,2016
+7219/12-1 (Filicudi),Lundin Energy Norway AS,Production not evaluated,OIL/GAS,7219/12-1,Barents Sea,,2017
+7219/12-2 S (Hufsa),Equinor Energy AS,Production is unlikely,GAS,7219/12-2 S,Barents Sea,,2017
+7219/8-2 (Iskrystall),Equinor Energy AS,Production likely but unclarified,GAS,7219/8-2,Barents Sea,,2013
+7219/9-2 (Kayak),Equinor Energy AS,Production not evaluated,OIL,7219/9-2,Barents Sea,,2017
+7220/10-1 (Salina),Lundin Energy Norway AS,Production is unlikely,GAS,7220/10-1,Barents Sea,,2012
+7220/11-1 (Alta),Lundin Energy Norway AS,Production likely but unclarified,OIL/GAS,7220/11-1,Barents Sea,,2014
+7220/2-1 (Isfjell),Equinor Energy AS,Production is unlikely,GAS,7220/2-1,Barents Sea,,2014
+7220/4-1 (Kramsnø),Equinor Energy AS,Production likely but unclarified,GAS,7220/4-1,Barents Sea,,2014
+7220/5-2 (Nunatak),Equinor Energy AS,Production is unlikely,GAS,7220/5-2,Barents Sea,,2013
+7220/5-3 (Skruis),Equinor Energy AS,Production likely but unclarified,OIL,7220/5-3,Barents Sea,,2018
+7220/6-2 R (Neiden),Lundin Energy Norway AS,Production not evaluated,OIL/GAS,7220/6-2 R,Barents Sea,,2016
+7220/7-1 (Havis),Equinor Energy AS,Included in other discovery,OIL/GAS,7220/7-1,Barents Sea,JOHAN CASTBERG,2012
+7220/7-2 S (Skavl),Equinor Energy AS,Production likely but unclarified,OIL/GAS,7220/7-2 S,Barents Sea,,2013
+7220/7-3 S (Drivis),Equinor Energy AS,Included in other discovery,OIL/GAS,7220/7-3 S,Barents Sea,JOHAN CASTBERG,2014
+7220/8-1 Johan Castberg,Equinor Energy AS,Approved for production,OIL/GAS,7220/8-1,Barents Sea,JOHAN CASTBERG,2011
+7221/12-1 (Svanefjell),,Production is unlikely,GAS,7221/12-1,Barents Sea,,2018
+7222/11-1 (Caurus),,Production is unlikely,GAS,7222/11-1,Barents Sea,,2008
+7222/11-2 (Langlitinden),,Production is unlikely,OIL,7222/11-2,Barents Sea,,2014
+7222/6-1 S (Obesum),Aker BP ASA,Production is unlikely,OIL/GAS,7222/6-1 S,Barents Sea,,2008
+7223/5-1,,Production is unlikely,GAS,7223/5-1,Barents Sea,,2009
+7224/6-1 (Arenaria),,Production is unlikely,GAS,7224/6-1,Barents Sea,,2008
+7225/3-1 (Norvarg),,Production is unlikely,GAS,7225/3-1,Barents Sea,,2011
+7226/11-1,Lundin Energy Norway AS,Production is unlikely,GAS,7226/11-1,Barents Sea,,1988
+7226/2-1 (Ververis),,Production is unlikely,GAS,7226/2-1,Barents Sea,,2008
+7228/7-1 (Pandora),,Production is unlikely,OIL/GAS,7228/7-1 A,Barents Sea,,2001
+7316/5-1,,Production is unlikely,GAS,7316/5-1,Barents Sea,,1992
+7319/12-1 (Pingvin),,Production is unlikely,GAS,7319/12-1,Barents Sea,,2014
+7324/3-1 (Intrepid Eagle),,Production is unlikely,GAS,7324/3-1,Barents Sea,,2018
+7324/6-1 (Sputnik),,Production is unlikely,OIL,7324/6-1,Barents Sea,,2019
+7324/7-2 (Hanssen),Equinor Energy AS,Included in other discovery,OIL,7324/7-2,Barents Sea,,2014
+7324/8-1 (Wisting),Equinor Energy AS,Production in clarification phase,OIL,7324/8-1,Barents Sea,,2013
+7324/9-1 (Mercury),,Production is unlikely,GAS,7324/9-1,Barents Sea,,2014
+7325/1-1 (Atlantis),,Production is unlikely,GAS,7325/1-1,Barents Sea,,2014
+7325/4-1 (Gemini Nord),,Production is unlikely,GAS,7325/4-1,Barents Sea,,2017
+7435/12-1 (Korpfjell),,Production is unlikely,GAS,7435/12-1,Barents Sea,,2017
+8/10-4 S Oda,Spirit Energy Norway AS,Producing,OIL,8/10-4 S,North Sea,ODA,2011
+9/2-1 Yme,Repsol Norge AS,Approved for production,OIL,9/2-1,North Sea,YME,1987
+9/2-3,Repsol Norge AS,Included in other discovery,OIL,9/2-3,North Sea,YME,1990
+9/2-6 S,Repsol Norge AS,Included in other discovery,OIL,9/2-6 S,North Sea,YME,1996
+9/2-7 S,Repsol Norge AS,Included in other discovery,OIL,9/2-7 S,North Sea,YME,1997
+9/2-9 S,Repsol Norge AS,Included in other discovery,OIL,9/2-9 S,North Sea,YME,1999
