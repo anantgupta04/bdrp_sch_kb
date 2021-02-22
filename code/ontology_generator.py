@@ -4,6 +4,9 @@ import pandas as pd
 from utils import *
 import owlready2
 
+CURRENT_ONTOLOGY = 'initial.owl'
+NEW_ONTOLOGY = 'evolved.owl'
+
 
 class Ontology():
 
@@ -14,8 +17,8 @@ class Ontology():
     def generate_TBox(self):
         
         # Classes
-        self.graph.add((self.gkb.Unit, RDF.type, RDFS.Class))
-        self.graph.add((self.gkb.Wellbore, RDF.type, RDFS.Class))
+        self.graph.add((self.gkb.Unit, RDF.type, OWL.Class))
+        self.graph.add((self.gkb.Wellbore, RDF.type, OWL.Class))
         
         # Unit properties
         self.graph.add((self.gkb.located_in, RDF.type, RDF.Property))
@@ -33,10 +36,16 @@ class Ontology():
 
         # Unit subclasses
         self.graph.add((self.gkb.Group, RDFS.subClassOf, self.gkb.Unit))
+        self.graph.add((self.gkb.Group, RDF.type, OWL.Class))
         self.graph.add((self.gkb.Formation, RDFS.subClassOf, self.gkb.Unit))
+        self.graph.add((self.gkb.Formation, RDF.type, OWL.Class))
         self.graph.add((self.gkb.Member, RDFS.subClassOf, self.gkb.Unit))
+        self.graph.add((self.gkb.Member, RDF.type, OWL.Class))
+        
+        # Wellbore subclasses
         self.graph.add((self.gkb.Core, RDFS.subClassOf, self.gkb.Wellbore))
-
+        self.graph.add((self.gkb.Core, RDF.type, OWL.Class))
+        
         # Wellbore properties
         self.graph.add((self.gkb.has_unit, RDF.type, RDF.Property))
         self.graph.add((self.gkb.has_unit, RDFS.domain, self.gkb.Wellbore))
@@ -61,7 +70,7 @@ class Ontology():
 
 
     def load_units(self):
-        
+
         df = pd.read_csv('../data/lithostrat_units.csv', header=0, nrows=100)
         df.dropna(inplace=True)
         groups = df[df['level'] =='GROUP']
@@ -122,6 +131,8 @@ class Ontology():
                 self.graph.add((unit_uri, RDFS.label, Literal(row['unit_name'])))
                 self.graph.add((wellbore_uri, self.gkb.has_unit, unit_uri))
                 self.graph.add((wellbore_uri, self.gkb.completion_date, Literal(row['completion_date'])))
+                self.graph.add((wellbore_uri, self.gkb.topdepth, Literal(row['topdepth'])))
+                self.graph.add((wellbore_uri, self.gkb.bottomdepth, Literal(row['bottomdepth'])))
     
 
     def load_cores(self):
@@ -163,18 +174,21 @@ class Ontology():
         ppty_cols = list(df.columns[:class_idx]) + list(df.columns[class_idx+1:])
 
         # reading the current graph
-        self.graph.parse('test.owl', format='turtle')
+        # self.graph.parse(CURRENT_ONTOLOGY, format='turtle')
         ont_classes = self.get_classes()
+        print(f'existing classes: {ont_classes}')
         ont_properties = self.get_properties()
 
         # get the closest existing class name
-        ont_class = closest(class_col, ont_classes)
+        ont_class = closest(classname, ont_classes)
+        
         if ont_class:
             class_uri = getattr(self.gkb, ont_class)
+            print(f'{classname} is similar to class {ont_class}')
         else:
             # create new class
             class_uri = getattr(self.gkb, classname.title())
-            self.graph.add((class_uri, RDF.type, RDFS.Class))
+            self.graph.add((class_uri, RDF.type, OWL.Class))
 
 
         col_ppty_dict = {}  # to keep col -> ppty_uri
@@ -184,6 +198,7 @@ class Ontology():
             ppty_uri = ''
             # get the closest existing property name
             ont_property = closest(col, ont_properties)
+            print(f'{col} is similar to property {ont_property}')
             if ont_property:
                 ppty_uri = getattr(self.gkb, ont_property)
             else:
@@ -193,15 +208,18 @@ class Ontology():
                 self.graph.add((ppty_uri, RDFS.domain, class_uri))
                 # col contains classes or literals
                 range_type = closest(col, ont_classes)
+                print(f'range_type of {col} is {range_type}')
                 unique_rate = len(df[col].unique()) / len(df)
                 if range_type:
                     # if classes
                     matched_class_uri = getattr(self.gkb, range_type)
+                    existing_ppty = list(self.graph.predicates(class_uri, matched_class_uri))
+                    ppty_uri = existing_ppty[0] if existing_ppty else ppty_uri
                     self.graph.add((ppty_uri, RDFS.range, matched_class_uri))
                     col_class[col] = matched_class_uri
                 elif unique_rate < 0.1:
                     new_class_uri = getattr(self.gkb, col.title())
-                    self.graph.add((new_class_uri, RDF.type, RDFS.Class))
+                    self.graph.add((new_class_uri, RDF.type, OWL.Class))
                     self.graph.add((ppty_uri, RDFS.range, new_class_uri))
                     col_class[col] = new_class_uri
                 else:
@@ -226,8 +244,7 @@ class Ontology():
                 
                 col_instance_uri = col_type + '/' + neatstr(str(row[col]))
                 cls_triple = (instance_uri, col_ppty_dict[col], col_instance_uri)
-                if neatstr(row[col]) == 'eggafm(informal)':
-                    print((col_instance_uri, RDF.type, col_type))
+
                 if not list(self.graph.triples(cls_triple)):
                     self.graph.add((col_instance_uri, RDF.type, col_type))
                     self.graph.add((col_instance_uri, RDFS.label, Literal(row[col])))
@@ -237,7 +254,7 @@ class Ontology():
 
 
     def get_classes(self):
-        class_uris = self.graph.subjects(predicate=RDF.type, object=RDFS.Class)
+        class_uris = self.graph.subjects(predicate=RDF.type, object=OWL.Class)
         classes = [c.split(self.gkb)[1] for c in class_uris]
         return classes
     
@@ -247,17 +264,27 @@ class Ontology():
         return properties
     
     def save(self):
-        # self.graph.serialize(destination='test1.owl', format='xml', encoding="Cp1252")
-        self.graph.serialize(destination='test1.owl', format='turtle')
+        self.graph.serialize(destination=NEW_ONTOLOGY, format='turtle')
+    
+    def sync_save(self):
+        
+        onto = owlready2.get_ontology("file://D:/Uni/cs/courses/bdrp/bdrp_sch_kb/code/test1.owl").load()
+        owlready2.sync_reasoner_pellet()
+        onto.save("test1.owl", format='rdfxml')
 
 
 g = Ontology()
-g.generate_TBox()
-g.generate_ABox()
+# g.generate_TBox()
+# g.generate_ABox()
+# g.save()
+g.graph.parse(CURRENT_ONTOLOGY, format='turtle')
 g.new_source('../test_data/field.csv')
+# g.save()
 g.new_source('../test_data/discovery.csv')
+# g.save()
+g.new_source('../test_data/wellbore_exploration_all.csv')
+# g.save()
+g.new_source('../test_data/field_description.csv')
+# g.save()
+g.new_source('../test_data/discovery_description.csv')
 g.save()
-
-# onto = owlready2.get_ontology("file://D:/Uni/cs/courses/bdrp/bdrp_sch_kb/code/test1.owl").load()
-# with onto: owlready2.sync_reasoner_pellet()
-# onto.save("test2.owl")

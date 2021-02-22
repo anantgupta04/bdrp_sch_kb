@@ -3,8 +3,8 @@ import datetime
 import numpy as np
 from random import sample
 
-inpath = '../new_data/discovery.csv'
-outpath = '../test_data/discovery.csv'
+inpath = '../new_data/discovery_description.csv'
+outpath = '../test_data/discovery_description.csv'
 df = pd.read_csv(inpath,
                 header=0
                 )
@@ -13,6 +13,8 @@ for i in df.columns:
     if 'id' in i:
         to_drop.append(i)
 df.drop(to_drop, axis=1, inplace=True)
+# df = df[df['description_heading']=='Development ']
+# df.drop('description_heading', axis=1, inplace=True)
 # lithology = {}
 # age = {}
 # badrows = []

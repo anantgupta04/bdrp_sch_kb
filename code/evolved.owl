@@ -3,18 +3,6 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ns1:Discovery a rdfs:Class .
-
-ns1:Field a rdfs:Class .
-
-ns1:Resource a rdfs:Class .
-
-ns1:Status a rdfs:Class .
-
-ns1:Unit a rdfs:Class .
-
-ns1:Wellbore a rdfs:Class .
-
 <http://www.semanticweb.org/gkb#Core/1/2-1> a ns1:Core ;
     rdfs:label "1/2-1" ;
     ns1:bottomdepth 3335 ;
@@ -773,6 +761,9 @@ ns1:Wellbore a rdfs:Class .
     ns1:resource <http://www.semanticweb.org/gkb#Resource/gas/condensate> ;
     ns1:year 1972 .
 
+<http://www.semanticweb.org/gkb#Discovery/1/9-1tommelitenalpha> a ns1:Discovery ;
+    rdfs:label "1/9-1 Tommeliten Alpha" .
+
 <http://www.semanticweb.org/gkb#Discovery/1/9-4tommelitengamma> a ns1:Discovery ;
     rdfs:label "1/9-4 Tommeliten Gamma" ;
     ns1:field <http://www.semanticweb.org/gkb#Field/tommelitengamma> ;
@@ -796,6 +787,9 @@ ns1:Wellbore a rdfs:Class .
     ns1:field <http://www.semanticweb.org/gkb#Field/varg> ;
     ns1:resource <http://www.semanticweb.org/gkb#Resource/oil> ;
     ns1:year 2008 .
+
+<http://www.semanticweb.org/gkb#Discovery/15/12-21(grevling)> a ns1:Discovery ;
+    rdfs:label "15/12-21 (Grevling)" .
 
 <http://www.semanticweb.org/gkb#Discovery/15/12-4varg> a ns1:Discovery ;
     rdfs:label "15/12-4 Varg" ;
@@ -875,6 +869,9 @@ ns1:Wellbore a rdfs:Class .
     ns1:resource <http://www.semanticweb.org/gkb#Resource/gas/condensate> ;
     ns1:year 2009 .
 
+<http://www.semanticweb.org/gkb#Discovery/16/1-12(rolvsnes)> a ns1:Discovery ;
+    rdfs:label "16/1-12 (Rolvsnes)" .
+
 <http://www.semanticweb.org/gkb#Discovery/16/1-7> a ns1:Discovery ;
     rdfs:label "16/1-7" ;
     ns1:field <http://www.semanticweb.org/gkb#Field/ivaraasen> ;
@@ -916,6 +913,9 @@ ns1:Wellbore a rdfs:Class .
     ns1:field <http://www.semanticweb.org/gkb#Field/sigyn> ;
     ns1:resource <http://www.semanticweb.org/gkb#Resource/oil> ;
     ns1:year 1997 .
+
+<http://www.semanticweb.org/gkb#Discovery/17/12-1vette> a ns1:Discovery ;
+    rdfs:label "17/12-1 Vette" .
 
 <http://www.semanticweb.org/gkb#Discovery/2/1-3gyda> a ns1:Discovery ;
     rdfs:label "2/1-3 Gyda" ;
@@ -989,15 +989,91 @@ ns1:Wellbore a rdfs:Class .
     ns1:resource <http://www.semanticweb.org/gkb#Resource/oil> ;
     ns1:year 1975 .
 
+<http://www.semanticweb.org/gkb#Discovery/25/2-10s(frigg-gammadelta)> a ns1:Discovery ;
+    rdfs:label "25/2-10 S (Frigg-GammaDelta)" .
+
+<http://www.semanticweb.org/gkb#Discovery/25/2-18s(langfjellet)> a ns1:Discovery ;
+    rdfs:label "25/2-18 S (Langfjellet)" .
+
+<http://www.semanticweb.org/gkb#Discovery/25/2-5lillefrøy> a ns1:Discovery ;
+    rdfs:label "25/2-5 Lille Frøy" .
+
+<http://www.semanticweb.org/gkb#Discovery/25/4-2(trine)> a ns1:Discovery ;
+    rdfs:label "25/4-2 (Trine)" .
+
+<http://www.semanticweb.org/gkb#Discovery/25/5-9(trell)> a ns1:Discovery ;
+    rdfs:label "25/5-9 (Trell)" .
+
+<http://www.semanticweb.org/gkb#Discovery/25/8-4breidablikk> a ns1:Discovery ;
+    rdfs:label "25/8-4 Breidablikk" .
+
+<http://www.semanticweb.org/gkb#Discovery/30/11-7(fulla)> a ns1:Discovery ;
+    rdfs:label "30/11-7 (Fulla)" .
+
+<http://www.semanticweb.org/gkb#Discovery/30/11-8s(krafla)> a ns1:Discovery ;
+    rdfs:label "30/11-8 S (Krafla)" .
+
+<http://www.semanticweb.org/gkb#Discovery/31/7-1(brasse)> a ns1:Discovery ;
+    rdfs:label "31/7-1 (Brasse)" .
+
+<http://www.semanticweb.org/gkb#Discovery/34/6-2s(garantiana)> a ns1:Discovery ;
+    rdfs:label "34/6-2 S (Garantiana)" .
+
+<http://www.semanticweb.org/gkb#Discovery/35/2-1(peon)> a ns1:Discovery ;
+    rdfs:label "35/2-1 (Peon)" .
+
+<http://www.semanticweb.org/gkb#Discovery/6406/2-1lavrans> a ns1:Discovery ;
+    rdfs:label "6406/2-1 Lavrans" .
+
+<http://www.semanticweb.org/gkb#Discovery/6406/9-1linnorm> a ns1:Discovery ;
+    rdfs:label "6406/9-1 Linnorm" .
+
+<http://www.semanticweb.org/gkb#Discovery/6407/2-6s(flyndretind)> a ns1:Discovery ;
+    rdfs:label "6407/2-6 S (Flyndretind)" .
+
+<http://www.semanticweb.org/gkb#Discovery/6407/6-6mikkelsør> a ns1:Discovery ;
+    rdfs:label "6407/6-6 Mikkel Sør" .
+
+<http://www.semanticweb.org/gkb#Discovery/6407/9-9(hasselmus)> a ns1:Discovery ;
+    rdfs:label "6407/9-9 (Hasselmus)" .
+
+<http://www.semanticweb.org/gkb#Discovery/6506/12-3(lysing)> a ns1:Discovery ;
+    rdfs:label "6506/12-3 (Lysing)" .
+
+<http://www.semanticweb.org/gkb#Discovery/6506/9-2s(fogelberg)> a ns1:Discovery ;
+    rdfs:label "6506/9-2 S (Fogelberg)" .
+
+<http://www.semanticweb.org/gkb#Discovery/6507/3-8(gjøk)> a ns1:Discovery ;
+    rdfs:label "6507/3-8 (Gjøk)" .
+
+<http://www.semanticweb.org/gkb#Discovery/6705/10-1(asterix)> a ns1:Discovery ;
+    rdfs:label "6705/10-1 (Asterix)" .
+
+<http://www.semanticweb.org/gkb#Discovery/7120/12-2(alkesør)> a ns1:Discovery ;
+    rdfs:label "7120/12-2 (Alke Sør)" .
+
+<http://www.semanticweb.org/gkb#Discovery/7324/8-1(wisting)> a ns1:Discovery ;
+    rdfs:label "7324/8-1 (Wisting)" .
+
 <http://www.semanticweb.org/gkb#Field/alve> a ns1:Field ;
     rdfs:label "ALVE" ;
+    ns1:description "Alve is a field in the Norwegian Sea, 16 kilometres southwest of the Norne field. The water depth is 370 metres. Alve was discovered in 1990, and the plan for development and operation (PDO) was approved in 2007. The development concept is a standard subsea template with four well slots and three production wells. Alve is tied to the Norne production, storage and offloading vessel (FPSO) by a pipeline. Production started in 2009." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/6507/3-1> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
     ns1:supply_base "Sandnessjøen" .
 
+<http://www.semanticweb.org/gkb#Field/alvheim> a ns1:Field ;
+    rdfs:label "ALVHEIM" ;
+    ns1:description "Alvheim is a field in the central part of the North Sea, ten kilometres west of the Heimdal field and near the border to the UK sector. The field includes the six discoveries 24/6-2 (Kameleon), 24/6-4 (Boa), 25/4-7 (Kneler), 25/4-10 S (Viper), 25/7-5 (Kobra) and 25/4-3 (Gekko). Boa lies partly in the UK sector. The water depth is 120-130 metres. Alvheim was discovered in 1998, and the plan for development and operation (PDO) was approved in 2004. The field is developed with subsea wells tied to a production, storage and offloading vessel, Alvheim FPSO. Production started in 2008. The Vilje, Volund and Bøyla fields are tied-back to Alvheim. The Skogul discovery has been tied-back to the Alvheim FPSO via the Vilje field." .
+
+<http://www.semanticweb.org/gkb#Field/atla> a ns1:Field ;
+    rdfs:label "ATLA" ;
+    ns1:description "Atla is a field in the central part of the North Sea, 20 kilometres northeast of the Heimdal field. The water depth is 120 metres. Atla was discovered in 2010, and the plan for development and operation (PDO) was approved in 2011. The field has been developed with one production well which is connected to a subsea facility, and is tied-back to Heimdal via the Skirne field. Production started in 2012." .
+
 <http://www.semanticweb.org/gkb#Field/balder> a ns1:Field ;
     rdfs:label "BALDER" ;
+    ns1:description "Balder is a field in the central part of the North Sea, just west of the Grane field. The water depth is 125 metres. Balder was discovered in 1967, and the initial plan for development and operation (PDO) was approved in 1996. Production started in 1999. The field has been developed with subsea wells tied-back to the Balder production, storage and offloading vessel (FPSO). The Ringhorne deposit, located nine kilometres north of the Balder FPSO, is included in the Balder complex. Ringhorne is developed with a combined accommodation, drilling and wellhead facility, tied-back to the Balder FPSO and Jotun FPSO for processing, crude oil storage and gas export. The nearby field Ringhorne Øst is also tied-back to Balder via the Ringhorne platform. The PDO for Ringhorne Jura was approved in 2000 and production started in 2003. The Ringhorne Vest PDO exemption was approved in 2003 and production started in 2004. An amended PDO for Ringhorne was approved in 2007." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/25/11-1> ;
     ns1:operator "Vår Energi AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -1005,6 +1081,7 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Field/bauge> a ns1:Field ;
     rdfs:label "BAUGE" ;
+    ns1:description "Bauge is a field on Haltenbanken in the southern Norwegian Sea, 15 kilometres east of the Njord field. The water depth is 280 metres. Bauge was discovered in 2013, and the plan for development and operation (PDO) was approved in June 2017. The field will be developed with two production wells tied-back to the Njord A facility. A water injection well will be drilled from the existing subsea template on the Hyme field." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/6407/8-6> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/approvedforproduction> ;
@@ -1012,20 +1089,35 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Field/brage> a ns1:Field ;
     rdfs:label "BRAGE" ;
+    ns1:description "Brage is a field in the northern part of the North Sea, ten kilometres east of the Oseberg field. The water depth is 140 metres. Brage was discovered in 1980, and the plan for development and operation (PDO) was approved in 1990. The field has been developed with an integrated production, drilling and accommodation facility with a steel jacket. Production started in 1993. A PDO for Brage Sognefjord was approved in 1998. The authorities granted PDO exemptions for the Brent Ness and Bowmore Brent deposits in 2004 and 2007, respectively." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/31/4-3> ;
     ns1:operator "Wintershall Dea Norge AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
     ns1:supply_base "Mongstad" .
 
+<http://www.semanticweb.org/gkb#Field/brynhild> a ns1:Field ;
+    rdfs:label "BRYNHILD" ;
+    ns1:description "Brynhild is a field in the southern part of the Norwegian sector in the North Sea, 10 kilometres from the UK sector and 55 kilometres northwest of the Ula field. The water depth is 80 metres. Brynhild was discovered in 1992, and the plan for development and operation (PDO) was approved in 2011. The development concept was a subsea template including four wells, tied-in to the Haewene Brim production, storage and offloading vessel (FPSO) located on the Pierce field in the British sector. Production started in 2014." .
+
 <http://www.semanticweb.org/gkb#Field/byrding> a ns1:Field ;
     rdfs:label "BYRDING" ;
+    ns1:description "Byrding is a field in the northern part of the North Sea, four kilometres north of the Fram H-Nord field and 30 kilometres north of the Troll C facility. The water depth is 360 metres. Byrding was discovered in 2005, and the plan for development and operation (PDO) was approved in 2017. The development concept is a two-branch multilateral (MLT) well, which was drilled from the Fram H-Nord template. Production started in 2017." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/35/11-13> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
     ns1:supply_base "Mongstad" .
 
+<http://www.semanticweb.org/gkb#Field/bøyla> a ns1:Field ;
+    rdfs:label "BØYLA" ;
+    ns1:description "Bøyla is a field in the central part of the North Sea, 28 kilometres south of the Alvheim field. The water depth is 120 metres. Bøyla was discovered in 2009, and the plan for development and operation (PDO) was approved in 2012. The field is developed with a subsea installation including two horizontal production wells and one water injection well. The field is tied-back to the Alvheim production, storage and offloading vessel (FPSO). Production started in 2015." .
+
+<http://www.semanticweb.org/gkb#Field/cod> a ns1:Field ;
+    rdfs:label "COD" ;
+    ns1:description "Cod is a field in the southern part of the Norwegian sector in the North Sea, 75 kilometres northwest of the Ekofisk field. The water depth is 75 metres. Cod was discovered in 1968, and the plan for development and operation (PDO) was approved in 1973. The field was developed with a combined drilling, production and accommodation facility and started production in 1977." .
+
 <http://www.semanticweb.org/gkb#Field/draugen> a ns1:Field ;
     rdfs:label "DRAUGEN" ;
+    ns1:description "Draugen is a field in the southern part of the Norwegian Sea. The water depth is 250 metres. Draugen was discovered in 1984, and the plan for development and production (PDO) was approved in 1988. The field has been developed with a concrete fixed facility and integrated topside, and has both platform and subsea wells. Stabilised oil is stored in tanks at the base of the facility. Two pipelines connect the facility to a floating loading-buoy. Production started in 1993." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/6407/9-1> ;
     ns1:operator "OKEA ASA" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -1033,6 +1125,7 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Field/duva> a ns1:Field ;
     rdfs:label "DUVA" ;
+    ns1:description "Duva is a field in the northern part of the North Sea, six kilometres northeast of the Gjøa field. The water depth is 350 metres. Duva was discovered in 2016, and the plan for development and operation (PDO) was approved in 2019. Duva will be developed with a 4-slot subsea template with three oil production wells and one gas production well tied-back to the Gjøa platform." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/36/7-4> ;
     ns1:operator "Neptune Energy Norge AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/approvedforproduction> ;
@@ -1040,6 +1133,7 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Field/dvalin> a ns1:Field ;
     rdfs:label "DVALIN" ;
+    ns1:description "Dvalin is a field in the central part of the Norwegian Sea, 15 kilometres northwest of the Heidrun field. It consists of two separate structures that are 3.5 kilometres apart. Dvalin East was proven in 2010 and Dvalin West was proven in 2012. The water depth is 340 and 400 metres, respectively. The plan for development and production (PDO) was approved in 2017. The development concept is a subsea template with four production wells tied-back to the Heidrun platform." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/6507/7-14s> ;
     ns1:operator "Wintershall Dea Norge AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -1047,6 +1141,7 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Field/fenja> a ns1:Field ;
     rdfs:label "FENJA" ;
+    ns1:description "Fenja is a field in the Norwegian Sea, 35 kilometres southwest of the Njord field. The water depth is 325 metres. The field also includes the discovery 6406/12-3 A (Bue). Fenja was discovered in 2014, and the plan for development and operation (PDO) was approved in 2018. The planned development consists of two subsea templates with a total of six wells tied-back to the Njord A facility." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/6406/12-3s> ;
     ns1:operator "Neptune Energy Norge AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/approvedforproduction> ;
@@ -1054,6 +1149,7 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Field/fram> a ns1:Field ;
     rdfs:label "FRAM" ;
+    ns1:description "Fram is a field in the northern part of the North Sea, 20 kilometres north of the Troll field. The water depth is 350 metres. Fram was discovered in 1990 and comprises two main structures, Fram Vest and Fram Øst, with several deposits. The plan for development and operation (PDO) for Fram Vest was approved in 2001, and production started in 2003. The PDO for Fram Øst was approved in 2005, and production started in 2006. Both structures are developed with two subsea templates each, tied-back to the Troll C platform. A PDO exemption for Fram C-Øst was approved in 2016; the development included a long oil producer drilled from the B2-template on Fram Øst. Another PDO exemption was granted in 2018 for two wells in the Fram-Øst Brent reservoir, drilled from one of the existing templates on Fram Øst." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/35/11-4> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -1061,13 +1157,23 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Field/framh-nord> a ns1:Field ;
     rdfs:label "FRAM H-NORD" ;
+    ns1:description "Fram H-Nord is a field just north of the Fram field in the northern part of the North Sea. The water depth is 360 metres. Fram H-Nord was discovered in 2007, and the authorities granted an exemption from the plan for development and operation (PDO) requirement in 2013. The field is developed with a two-branch multilateral (MLT) well from a 4-slot template. Production started in 2014. The Byrding field is also drilled from the Fram H-Nord template." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/35/11-15s> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
     ns1:supply_base "Mongstad" .
 
+<http://www.semanticweb.org/gkb#Field/frigg> a ns1:Field ;
+    rdfs:label "FRIGG" ;
+    ns1:description "Frigg is a field in the central part of the North Sea, straddling the border between the UK and Norwegian sectors. The water depth is 100 metres. Frigg was discovered in 1971, and the plan for development and operation (PDO) was approved in 1974. The field was developed with a living quarters facility (QP), two process facilities (TP1 and TCP2) and two drilling facilities (DP2 and CDP1). TP1, CDP1 and TCP2 had concrete substructures and steel frame topsides. The two other facilities had steel jackets. CDP1, TP1 and QP were on the UK part of the field. The facilities on the field also treated oil and gas from the fields Frøy, Nord Øst Frigg, Øst-Frigg, Lille-Frigg and Odin. Production started in 1977." .
+
+<http://www.semanticweb.org/gkb#Field/frøy> a ns1:Field ;
+    rdfs:label "FRØY" ;
+    ns1:description "Frøy is a field in the central part of the North Sea, 22 kilometres northeast of the Heimdal field. The water depth is 120 metres. Frøy was discovered in 1987, and the plan for development and operation (PDO) was approved in 1992. The field was developed with a wellhead facility with 15 well slots. Production started in 1995. " .
+
 <http://www.semanticweb.org/gkb#Field/gimle> a ns1:Field ;
     rdfs:label "GIMLE" ;
+    ns1:description "Gimle is a field in the northern part of the North Sea, just northeast of the Gullfaks field. The water depth is 220 metres. Gimle was discovered in 2004, and was granted exemption from the plan for development and operation (PDO) requirement in 2006. The field is developed with three production wells and one water injection well drilled from the Gullfaks C facility. Production started in 2006." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/34/10-48s> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -1075,6 +1181,7 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Field/gjøa> a ns1:Field ;
     rdfs:label "GJØA" ;
+    ns1:description "Gjøa is a field in the northern part of the North Sea, 50 kilometres northeast of the Troll field. The water depth is 360 metres. Gjøa was discovered in 1989, and the plan for development and operation (PDO) was approved in 2007. The field comprises several segments. Gjøa is developed with a semi-submersible production facility and includes five 4-slot templates. The field is partly supplied with power from shore. Production started in 2010. In 2019, Gjøa was granted a PDO exemption for the redevelopment of the P1 segment, including a 4-slot template. The Vega field is tied-back to Gjøa for processing and further export. " ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/35/9-1> ;
     ns1:operator "Neptune Energy Norge AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -1082,6 +1189,7 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Field/goliat> a ns1:Field ;
     rdfs:label "GOLIAT" ;
+    ns1:description "Goliat is a field in the Barents Sea, 50 kilometres southeast of the Snøhvit field. The water depth is 360-420 metres. Goliat was discovered in 2000, and the plan for development and operation (PDO) was approved in 2009. The field is developed with a cylindrical floating production, storage and offloading facility (Sevan 1000 FPSO). Eight subsea templates with a total of 32 well slots are tied-back to the FPSO. Production started in 2016. Goliat was granted a PDO exemption for the Snadd reservoir in 2017 and production started the same year." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/7122/7-1> ;
     ns1:operator "Vår Energi AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -1089,6 +1197,7 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Field/grane> a ns1:Field ;
     rdfs:label "GRANE" ;
+    ns1:description "Grane is a field in the central part of the North Sea, just east of the Balder field. The water depth is 130 metres. Grane was discovered in 1991, and the plan for development and operation (PDO) was approved in 2000. The field has been developed with an integrated accommodation, drilling and processing facility with a steel jacket. The facility has 40 well slots. Production started in 2003. The Svalin field is tied-back to Grane platform." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/25/11-15> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -1096,6 +1205,7 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Field/gullfaks> a ns1:Field ;
     rdfs:label "GULLFAKS" ;
+    ns1:description "Gullfaks is a field in the Tampen area in the northern part of the North Sea. The water depth is 130-220 metres. Gullfaks was discovered in 1978, and the plan for development and operation (PDO) for Gullfaks Phase I was approved in 1981. A PDO for Gullfaks Phase II was approved in 1985. Production started in 1986. The field has been developed with three integrated processing, drilling and accommodation facilities with concrete bases (Gullfaks A, B and C). Gullfaks B has a simplified processing plant with first stage separation. Gullfaks A and C receive and process oil and gas from Gullfaks Sør and Visund Sør. The Gullfaks facilities are also involved in production and transport from the Tordis, Vigdis and Visund fields. Production from Tordis is processed in a separate facility on Gullfaks C. PDO for Gullfaks Vest was approved in 1993, and for recovery from the Lunde Formation in 1995. An amended PDO for the Gullfaks field, covering prospects and small discoveries, which could be drilled and produced from existing facilities, was approved in 2005. Amendments to the Gullfaks PDO, covering Phase I and Phase II production from the Shetland/Lista deposit, were approved in 2015 and 2019, respectively. In 2020, an amended PDO for the development of the Hywind Tampen wind farm was approved. The wind farm will consist of 11 floating turbines which will supply electricity to the Snorre and Gullfaks fields. The Snorre and Gullfaks platforms will be the first platforms in the world to receive power from a floating wind farm." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/34/10-1> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -1103,6 +1213,7 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Field/gullfakssør> a ns1:Field ;
     rdfs:label "GULLFAKS SØR" ;
+    ns1:description "Gullfaks Sør is a field in the northern part of the North Sea, just south of the Gullfaks field. The water depth is 130-220 metres. Gullfaks Sør was discovered in 1978, but comprises several discoveries made in later years. The Gullfaks Sør deposits have been developed with a total of 13 subsea templates tied-back to the Gullfaks A and Gullfaks C facilities. The initial plan for development and operation (PDO) for Gullfaks Sør Phase I was approved in 1996 and included production of oil and condensate from the Gullfaks Sør, Rimfaks and Gullveig deposits. Production started in 1998. The PDO for Phase II was approved in 1998 and included production of gas from the Brent Group in the Gullfaks Sør deposit. In 2004, the Gulltopp discovery was included in Gullfaks Sør. Gulltopp is produced through an extended reach production well from the Gullfaks A facility. A PDO for the Skinfaks discovery and Rimfaks IOR was approved in 2005. An amended PDO for the redevelopment of Gullfaks Sør Statfjord Formation with two new subsea templates was approved in 2012. A PDO for Gullfaks Rimfaksdalen, which includes the Rutil and Opal deposits[HT1] , was approved in 2015. It consists of a new subsea template and four production wells. Since 2017, gas production is increased by two subsea wet gas compressors, tied-back to the Gullfaks C platform. A PDO exemption for some prospects and small discoveries, which can be drilled and produced from existing Gullfaks Sør facilities, was granted in 2018. A PDO exemption for the Opal Sør deposit was granted in 2019." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/34/10-2> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -1110,6 +1221,7 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Field/hanz> a ns1:Field ;
     rdfs:label "HANZ" ;
+    ns1:description "Hanz is a field in the North Sea, 12 kilometres north of the Ivar Aasen field. The water depth is 115 metres. Hanz was discovered in 1997 and the plan for development and operation (PDO) was approved in 2013. The field will be developed with subsea templates tied-back to Ivar Aasen." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/25/10-8> ;
     ns1:operator "Aker BP ASA" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/approvedforproduction> ;
@@ -1117,6 +1229,7 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Field/heidrun> a ns1:Field ;
     rdfs:label "HEIDRUN" ;
+    ns1:description "Heidrun is a field on Haltenbanken in the Norwegian Sea, 30 kilometres northeast of the Åsgard field. The water depth is 350 metres. Heidrun was discovered in 1985, and the plan for development and operation (PDO) was approved in 1991. The field has been developed with the world&#146s first ever floating concrete tension-leg platform (TLP), installed over a large subsea template with 56 well slots. Six subsea templates in the southern and northern areas are additionally tied-back to the TLP. Production started in 1995. The PDO for the Heidrun northern flank was approved in 2000. The Maria field receives water for injection from Heidrun. The Dvalin field has a dedicated gas processing plant on the Heidrun platform." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/6507/7-2> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -1124,6 +1237,7 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Field/heimdal> a ns1:Field ;
     rdfs:label "HEIMDAL" ;
+    ns1:description "Heimdal is a field in the central part of the North Sea. The water depth is 120 metres. Heimdal was discovered in 1972, and the plan for development and operation (PDO) was approved in 1981. The field was developed with an integrated drilling, production and accommodation facility with a steel jacket (HMP1). Production started in 1985. The PDO for Heimdal Jurassic was approved in 1992. The PDO for the Heimdal Gas Centre was approved in 1999, and included a new riser facility, connected by a bridge to HMP1. Heimdal is now mainly a processing centre for other fields, presently Atla, Skirne, Vale and Valemon, and for Huldra until production ceased in 2014. The Huldra pipeline to Heimdal is now used for transport of rich gas from Valemon. Heimdal also serves as a hub for rich gas transported from Oseberg to continental Europe via the Draupner platforms." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/25/4-1> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -1131,6 +1245,7 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Field/huldra> a ns1:Field ;
     rdfs:label "HULDRA" ;
+    ns1:description "Huldra is a field in the northern part of the North Sea, 16 kilometres west of the Veslefrikk field. The water depth is 125 metres. Huldra was discovered in 1982, and the plan for development and operation (PDO) was approved in 1999. The field was developed with a wellhead facility, including a simple process facility, and remotely operated from Veslefrikk B. Production started in 2001." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/30/2-1> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/shutdown> ;
@@ -1138,13 +1253,23 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Field/hyme> a ns1:Field ;
     rdfs:label "HYME" ;
+    ns1:description "Hyme is a field in the southern part of the Norwegian Sea, 19 kilometres northeast of the Njord field. The water depth is 250 metres. Hyme was discovered in 2009, and the plan for development and operation (PDO) was approved in 2011. The field is developed with a subsea template including one production well and one water injection well. Hyme is connected to the Njord A facility. Production started in 2013." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/6407/8-5s> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
     ns1:supply_base "Kristiansund" .
 
+<http://www.semanticweb.org/gkb#Field/islay> a ns1:Field ;
+    rdfs:label "ISLAY" ;
+    ns1:description "Islay is a field on the boundary to the UK sector in the northern part of the North Sea, 55 kilometres west of the Oseberg field. The Norwegian share of the field is 5.51 per cent. The water depth is 120 metres. Islay was discovered in 2008, and production started in 2012. The field is developed with one well tied to the Forvie manifold in the UK sector." .
+
+<http://www.semanticweb.org/gkb#Field/jette> a ns1:Field ;
+    rdfs:label "JETTE" ;
+    ns1:description "Jette is a field in the central part of the North Sea, six kilometres south of the Jotun field. The water depth is 127 metres. Jette was discovered in 2009, and the plan for development and operation (PDO) was approved in 2012. The field was developed with a subsea template with two production wells tied-in to the Jotun A facility. Production started in 2013. " .
+
 <http://www.semanticweb.org/gkb#Field/johancastberg> a ns1:Field ;
     rdfs:label "JOHAN CASTBERG" ;
+    ns1:description "Johan Castberg is a field in the Barents Sea, 100 kilometres northwest of the Snøhvit field. The water depth is 370 metres. Johan Castberg consists of the three discoveries Skrugard, Havis and Drivis, proven between 2011 and 2013. The discoveries will be developed together, and the plan for development and operation (PDO) was approved in June 2018. The development concept is a production, storage and offloading vessel (FPSO) with additional subsea solutions including 18 horizontal production wells and 12 injection wells. " ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/7220/8-1> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/approvedforproduction> ;
@@ -1152,6 +1277,7 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Field/jotun> a ns1:Field ;
     rdfs:label "JOTUN" ;
+    ns1:description "Jotun is a field in the central part of the North Sea, 25 kilometres north of the Balder field. The water depth is 125 metres. Jotun was discovered in 1994, and the plan for development and operation (PDO) was approved in 1997. The field was developed with Jotun A, a combined production, storage and offloading vessel (FPSO), and Jotun B, a wellhead facility. Jotun is integrated with the Balder field. Production started in 1999." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/25/8-5s> ;
     ns1:operator "Vår Energi AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/shutdown> ;
@@ -1159,6 +1285,7 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Field/knarr> a ns1:Field ;
     rdfs:label "KNARR" ;
+    ns1:description "Knarr is a field in the northern part of the North Sea, 50 kilometres northeast of the Snorre field. The water depth is 400 metres. Knarr was discovered in 2008, and the plan for development and operation (PDO) was approved in 2011. The Knarr field consists of two segments, Knarr West and Knarr Central. The development comprises a floating production, storage and offloading vessel (FPSO) and two subsea templates, including six production and injection wells. Production started in 2015." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/34/3-1s> ;
     ns1:operator "A/S Norske Shell" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -1166,6 +1293,7 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Field/kristin> a ns1:Field ;
     rdfs:label "KRISTIN" ;
+    ns1:description "Kristin is a field in the Norwegian Sea, a few kilometres southwest of the Åsgard field. The water depth is 370 metres. Kristin was discovered in 1997, and the plan for development and operation (PDO) was approved in 2001. The field is developed with four 4-slot subsea templates tied-back to a semi-submersible facility for processing. Production started in 2005. An amended PDO was approved in 2007. The Tyrihans and Maria fields are tied to the Kristin facility." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/6406/2-3> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -1173,13 +1301,23 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Field/kvitebjørn> a ns1:Field ;
     rdfs:label "KVITEBJØRN" ;
+    ns1:description "Kvitebjørn is a field in the Tampen area in the northern part of the North Sea, 15 kilometres southeast of the Gullfaks field. The water depth is 190 metres. Kvitebjørn was discovered in 1994, and the plan for development and operations (PDO) was approved in 2000. The field is developed with an integrated accommodation, drilling and processing facility with a steel jacket. Production started in 2004. An amended PDO including several deposits and prospects was approved in 2006." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/34/11-1> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
     ns1:supply_base "Mongstad" .
 
+<http://www.semanticweb.org/gkb#Field/lille-frigg> a ns1:Field ;
+    rdfs:label "LILLE-FRIGG" ;
+    ns1:description "Lille-Frigg is a field in the central part of the North Sea, 16 kilometres east of the Frigg field. The water depth is 110 metres. Lille-Frigg was discovered in 1975, and the plan for development and operation (PDO) was approved in 1991. The field was developed with a subsea installation with three production wells tied-back to the Frigg field. Production started in 1994. " .
+
+<http://www.semanticweb.org/gkb#Field/maria> a ns1:Field ;
+    rdfs:label "MARIA" ;
+    ns1:description "Maria is a field on Haltenbanken in the Norwegian Sea, 25 kilometres east of the Kristin field. The water depth is 300 metres. Maria was discovered in 2010, and the plan for development and production (PDO) was approved in 2015. The field is developed as a subsea tie-back with two templates. There are five producers and two water injectors on the field. Gas for gas lift is supplied from the Åsgard B facility via the Tyrihans D template. Sulphate-reduced water for injection is supplied from Heidrun. Production started in 2017." .
+
 <http://www.semanticweb.org/gkb#Field/martinlinge> a ns1:Field ;
     rdfs:label "MARTIN LINGE" ;
+    ns1:description "Martin Linge is a field near the border to the UK sector in the northern part of the North Sea, 42 kilometres west of the Oseberg field. The water depth is 115 metres. Martin Linge was discovered in 1978, and the plan for development and operations (PDO) was approved in 2012. The development concept is a fully integrated fixed production platform and a floating, storage and offloading unit (FSO) for oil storage. A mobile jack-up rig is utilised for the drilling of production wells. The installation will be supplied with power from shore. A PDO exemption for the Herja discovery and the Hervor prospect was granted in 2017." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/30/7-6r> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/approvedforproduction> ;
@@ -1187,6 +1325,7 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Field/marulk> a ns1:Field ;
     rdfs:label "MARULK" ;
+    ns1:description "Marulk is a field in the Norwegian Sea, 25 kilometres southwest of the Norne field. The water depth is 370 metres. Marulk was discovered in 1992, and the plan for development and operation (PDO) was approved in 2010. The field is developed with a subsea template tied-back to the production, storage and offloading vessel (FPSO) Norne. Production started in 2012." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/6507/2-2> ;
     ns1:operator "Vår Energi AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -1194,27 +1333,43 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Field/mikkel> a ns1:Field ;
     rdfs:label "MIKKEL" ;
+    ns1:description "Mikkel is a field in the eastern part of the Norwegian Sea, 30 kilometres north of the Draugen field. The water depth is 220 metres. Mikkel was discovered in 1987, and the plan for development and operation (PDO) was approved in 2001. The field is developed with two subsea templates tied-back to the Åsgard B facility. Production started in 2003." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/6407/6-3> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
     ns1:supply_base "Kristiansund" .
 
+<http://www.semanticweb.org/gkb#Field/mime> a ns1:Field ;
+    rdfs:label "MIME" ;
+    ns1:description "Mime is a field in the southern part of the Norwegian sector in the North Sea, six kilometres northeast of the Cod field. The water depth is 80 metres. Mime was discovered in 1982, and the plan for development and operation (PDO) was approved in 1992. The field was developed with a subsea well tied to the Cod facility. Production started 1993." .
+
 <http://www.semanticweb.org/gkb#Field/morvin> a ns1:Field ;
     rdfs:label "MORVIN" ;
+    ns1:description "Morvin is a field in the Norwegian Sea, 15 kilometres west of the Åsgard field. The water depth is 360 metres. Morvin was discovered in 2001, and the plan for development and production (PDO) was approved in 2008. The field is developed with two 4-slot subsea templates, tied to the Åsgard B facility. Production started in 2010." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/6506/11-7> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
     ns1:supply_base "Kristiansund" .
 
+<http://www.semanticweb.org/gkb#Field/murchison> a ns1:Field ;
+    rdfs:label "MURCHISON" ;
+    ns1:description "Murchison is a field in the Tampen area in the northern part of the North Sea, on the border between the Norwegian and UK sectors. The Norwegian share of the field was 22.2 per cent. Murchison was discovered in 1975, and the plan for development and operation was approved in 1976. The field was developed in the UK sector with a combined drilling, accommodation and production facility. The British and Norwegian licensees and authorities entered into an agreement in 1979 concerning common exploitation of the resources on the Murchison field. Production started in 1980. " .
+
 <http://www.semanticweb.org/gkb#Field/njord> a ns1:Field ;
     rdfs:label "NJORD" ;
+    ns1:description "Njord is a field in the Norwegian Sea, 30 kilometres west of the Draugen field. The water depth is 330 metres. The Njord field was discovered in 1986, and the plan for development and operation (PDO) was approved in 1995. Njord is developed with a floating steel platform unit, Njord A, containing drilling and processing facilities, and a storage vessel, Njord Bravo. Production started in 1997. An amended PDO was approved in 2017. The Hyme field is tied to the Njord facility." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/6407/7-1s> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
     ns1:supply_base "Kristiansund" .
 
+<http://www.semanticweb.org/gkb#Field/nordøstfrigg> a ns1:Field ;
+    rdfs:label "NORDØST FRIGG" ;
+    ns1:description "Nordøst Frigg is a field in the central part of the North Sea. The water depth is 110 metres. The field was discovered in 1974, and the plan for development and operation (PDO) was approved in 1980. Nordøst-Frigg was developed with a seabed template with six wells and was remotely operated from the Frigg field using a control tower. The control tower consisted of a deck and a 126-metre-high steel structure attached to a concrete foundation. Production started in 1983. " .
+
 <http://www.semanticweb.org/gkb#Field/norne> a ns1:Field ;
     rdfs:label "NORNE" ;
+    ns1:description "Norne is a field in the Norwegian Sea, 80 kilometres north of the Heidrun field. The water depth is 380 metres. Norne was discovered in 1992, and the plan for development and operation (PDO) was approved in 1995. The field has been developed with a production, storage and offloading vessel (FPSO), connected to seven subsea templates. Production started in 1997. An amended PDO for several deposits in the area around the Norne and Urd fields was approved in 2008. The Alve, Urd, Skuld and Marulk fields are tied-back to the Norne FPSO." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/6608/10-2> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -1222,13 +1377,23 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Field/nova> a ns1:Field ;
     rdfs:label "NOVA" ;
+    ns1:description "Nova is a field in the northern part of the North Sea, 17 kilometres southwest of the Gjøa field. The water depth is 370 metres. Nova was proven in 2012, and the plan for development and operation (PDO) was approved in 2018. The planned development consists of two 4-slot subsea templates, one with three oil producers and one with three water injectors, tied-back to the Gjøa platform." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/35/9-7> ;
     ns1:operator "Wintershall Dea Norge AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/approvedforproduction> ;
     ns1:supply_base "Florø" .
 
+<http://www.semanticweb.org/gkb#Field/oda> a ns1:Field ;
+    rdfs:label "ODA" ;
+    ns1:description "Oda is a field in the southern part of the Norwegian sector in the North Sea, 14 kilometres east of the Ula field. The water depth is 65 metres. Oda was discovered in 2011, and the plan for development and operation (PDO) was approved in 2017. Oda is developed with one subsea template with two production wells and one injection well tied-back to the Ula field. Production started in 2019." .
+
+<http://www.semanticweb.org/gkb#Field/odin> a ns1:Field ;
+    rdfs:label "ODIN" ;
+    ns1:description "Odin is a field in the central part of the North Sea, eight kilometres northeast of the Frigg field. The water depth is 100 metres. Odin was discovered in 1974, and the plan for development and operation (PDO) was approved in 1980. The development solution was a facility with simplified drilling and processing equipment and living quarters. Production started in 1984. " .
+
 <http://www.semanticweb.org/gkb#Field/ormenlange> a ns1:Field ;
     rdfs:label "ORMEN LANGE" ;
+    ns1:description "Ormen Lange is a field in the southern part of the Norwegian Sea, 120 kilometres west-northwest of the Nyhamna processing plant. The water depth varies from 800 to more than 1,100 metres. Ormen Lange was discovered in 1997, and the plan for development and operation (PDO) was approved in 2004. Deep water and seabed conditions made the development very challenging and triggered development of new technology. The field has been developed in several phases. The development comprises four 8-slot subsea templates with a total of 24 production wells. Production started in 2007 from two subsea templates in the central part of the field. In 2009 and 2011, two additional templates were installed in the southern and northern parts of the field, respectively." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/6305/5-1> ;
     ns1:operator "A/S Norske Shell" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -1236,6 +1401,7 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Field/oseberg> a ns1:Field ;
     rdfs:label "OSEBERG" ;
+    ns1:description "Oseberg is a field in the northern part of the North Sea. The water depth is 100 metres. Oseberg was discovered in 1979, and the plan for development and operation (PDO) was approved in 1984. The field was developed in multiple phases and production started in 1988. The Oseberg Field Centre in the south originally consisted of two facilities: the process and accommodation facility Oseberg A and the drilling and water injection facility Oseberg B. A PDO for Oseberg C was approved in 1988 and included an integrated production, drilling and quarters facility (PDQ) in the northern part of the field. A PDO for the gas phase was approved in 1996 and included a facility for gas processing, Oseberg D. A PDO for the western flank, Vestflanken, was approved in 2003 and included a subsea template tied-back to Oseberg B. A PDO for Oseberg Delta was approved in 2005 and included a subsea template tied-back to Oseberg D. A PDO for Oseberg Delta II was approved in 2013 and included two subsea templates tied-back to the Oseberg Field Centre. A PDO for Oseberg Vestflanken II was approved in 2016 and included an unmanned wellhead platform (UWP), Oseberg H, and new wells from the existing G4 template on the western flank. The Oseberg Øst, Oseberg Sør and Tune fields are tied to the Oseberg Field Centre." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/30/6-1> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -1243,6 +1409,7 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Field/osebergsør> a ns1:Field ;
     rdfs:label "OSEBERG SØR" ;
+    ns1:description "Oseberg Sør is a field in the northern part of the North Sea, just south of the Oseberg field. The water depth is 100 metres. Oseberg Sør was discovered in 1984, and the plan for development and operation (PDO) was approved in 1997. The field has been developed with an integrated steel facility with accommodation, drilling module and first-stage oil/gas separation. Final processing of oil and gas takes place at the Oseberg Field Centre. Production started in 2000. In addition, several deposits on the field have been developed with subsea templates tied-back to the Oseberg Sør facility: the PDO for Oseberg Sør J was approved in 2003, a PDO exemption for the G-Central structure was granted in 2008, and the PDO for the Stjerne deposit was approved in 2011." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/30/9-3> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -1250,20 +1417,39 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Field/osebergøst> a ns1:Field ;
     rdfs:label "OSEBERG ØST" ;
+    ns1:description "Oseberg Øst is a field in the northern part of the North Sea, 15 kilometres east of the Oseberg field. The water depth in the area is 160 metres. Oseberg Øst was discovered in 1981, and the plan for development and operation (PDO) was approved in 1996. The field has been developed with an integrated fixed facility with accommodation, drilling equipment and first-stage separation of oil, water and gas. Production started in 1999. A PDO exemption for the Beta East segment was granted in 2004." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/30/6-5> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
     ns1:supply_base "Mongstad" .
 
+<http://www.semanticweb.org/gkb#Field/ringhorneøst> a ns1:Field ;
+    rdfs:label "RINGHORNE ØST" ;
+    ns1:description "Ringhorne Øst is a field in the central part of the North Sea, six kilometres northeast of the Balder field. The water depth is 130 metres. Ringhorne Øst was discovered in 2003, and the plan for development and operation (PDO) was approved in 2005. The field is developed with four production wells drilled from the Ringhorne wellhead platform. Production started in 2006." .
+
+<http://www.semanticweb.org/gkb#Field/sindre> a ns1:Field ;
+    rdfs:label "SINDRE" ;
+    ns1:description "Sindre is a field in the northern part of the North Sea, three kilometres northeast of the Gullfaks field. The water depth is 250 metres. Sindre was discovered and granted exemption from a plan for development and operation (PDO) in 2017. The field is developed with one production well drilled from the Gullfaks C platform. Production started in 2017." .
+
 <http://www.semanticweb.org/gkb#Field/skarv> a ns1:Field ;
     rdfs:label "SKARV" ;
+    ns1:description "Skarv is a field in the northern part of the Norwegian Sea, 35 kilometres southwest of the Norne field. The water depth is 350-450 metres. Skarv was discovered in 1998, and the plan for development and operation (PDO) was approved in 2007. Skarv is a joint development of the Skarv and Idun deposits. The development concept is a production, storage and offloading vessel (FPSO) with five subsea templates with fifteen wells. Production started in 2013. The Ærfugl field is being developed as a tie-in to the Skarv FPSO." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/6507/5-1> ;
     ns1:operator "Aker BP ASA" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
     ns1:supply_base "Sandnessjøen" .
 
+<http://www.semanticweb.org/gkb#Field/skirne> a ns1:Field ;
+    rdfs:label "SKIRNE" ;
+    ns1:description "Skirne, including the Byggve deposit, is a field in the central part of the North Sea, 20 kilometres east of the Heimdal field. The water depth is 120 metres. Skirne was discovered in 1990, and the plan for development and operation (PDO) was approved in 2002. The field has been developed with two subsea templates tied to the Heimdal facility. Production started in 2004. The Atla field was tied-back to Skirne in 2012." .
+
+<http://www.semanticweb.org/gkb#Field/skogul> a ns1:Field ;
+    rdfs:label "SKOGUL" ;
+    ns1:description "Skogul is a field in the central part of the North Sea, 30 kilometres northeast of the Alvheim field. The water depth is 110 metres. Skogul was discovered in 2010, and the plan for development and operation (PDO) was approved in 2018. The development concept is a 2-slot subsea template, including one dual-lateral production well, tied to the Alvheim production, storage and offloading vessel (FPSO) via the Vilje field." .
+
 <http://www.semanticweb.org/gkb#Field/skuld> a ns1:Field ;
     rdfs:label "SKULD" ;
+    ns1:description "Skuld is a field in the Norwegian Sea, 20 kilometres north of the Norne field. The water depth is 340 metres. Skuld was discovered in 2008, and the plan for development and operation (PDO) was approved in 2012. The field is developed with three subsea templates tied-back to the Norne production, storage and offloading vessel (FPSO). Production started in 2013." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/6608/10-12> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -1271,6 +1457,7 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Field/snorre> a ns1:Field ;
     rdfs:label "SNORRE" ;
+    ns1:description "Snorre is a field in the Tampen area in the northern part of the North Sea. The water depth is 300-350 metres. Snorre was discovered in 1979, and the plan for development and operation (PDO) was approved in 1988. The field is developed with the facilities Snorre A, located in the southern part of the field, and Snorre UPA, located centrally on the field. Snorre A is a floating tension-leg platform for accommodation, drilling and processing. Snorre UPA is a subsea production facility tied-back to Snorre A. There is also a separate process module on Snorre A for full stabilisation of the well stream from the Vigdis field. Production from Snorre A started in 1992. In 1998, a PDO was approved for Snorre B, a semi-submersible integrated drilling, processing and accommodation facility located in the northern part of the field. Snorre B started production in 2001. In 2018, an amended PDO for the Snorre Expansion Project was approved. It includes six subsea templates, each with four wells tied-back to Snorre A. Production started in December 2020. In 2020, an amended PDO for the development of the Hywind Tampen wind farm was approved. The wind farm will consist of 11 floating turbines which will supply electricity to the Snorre and Gullfaks fields. The Snorre and Gullfaks platforms will be the first platforms in the world to receive power from a floating wind farm." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/34/4-1> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -1278,6 +1465,7 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Field/snøhvit> a ns1:Field ;
     rdfs:label "SNØHVIT" ;
+    ns1:description "Snøhvit is a field in the central part of the Hammerfest Basin in the southern part of the Barents Sea. The water depth is 310-340 metres. Snøhvit was discovered in 1984, and the plan for development and operation (PDO) was approved in 2002. Snøhvit was the first field development in the Barents Sea. The field includes the Snøhvit, Albatross and Askeladd structures and has been developed in multiple phases. The development includes several subsea templates. Two well slots are used for CO2 injection. Production started in 2007. A PDO exemption for Snøhvit North was granted in 2015." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/7121/4-1> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -1285,6 +1473,7 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Field/statfjord> a ns1:Field ;
     rdfs:label "STATFJORD" ;
+    ns1:description "Statfjord is a field in the Tampen area in the northern part of the North Sea, on the border between the Norwegian and UK sectors. The Norwegian share of the field is 85.47 per cent. The water depth is 150 metres. Statfjord was discovered in 1974, and the plan for development and operation (PDO) was approved in 1976. The field has been developed with three fully integrated concrete facilities: Statfjord A, Statfjord B and Statfjord C. Statfjord A, centrally located on the field, came on stream in 1979. Statfjord B, in the southern part of the field, in 1982, and Statfjord C, in the northern part, in 1985. The satellite fields Statfjord Øst, Statfjord Nord and Sygna have a dedicated inlet separator on Statfjord C. A PDO for Statfjord Late Life was approved in 2005." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/33/12-1> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -1292,6 +1481,7 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Field/statfjordnord> a ns1:Field ;
     rdfs:label "STATFJORD NORD" ;
+    ns1:description "Statfjord Nord is a field in the Tampen area in the northern part of the North Sea, 17 kilometres north of the Statfjord field. The water depth is 250-290 metres. Statfjord Nord was discovered in 1977, and the plan for development and operation (PDO) was approved in 1990. The field has been developed with two production templates and one water injection template tied-back to the Statfjord C facility. Production started in 1995." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/33/9-8> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -1299,6 +1489,7 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Field/statfjordøst> a ns1:Field ;
     rdfs:label "STATFJORD ØST" ;
+    ns1:description "Statfjord Øst is a field in the Tampen area in the North Sea, seven kilometres northeast of the Statfjord field. The water depth is 150-190 metres. Statfjord Øst was discovered in 1976, and the plan for development and operation (PDO) was approved in 1990. The field has been developed with two subsea production templates and one water injection template, tied-back to the Statfjord C platform. In addition, two production wells have been drilled from Statfjord C. Production started in 1994." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/33/9-7> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -1306,6 +1497,7 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Field/svalin> a ns1:Field ;
     rdfs:label "SVALIN" ;
+    ns1:description "Svalin is a field in the central part of the North Sea, six kilometres southwest of the Grane field. The water depth is 120 metres. Svalin was discovered in 1992, and the plan for development and operation (PDO) was approved in 2012. The field comprises two separate structures: Svalin C and Svalin M. Svalin C is developed with a subsea template tied-in to the Grane facility, and Svalin M is developed with a multilateral well drilled from Grane. Production started in 2014." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/25/11-16> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -1313,6 +1505,7 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Field/sygna> a ns1:Field ;
     rdfs:label "SYGNA" ;
+    ns1:description "Sygna is a field in the Tampen area in the northern North Sea, just northeast of the Statfjord Nord field. The water depth is 300 metres. Sygna was discovered in 1996, and the plan for development and operation (PDO) was approved in 1999. The field has been developed with one subsea template with four well slots, connected to the Statfjord C facility. Three production wells have been drilled from the template. A long-reach water injection well was drilled from the Statfjord Nord template. Production started in 2000." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/33/9-19s> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -1320,6 +1513,7 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Field/tordis> a ns1:Field ;
     rdfs:label "TORDIS" ;
+    ns1:description "Tordis is a field in the Tampen area in the northern part of the North Sea, between the Statfjord and Gullfaks fields. The water depth is 150-220 metres. Tordis was discovered in 1987, and the plan for development and operation (PDO) was approved in 1991. The field has been developed with a central subsea manifold tied-back to the Gullfaks C facility, which also supplies water for injection. Seven single-well satellites and two 4-slots subsea templates are tied-back to the manifold. Production started in 1994. Tordis comprises four structures: Tordis, Tordis Øst, Tordis Sørøst (34/7-25 S) and Borg. The PDO for Tordis Øst was approved in 1995 and for Borg in 1999. An amended PDO for Tordis was approved in 2005." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/34/7-12> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -1327,6 +1521,7 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Field/trestakk> a ns1:Field ;
     rdfs:label "TRESTAKK" ;
+    ns1:description "Trestakk is a field in the central part of the Norwegian Sea, 20 kilometres south of the Åsgard field. The water depth is 300 metres. Trestakk was proven in 1986 and the plan for development and operation (PDO) was approved in 2017. The development concept consists of one subsea template with four well slots and an additional satellite well. The subsea installation is tied-back to the Åsgard A facility for processing and gas injection." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/6406/3-2> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -1334,6 +1529,7 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Field/troll> a ns1:Field ;
     rdfs:label "TROLL" ;
+    ns1:description "Troll is a field in the northern part of the North Sea. The water depth is 300-330 metres. Troll was discovered in 1979, and the initial plan for development and operation (PDO) was approved in 1986. The plan was updated in 1990 and involved the transfer of gas processing to the Kollsnes terminal. Production started in 1995. A phased development was pursued for the Troll field, with Phase I recovering gas reserves in Troll Øst and Phase II focusing on the oil reserves in Troll Vest. Troll Phase I has been developed with Troll A, which is a fixed wellhead and compression platform with a concrete substructure. Troll A receives power from shore. The gas compression capacity at Troll A was increased in 2004/2005, and again in 2015. Troll Phase II was developed with Troll B, a floating concrete accommodation and production platform, and Troll C, a semi-submersible accommodation and production steel platform. The oil is produced from several subsea templates tied-back to Troll B and Troll C by flowlines. Production from Troll C started in 1999. The Troll C platform is also utilised for production from the Fram field. Several PDO amendments were approved in connection with various subsea templates at Troll Vest. In 2018, an amended PDO was approved to increase gas offtake from Troll Vest, Troll Phase III." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/31/2-1> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -1341,10 +1537,15 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Field/trollbrentb> a ns1:Field ;
     rdfs:label "TROLL BRENT B" ;
+    ns1:description "Troll Brent B is a field near the Troll field in the northern part of the North Sea. The water depth is 340 metres. Troll Brent B was discovered in 2005, and was granted an exemption from the plan for development and operation (PDO) in 2017. Troll Brent B was planned to be developed with one multilateral production well drilled from the O-template connected to Troll C. " ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/31/2-n-11h> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/shutdown> ;
     ns1:supply_base "Mongstad" .
+
+<http://www.semanticweb.org/gkb#Field/trym> a ns1:Field ;
+    rdfs:label "TRYM" ;
+    ns1:description "Trym is a field in the southern part of the Norwegian sector in the North Sea, three kilometres from the border to the Danish sector. The water depth is 65 metres. Trym was discovered in 1990, and the plan for development and operation (PDO) was approved in 2010. The field is developed with a subsea template including two horizontal production wells, tied to the Harald facility in the Danish sector. Production started in 2011." .
 
 <http://www.semanticweb.org/gkb#Formation/agatfm> a ns1:Formation ;
     rdfs:label "AGAT FM" ;
@@ -1766,200 +1967,378 @@ ns1:Wellbore a rdfs:Class .
     ns1:lithology "The Meile Member consists of clean, well-sorted sandstones, which are very fine to fine grained, friable to hard, and clear to white." ;
     ns1:parent_unit <http://www.semanticweb.org/gkb#Member/heimdalfm> .
 
+<http://www.semanticweb.org/gkb#Wellbore/1/2-1> a ns1:Wellbore ;
+    rdfs:label "1/2-1" ;
+    ns1:formation <http://www.semanticweb.org/gkb#Formation/torfm> .
+
+<http://www.semanticweb.org/gkb#Wellbore/1/3-10> a ns1:Wellbore ;
+    rdfs:label "1/3-10" ;
+    ns1:formation <http://www.semanticweb.org/gkb#Formation/listafm> .
+
 <http://www.semanticweb.org/gkb#Wellbore/1/3-10a> a ns1:Wellbore ;
     rdfs:label "1/3-10 A" ;
+    ns1:bottomdepth 3632 ;
     ns1:completion_date "2008-02-13" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Group/rogalandgp> .
+    ns1:formation <http://www.semanticweb.org/gkb#Formation/selefm> ;
+    ns1:has_unit <http://www.semanticweb.org/gkb#Group/rogalandgp> ;
+    ns1:topdepth 3320 .
 
 <http://www.semanticweb.org/gkb#Wellbore/1/3-2> a ns1:Wellbore ;
     rdfs:label "1/3-2" ;
+    ns1:bottomdepth 1533 ;
     ns1:completion_date "1969-07-27" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Group/nordlandgp> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Group/nordlandgp> ;
+    ns1:topdepth 98 .
+
+<http://www.semanticweb.org/gkb#Wellbore/1/3-6> a ns1:Wellbore ;
+    rdfs:label "1/3-6" ;
+    ns1:formation <http://www.semanticweb.org/gkb#Formation/hodfm> .
+
+<http://www.semanticweb.org/gkb#Wellbore/1/3-7> a ns1:Wellbore ;
+    rdfs:label "1/3-7" ;
+    ns1:formation <http://www.semanticweb.org/gkb#Formation/vålefm> .
+
+<http://www.semanticweb.org/gkb#Wellbore/1/3-9s> a ns1:Wellbore ;
+    rdfs:label "1/3-9 S" ;
+    ns1:formation <http://www.semanticweb.org/gkb#Formation/ulafm> .
 
 <http://www.semanticweb.org/gkb#Wellbore/1/5-1> a ns1:Wellbore ;
     rdfs:label "1/5-1" ;
+    ns1:bottomdepth 491 ;
     ns1:completion_date "1973-10-19" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Group/nordlandgp> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Group/nordlandgp> ;
+    ns1:topdepth 97 .
 
 <http://www.semanticweb.org/gkb#Wellbore/1/5-2> a ns1:Wellbore ;
     rdfs:label "1/5-2" ;
+    ns1:bottomdepth 3069 ;
     ns1:completion_date "1974-04-15" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Group/rogalandgp> .
+    ns1:formation <http://www.semanticweb.org/gkb#Formation/zechsteingp> ;
+    ns1:has_unit <http://www.semanticweb.org/gkb#Group/rogalandgp> ;
+    ns1:topdepth 2831 .
 
 <http://www.semanticweb.org/gkb#Wellbore/1/5-3s> a ns1:Wellbore ;
     rdfs:label "1/5-3 S" ;
+    ns1:bottomdepth 1565 ;
     ns1:completion_date "1998-06-08" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Group/hordalandgp> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Group/hordalandgp> ;
+    ns1:topdepth 1309 .
 
 <http://www.semanticweb.org/gkb#Wellbore/1/5-4s> a ns1:Wellbore ;
     rdfs:label "1/5-4 S" ;
+    ns1:bottomdepth 3077 ;
     ns1:completion_date "2002-05-22" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Group/shetlandgp> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Group/shetlandgp> ;
+    ns1:topdepth 2994 .
 
 <http://www.semanticweb.org/gkb#Wellbore/1/5-5> a ns1:Wellbore ;
     rdfs:label "1/5-5" ;
+    ns1:bottomdepth 5540 ;
     ns1:completion_date "2016-09-16" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/tuxenfm> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/tuxenfm> ;
+    ns1:topdepth 5529 .
+
+<http://www.semanticweb.org/gkb#Wellbore/1/6-1> a ns1:Wellbore ;
+    rdfs:label "1/6-1" ;
+    ns1:formation <http://www.semanticweb.org/gkb#Formation/zechsteingp> .
+
+<http://www.semanticweb.org/gkb#Wellbore/1/6-3> a ns1:Wellbore ;
+    rdfs:label "1/6-3" ;
+    ns1:formation <http://www.semanticweb.org/gkb#Formation/torfm> .
 
 <http://www.semanticweb.org/gkb#Wellbore/1/6-4> a ns1:Wellbore ;
     rdfs:label "1/6-4" ;
+    ns1:bottomdepth 3335 ;
     ns1:completion_date "1976-09-04" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/listafm> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/listafm> ;
+    ns1:topdepth 3253 .
 
 <http://www.semanticweb.org/gkb#Wellbore/1/9-1r> a ns1:Wellbore ;
     rdfs:label "1/9-1 R" ;
+    ns1:bottomdepth 3659 ;
     ns1:completion_date "1987-05-17" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/blodøksfm> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/blodøksfm> ;
+    ns1:topdepth 3645 .
 
 <http://www.semanticweb.org/gkb#Wellbore/1/9-3> a ns1:Wellbore ;
     rdfs:label "1/9-3" ;
+    ns1:bottomdepth 2771 ;
     ns1:completion_date "1977-11-27" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Group/hordalandgp> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Group/hordalandgp> ;
+    ns1:topdepth 1150 .
+
+<http://www.semanticweb.org/gkb#Wellbore/1/9-4> a ns1:Wellbore ;
+    rdfs:label "1/9-4" ;
+    ns1:formation <http://www.semanticweb.org/gkb#Formation/zechsteingp> .
 
 <http://www.semanticweb.org/gkb#Wellbore/1/9-4r> a ns1:Wellbore ;
     rdfs:label "1/9-4 R" ;
+    ns1:bottomdepth 3494 ;
     ns1:completion_date "1991-04-26" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/blodøksfm> .
+    ns1:formation <http://www.semanticweb.org/gkb#Formation/zechsteingp> ;
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/blodøksfm> ;
+    ns1:topdepth 3450 .
+
+<http://www.semanticweb.org/gkb#Wellbore/1/9-5> a ns1:Wellbore ;
+    rdfs:label "1/9-5" ;
+    ns1:formation <http://www.semanticweb.org/gkb#Formation/hodfm> .
+
+<http://www.semanticweb.org/gkb#Wellbore/1/9-6s> a ns1:Wellbore ;
+    rdfs:label "1/9-6 S" ;
+    ns1:formation <http://www.semanticweb.org/gkb#Formation/hodfm> .
+
+<http://www.semanticweb.org/gkb#Wellbore/1/9-6sr> a ns1:Wellbore ;
+    rdfs:label "1/9-6 SR" ;
+    ns1:formation <http://www.semanticweb.org/gkb#Formation/hodfm> .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/1-11> a ns1:Wellbore ;
     rdfs:label "2/1-11" ;
+    ns1:bottomdepth 4097 ;
     ns1:completion_date "1997-07-05" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Group/shetlandgp> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Group/shetlandgp> ;
+    ns1:topdepth 3310 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/1-12> a ns1:Wellbore ;
     rdfs:label "2/1-12" ;
+    ns1:bottomdepth 3158 ;
     ns1:completion_date "1999-10-02" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/tuxenfm> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/tuxenfm> ;
+    ns1:topdepth 3153 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/1-14s> a ns1:Wellbore ;
     rdfs:label "2/1-14 S" ;
+    ns1:bottomdepth 4955 ;
     ns1:completion_date "2009-02-28" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Group/rogalandgp> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Group/rogalandgp> ;
+    ns1:topdepth 4253 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/1-15> a ns1:Wellbore ;
     rdfs:label "2/1-15" ;
+    ns1:bottomdepth 3019 ;
     ns1:completion_date "2013-05-09" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/ekofiskfm> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/ekofiskfm> ;
+    ns1:topdepth 2941 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/1-16s> a ns1:Wellbore ;
     rdfs:label "2/1-16 S" ;
+    ns1:bottomdepth 3490 ;
     ns1:completion_date "2013-07-13" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/farsundfm> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/farsundfm> ;
+    ns1:topdepth 3448 .
+
+<http://www.semanticweb.org/gkb#Wellbore/2/1-4> a ns1:Wellbore ;
+    rdfs:label "2/1-4" ;
+    ns1:formation <http://www.semanticweb.org/gkb#Formation/zechsteingp> .
+
+<http://www.semanticweb.org/gkb#Wellbore/2/1-6> a ns1:Wellbore ;
+    rdfs:label "2/1-6" ;
+    ns1:formation <http://www.semanticweb.org/gkb#Formation/skagerrakfm> .
+
+<http://www.semanticweb.org/gkb#Wellbore/2/1-8> a ns1:Wellbore ;
+    rdfs:label "2/1-8" ;
+    ns1:formation <http://www.semanticweb.org/gkb#Formation/skagerrakfm> .
+
+<http://www.semanticweb.org/gkb#Wellbore/2/1-9> a ns1:Wellbore ;
+    rdfs:label "2/1-9" ;
+    ns1:formation <http://www.semanticweb.org/gkb#Formation/zechsteingp> .
+
+<http://www.semanticweb.org/gkb#Wellbore/2/1-9a> a ns1:Wellbore ;
+    rdfs:label "2/1-9 A" ;
+    ns1:formation <http://www.semanticweb.org/gkb#Formation/ulafm> .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/2-4> a ns1:Wellbore ;
     rdfs:label "2/2-4" ;
+    ns1:bottomdepth 2666 ;
     ns1:completion_date "1988-07-06" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/noformalname> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/noformalname> ;
+    ns1:topdepth 2184 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/2-6> a ns1:Wellbore ;
     rdfs:label "2/2-6" ;
+    ns1:bottomdepth 3585 ;
     ns1:completion_date "2010-05-14" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Group/cromerknollgp> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Group/cromerknollgp> ;
+    ns1:topdepth 3486 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/3-1> a ns1:Wellbore ;
     rdfs:label "2/3-1" ;
+    ns1:bottomdepth 2563 ;
     ns1:completion_date "1969-03-04" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Group/cromerknollgp> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Group/cromerknollgp> ;
+    ns1:topdepth 2359 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/3-2> a ns1:Wellbore ;
     rdfs:label "2/3-2" ;
+    ns1:bottomdepth 2212 ;
     ns1:completion_date "1969-08-13" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/balderfm> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/balderfm> ;
+    ns1:topdepth 2186 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/3-3> a ns1:Wellbore ;
     rdfs:label "2/3-3" ;
+    ns1:bottomdepth 2875 ;
     ns1:completion_date "1971-11-20" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Group/tynegp> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Group/tynegp> ;
+    ns1:topdepth 2825 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/3-4> a ns1:Wellbore ;
     rdfs:label "2/3-4" ;
+    ns1:bottomdepth 2719 ;
     ns1:completion_date "1984-07-24" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/maureenfm> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/maureenfm> ;
+    ns1:topdepth 2613 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/4-1> a ns1:Wellbore ;
     rdfs:label "2/4-1" ;
+    ns1:bottomdepth 1662 ;
     ns1:completion_date "1969-09-16" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Group/nordlandgp> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Group/nordlandgp> ;
+    ns1:topdepth 98 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/4-10> a ns1:Wellbore ;
     rdfs:label "2/4-10" ;
+    ns1:bottomdepth 3162 ;
     ns1:completion_date "1973-12-20" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/vålefm> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/vålefm> ;
+    ns1:topdepth 3155 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/4-11> a ns1:Wellbore ;
     rdfs:label "2/4-11" ;
+    ns1:bottomdepth 2960 ;
     ns1:completion_date "1974-09-04" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/balderfm> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/balderfm> ;
+    ns1:topdepth 2939 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/4-13> a ns1:Wellbore ;
     rdfs:label "2/4-13" ;
+    ns1:bottomdepth 2518 ;
     ns1:completion_date "1988-06-10" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Group/hordalandgp> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Group/hordalandgp> ;
+    ns1:topdepth 1766 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/4-14> a ns1:Wellbore ;
     rdfs:label "2/4-14" ;
+    ns1:bottomdepth 3443 ;
     ns1:completion_date "1989-01-31" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/ekofiskfm> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/ekofiskfm> ;
+    ns1:topdepth 3318 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/4-14r> a ns1:Wellbore ;
     rdfs:label "2/4-14 R" ;
+    ns1:bottomdepth 3154 ;
     ns1:completion_date "1990-06-04" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Group/hordalandgp> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Group/hordalandgp> ;
+    ns1:topdepth 1778 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/4-14r2> a ns1:Wellbore ;
     rdfs:label "2/4-14 R2" ;
+    ns1:bottomdepth 4634 ;
     ns1:completion_date "1990-04-14" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/hidrafm> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/hidrafm> ;
+    ns1:topdepth 4561 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/4-15sr> a ns1:Wellbore ;
     rdfs:label "2/4-15 SR" ;
+    ns1:bottomdepth 4958 ;
     ns1:completion_date "2003-10-27" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/åsgardfm> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/åsgardfm> ;
+    ns1:topdepth 4910 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/4-16> a ns1:Wellbore ;
     rdfs:label "2/4-16" ;
+    ns1:bottomdepth 4638 ;
     ns1:completion_date "1991-04-11" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/hidrafm> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/hidrafm> ;
+    ns1:topdepth 4598 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/4-16r> a ns1:Wellbore ;
     rdfs:label "2/4-16 R" ;
+    ns1:bottomdepth 3317 ;
     ns1:completion_date "1992-07-15" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/vålefm> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/vålefm> ;
+    ns1:topdepth 3292 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/4-18> a ns1:Wellbore ;
     rdfs:label "2/4-18" ;
+    ns1:bottomdepth 622 ;
     ns1:completion_date "1993-04-29" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Group/nordlandgp> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Group/nordlandgp> ;
+    ns1:topdepth 94 .
+
+<http://www.semanticweb.org/gkb#Wellbore/2/4-19b> a ns1:Wellbore ;
+    rdfs:label "2/4-19 B" ;
+    ns1:formation <http://www.semanticweb.org/gkb#Formation/tynegp> .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/4-20> a ns1:Wellbore ;
     rdfs:label "2/4-20" ;
+    ns1:bottomdepth 5631 ;
     ns1:completion_date "2008-03-14" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Group/zechsteingp> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Group/zechsteingp> ;
+    ns1:topdepth 5496 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/4-21a> a ns1:Wellbore ;
     rdfs:label "2/4-21 A" ;
+    ns1:bottomdepth 4540 ;
     ns1:completion_date "2012-07-24" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/hidrafm> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/hidrafm> ;
+    ns1:topdepth 4520 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/4-22s> a ns1:Wellbore ;
     rdfs:label "2/4-22 S" ;
+    ns1:bottomdepth 1790 ;
     ns1:completion_date "2015-02-22" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Group/nordlandgp> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Group/nordlandgp> ;
+    ns1:topdepth 115 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/4-23s> a ns1:Wellbore ;
     rdfs:label "2/4-23 S" ;
+    ns1:bottomdepth 4907 ;
     ns1:completion_date "2015-05-09" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/åsgardfm> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/åsgardfm> ;
+    ns1:topdepth 4886 .
+
+<http://www.semanticweb.org/gkb#Wellbore/2/4-3> a ns1:Wellbore ;
+    rdfs:label "2/4-3" ;
+    ns1:formation <http://www.semanticweb.org/gkb#Formation/torfm> .
+
+<http://www.semanticweb.org/gkb#Wellbore/2/4-4> a ns1:Wellbore ;
+    rdfs:label "2/4-4" ;
+    ns1:formation <http://www.semanticweb.org/gkb#Formation/torfm> .
+
+<http://www.semanticweb.org/gkb#Wellbore/2/4-5> a ns1:Wellbore ;
+    rdfs:label "2/4-5" ;
+    ns1:formation <http://www.semanticweb.org/gkb#Formation/torfm> .
+
+<http://www.semanticweb.org/gkb#Wellbore/2/4-6> a ns1:Wellbore ;
+    rdfs:label "2/4-6" ;
+    ns1:formation <http://www.semanticweb.org/gkb#Formation/torfm> .
+
+<http://www.semanticweb.org/gkb#Wellbore/2/4-7> a ns1:Wellbore ;
+    rdfs:label "2/4-7" ;
+    ns1:formation <http://www.semanticweb.org/gkb#Formation/hodfm> .
+
+<http://www.semanticweb.org/gkb#Wellbore/2/4-8> a ns1:Wellbore ;
+    rdfs:label "2/4-8" ;
+    ns1:formation <http://www.semanticweb.org/gkb#Formation/zechsteingp> .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/4-9> a ns1:Wellbore ;
     rdfs:label "2/4-9" ;
+    ns1:bottomdepth 3021 ;
     ns1:completion_date "1973-09-10" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Group/nordlandgp> .
+    ns1:formation <http://www.semanticweb.org/gkb#Formation/hodfm> ;
+    ns1:has_unit <http://www.semanticweb.org/gkb#Group/nordlandgp> ;
+    ns1:topdepth 104 .
+
+<http://www.semanticweb.org/gkb#Wellbore/2/5-2> a ns1:Wellbore ;
+    rdfs:label "2/5-2" ;
+    ns1:formation <http://www.semanticweb.org/gkb#Formation/torfm> .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/5-4> a ns1:Wellbore ;
     rdfs:label "2/5-4" ;
+    ns1:bottomdepth 2988 ;
     ns1:completion_date "1972-10-31" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/listafm> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/listafm> ;
+    ns1:topdepth 2946 .
 
 ns1:age a rdf:Property ;
     rdfs:domain ns1:Unit ;
@@ -1977,6 +2356,10 @@ ns1:core_length a rdf:Property ;
     rdfs:domain ns1:Core ;
     rdfs:range rdfs:Literal .
 
+ns1:description a rdf:Property ;
+    rdfs:domain ns1:Field ;
+    rdfs:range rdfs:Literal .
+
 ns1:discovery_wellbore a rdf:Property ;
     rdfs:domain ns1:Field ;
     rdfs:range ns1:Wellbore .
@@ -1984,6 +2367,10 @@ ns1:discovery_wellbore a rdf:Property ;
 ns1:field a rdf:Property ;
     rdfs:domain ns1:Discovery ;
     rdfs:range ns1:Field .
+
+ns1:formation a rdf:Property ;
+    rdfs:domain ns1:Wellbore ;
+    rdfs:range ns1:Formation .
 
 ns1:has_unit a rdf:Property ;
     rdfs:domain ns1:Wellbore ;
@@ -2024,16 +2411,20 @@ ns1:year a rdf:Property ;
     rdfs:range rdfs:Literal .
 
 <http://www.semanticweb.org/gkb#Field/albuskjell> a ns1:Field ;
-    rdfs:label "ALBUSKJELL" .
+    rdfs:label "ALBUSKJELL" ;
+    ns1:description "Albuskjell is a field in the southern part of the Norwegian sector in the North Sea, 20 kilometres west of the Ekofisk field. The water depth is 70 metres. Albuskjell was discovered in 1972, and the plan for development and operation (PDO) was approved in 1975. The field was developed with two steel installations for drilling and production. Production started in 1979." .
 
 <http://www.semanticweb.org/gkb#Field/blane> a ns1:Field ;
-    rdfs:label "BLANE" .
+    rdfs:label "BLANE" ;
+    ns1:description "Blane is a field in the southern part of the Norwegian sector in the North Sea, 35 kilometres southwest of the Ula field. The field is located on the border to the UK sector and the Norwegian share of the field is 18 per cent. The water depth is 70 metres. Blane was discovered in 1989, and the plan for development and operation (PDO) was approved in 2005. The field has been developed with a subsea facility on the British continental shelf with two horizontal production wells tied to Ula. Production started in 2007." .
 
 <http://www.semanticweb.org/gkb#Field/edda> a ns1:Field ;
-    rdfs:label "EDDA" .
+    rdfs:label "EDDA" ;
+    ns1:description "Edda is a field in the southern part of the Norwegian sector in the North Sea, 12 kilometres southwest of the Ekofisk field. The water depth is 70 metres. Edda was discovered in 1972, and the plan for development and operation (PDO) was approved in 1975. The field was developed with a manned wellhead and production facility and started production in 1979. " .
 
 <http://www.semanticweb.org/gkb#Field/edvardgrieg> a ns1:Field ;
     rdfs:label "EDVARD GRIEG" ;
+    ns1:description "Edvard Grieg is a field in the Utsira High area in the central North Sea, 35 kilometres south of the Grane and Balder fields. The water depth is 110 metres. Edvard Grieg was discovered in 2007, and the plan for development and operation (PDO) was approved in 2012. The field is developed with a fixed installation with a steel jacket and full process facility, and it utilises a jack-up rig for drilling and completion of wells. The Edvard Grieg installation supplies power to the Ivar Aasen field and processes the well stream from Ivar Aasen. The installation is also equipped for possible tie-in of nearby discoveries. Production started in 2015." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/16/1-8> ;
     ns1:operator "Lundin Energy Norway AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -2041,6 +2432,7 @@ ns1:year a rdf:Property ;
 
 <http://www.semanticweb.org/gkb#Field/ekofisk> a ns1:Field ;
     rdfs:label "EKOFISK" ;
+    ns1:description "Ekofisk is a field in the southern part of the Norwegian sector in the North Sea. The water depth is 70 metres. Ekofisk was discovered in 1969, and the initial plan for development and operation (PDO) was approved in 1972. Test production was initiated in 1971 and ordinary production started in 1972. Production was initially routed to tankships until a concrete storage tank was installed in 1973. Since then, the field has been further developed with many facilities, including facilities for associated fields and export pipelines. Several of the initial facilities have already been removed or are awaiting decommissioning. The initial field development started with three production platforms: Ekofisk A, Ekofisk B and Ekofisk C. Wellhead platform Ekofisk X and process platform Ekofisk J were installed in 1996 and 1998, respectively, as part of the Ekofisk II project. In 2005, wellhead platform Ekofisk M was installed as part of the Ekofisk Growth Project. A plan for water injection at Ekofisk was approved in 1983. Ekofisk K, which is the main injection facility, started water injection in 1987 and is still in operation. There had also been water injection at Ekofisk W from 1989 until 2009, when Ekofisk W was shut down and replaced by a subsea template, Ekofisk VA. A PDO for the development of Ekofisk South was approved in 2011. The project included two new installations in the southern part of the field: production platform Ekofisk Z and a subsea template for water injection, Ekofisk VB. Injection from Ekofisk VB and production from Ekofisk Z started in 2013. The accommodation facilities Ekofisk H and Ekofisk Q were replaced by Ekofisk L in 2014. An amended PDO for an additional water injection template, Ekofisk VC, was approved in 2017." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/2/4-2> ;
     ns1:operator "ConocoPhillips Skandinavia AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -2048,22 +2440,27 @@ ns1:year a rdf:Property ;
 
 <http://www.semanticweb.org/gkb#Field/embla> a ns1:Field ;
     rdfs:label "EMBLA" ;
+    ns1:description "Embla is a field in the southern part of the Norwegian sector in the North Sea, just south of the Eldfisk field. The water depth is 70 metres. Embla was discovered in 1988, and the plan for development and operation (PDO) was approved in 1990. The field has been developed with an unmanned wellhead facility, which is remotely controlled from Eldfisk. Production started in 1993. In 1995, an amended PDO for Embla was approved." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/2/7-20> ;
     ns1:operator "ConocoPhillips Skandinavia AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
     ns1:supply_base "Tananger" .
 
 <http://www.semanticweb.org/gkb#Field/enoch> a ns1:Field ;
-    rdfs:label "ENOCH" .
+    rdfs:label "ENOCH" ;
+    ns1:description "Enoch is a field in the central part of the North Sea on the border to the British sector, ten kilometres northwest of the Gina Krog field. The Norwegian share of the field is 20 per cent. Enoch was proven in 1985, and the plan for development and operation (PDO) was approved in 2005. The field has been developed with a subsea facility on the UK continental shelf and is tied to the British Brae field. Production started in 2007." .
 
 <http://www.semanticweb.org/gkb#Field/flyndre> a ns1:Field ;
-    rdfs:label "FLYNDRE" .
+    rdfs:label "FLYNDRE" ;
+    ns1:description "Flyndre is a field in the southern part of the Norwegian sector in the North Sea, straddling the border between the Norwegian and UK sectors. The Norwegian share of the field is seven per cent. Flyndre is located 35 kilometres northwest of the Ekofisk field. The water depth is 70 metres. Flyndre was discovered in 1974, and the plan for development and operation (PDO) was approved in 2014. The development includes a subsea horizontal well tied-back to the Clyde platform on the UK continental shelf. Production started in 2017." .
 
 <http://www.semanticweb.org/gkb#Field/gaupe> a ns1:Field ;
-    rdfs:label "GAUPE" .
+    rdfs:label "GAUPE" ;
+    ns1:description "Gaupe is a field in the central part of the North Sea close to the border to the UK sector, about 35 kilometres south of the Sleipner Øst field. The water depth is 90 metres. Gaupe was discovered in 1985, and the plan for development and operation (PDO) was approved in 2010. The development concept was two single horizontal subsea wells tied to the Armada installation on the UK continental shelf. Production started in 2012." .
 
 <http://www.semanticweb.org/gkb#Field/ginakrog> a ns1:Field ;
     rdfs:label "GINA KROG" ;
+    ns1:description "Gina Krog is a field on the Utsira High in the central part of the North Sea, just north of the Sleipner Vest field. The water depth is 120 metres. Gina Krog was discovered in 1978, and the plan for development and operation (PDO) was approved in 2013. The field is developed with a fixed platform with living quarters and processing facilities. Production started in 2017." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/15/5-1> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -2071,6 +2468,7 @@ ns1:year a rdf:Property ;
 
 <http://www.semanticweb.org/gkb#Field/glitne> a ns1:Field ;
     rdfs:label "GLITNE" ;
+    ns1:description "Glitne is a field in the central part of the North Sea, 40 kilometres north of the Sleipner area. The water depth is 110 metres. Glitne was discovered in 1995, and the plan for development and operation (PDO) was approved in 2000. The field was developed with six horizontal production wells and one water injection well, tied-back to the production and storage vessel \"Petrojarl 1\". Production started in 2001. " ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/15/5-5> ;
     ns1:operator "Aker BP ASA" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/shutdown> ;
@@ -2078,19 +2476,23 @@ ns1:year a rdf:Property ;
 
 <http://www.semanticweb.org/gkb#Field/johansverdrup> a ns1:Field ;
     rdfs:label "JOHAN SVERDRUP" ;
+    ns1:description "Johan Sverdrup is a field on the Utsira High in the central part of the North Sea, 65 kilometres northeast of the Sleipner fields. The water depth is 115 metres. Johan Sverdrup was discovered in 2010 and the plan for development and operation (PDO) for Phase I was approved in 2015. The development solution for the first development phase is a field centre with four specialised platforms: living quarters, process, drilling and riser facilities. The four platforms are connected by bridges. The drilling platform has 48 well slots and is prepared for simultaneous drilling, well intervention and production. The field will be operated with power from shore throughout its lifetime. In 2019, production from Phase I started and the PDO for Phase II was approved. The development solution for the second phase comprises a process platform and five subsea templates. Modification work will in addition be performed on the riser platform." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/16/2-6> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
     ns1:supply_base "Dusavik" .
 
 <http://www.semanticweb.org/gkb#Field/oselvar> a ns1:Field ;
-    rdfs:label "OSELVAR" .
+    rdfs:label "OSELVAR" ;
+    ns1:description "Oselvar is a field in the southern part of the Norwegian sector in the North Sea, 20 kilometres southwest of the Ula field. The water depth is 70 metres. Oselvar was discovered in 1991, and the plan for development and operation (PDO) was approved in 2009. The development concept was a subsea template with three horizontal production wells tied to Ula. Production started in 2012. " .
 
 <http://www.semanticweb.org/gkb#Field/rev> a ns1:Field ;
-    rdfs:label "REV" .
+    rdfs:label "REV" ;
+    ns1:description "Rev is a field close to the UK border in the southern part of the Norwegian sector in the North Sea, four kilometres south of the Varg field. The water depth is 90-110 metres. Rev was discovered in 2001, and the plan for development and operation (PDO) was approved in 2007. The field is developed with a subsea template including three production wells connected to the Armada field on the UK continental shelf. Production started in 2009." .
 
 <http://www.semanticweb.org/gkb#Field/solveig> a ns1:Field ;
     rdfs:label "SOLVEIG" ;
+    ns1:description "Solveig is a field in the North Sea, 15 kilometres south of the Edvard Grieg field. The water depth is 100 metres. Solveig was discovered in 2013, and subsequently delineated by appraisal wells in 2014, 2015 and 2018. The plan for development and operation (PDO) was approved in 2019. Solveig will be developed with five single wells, tied-back to the Edvard Grieg field. " ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/16/4-6s> ;
     ns1:operator "Lundin Energy Norway AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/approvedforproduction> ;
@@ -2098,19 +2500,23 @@ ns1:year a rdf:Property ;
 
 <http://www.semanticweb.org/gkb#Field/tambar> a ns1:Field ;
     rdfs:label "TAMBAR" ;
+    ns1:description "Tambar is a field in the southern part of the Norwegian sector in the North Sea, 16 kilometres southeast of the Ula field. The water depth is 70 metres. Tambar was discovered in 1983, and the plan for development and operation (PDO) was approved in 2000. The field has been developed with a remotely controlled wellhead platform tied-back to the Ula field. Production started in 2001." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/1/3-3> ;
     ns1:operator "Aker BP ASA" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
     ns1:supply_base "Tananger" .
 
 <http://www.semanticweb.org/gkb#Field/tambarøst> a ns1:Field ;
-    rdfs:label "TAMBAR ØST" .
+    rdfs:label "TAMBAR ØST" ;
+    ns1:description "Tambar Øst is a field in the southern part of the Norwegian sector in the North Sea, two kilometres east of the Tambar field. The water depth is 70 metres. Tambar Øst was discovered in 2007. In the same year, the authorities granted an exemption for the plan for development and operation (PDO) and the field started production. The field has been developed with one production well drilled from the Tambar facility." .
 
 <http://www.semanticweb.org/gkb#Field/tommelitengamma> a ns1:Field ;
-    rdfs:label "TOMMELITEN GAMMA" .
+    rdfs:label "TOMMELITEN GAMMA" ;
+    ns1:description "Tommeliten Gamma is a field in the southern part of the Norwegian sector in the North Sea, 12 kilometres west of the Edda field in the Ekofisk area. The water depth is 75 metres. Tommeliten Gamma was discovered in 1978, and the plan for development and operation (PDO) was approved in 1986. The field was developed with a subsea template including six production wells. Production started in 1988. " .
 
 <http://www.semanticweb.org/gkb#Field/tor> a ns1:Field ;
     rdfs:label "TOR" ;
+    ns1:description "Tor is a field in the southern part of the Norwegian sector in the North Sea, 13 kilometres northeast of the Ekofisk field. The water depth is 70 metres. Tor was discovered in 1970, and the plan for development and operation (PDO) was approved in 1973. The field was developed with a combined wellhead and processing facility tied-back to the Ekofisk field, and started producing in 1978. Tor was shut down in 2015, and the facility will be removed by the end of 2022. In November 2019, a new PDO for the redevelopment of the field was approved. The plan includes two subsea templates with eight horizontal production wells, tied-back to the Ekofisk Centre." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/2/5-1> ;
     ns1:operator "ConocoPhillips Skandinavia AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -2149,17 +2555,11 @@ ns1:year a rdf:Property ;
     ns1:lithology "The Maureen Formation consists of sandstones that are slightly to very calcareous and often contain reworked limestones. The sandstones are interbedded with brown and dark grey shales, and are fine to medium grained, locally very coarse." ;
     ns1:parent_unit <http://www.semanticweb.org/gkb#Formation/rogalandgp> .
 
-<http://www.semanticweb.org/gkb#Formation/selefm> a ns1:Formation ;
-    rdfs:label "SELE FM" .
-
 <http://www.semanticweb.org/gkb#Formation/vadefm> a ns1:Formation ;
     rdfs:label "VADE FM" .
 
 <http://www.semanticweb.org/gkb#Formation/vestlandgp> a ns1:Formation ;
     rdfs:label "VESTLAND GP" .
-
-<http://www.semanticweb.org/gkb#Formation/zechsteingp> a ns1:Formation ;
-    rdfs:label "ZECHSTEIN GP" .
 
 <http://www.semanticweb.org/gkb#Group/undefinedgp> a ns1:Group ;
     rdfs:label "UNDEFINED GP" .
@@ -2171,7 +2571,8 @@ ns1:year a rdf:Property ;
     rdfs:label "KLIPPFISK FM" .
 
 <http://www.semanticweb.org/gkb#Wellbore/1/3-3> a ns1:Wellbore ;
-    rdfs:label " 1/3-3" .
+    rdfs:label " 1/3-3" ;
+    ns1:formation <http://www.semanticweb.org/gkb#Formation/zechsteingp> .
 
 <http://www.semanticweb.org/gkb#Wellbore/15/3-1s> a ns1:Wellbore ;
     rdfs:label " 15/3-1 S" .
@@ -2207,16 +2608,19 @@ ns1:year a rdf:Property ;
     rdfs:label " 16/7-4" .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/1-3> a ns1:Wellbore ;
-    rdfs:label " 2/1-3" .
+    rdfs:label " 2/1-3" ;
+    ns1:formation <http://www.semanticweb.org/gkb#Formation/zechsteingp> .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/11-2> a ns1:Wellbore ;
     rdfs:label " 2/11-2" .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/4-2> a ns1:Wellbore ;
-    rdfs:label " 2/4-2" .
+    rdfs:label " 2/4-2" ;
+    ns1:formation <http://www.semanticweb.org/gkb#Formation/torfm> .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/5-1> a ns1:Wellbore ;
-    rdfs:label " 2/5-1" .
+    rdfs:label " 2/5-1" ;
+    ns1:formation <http://www.semanticweb.org/gkb#Formation/farsundfm> .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/7-1> a ns1:Wellbore ;
     rdfs:label " 2/7-1" .
@@ -2379,6 +2783,7 @@ ns1:year a rdf:Property ;
 
 <http://www.semanticweb.org/gkb#Field/eldfisk> a ns1:Field ;
     rdfs:label "ELDFISK" ;
+    ns1:description "Eldfisk is a field in the southern part of the Norwegian sector in the North Sea, 10 kilometres south of the Ekofisk field. The water depth is 70 metres. Eldfisk was discovered in 1970, and the plan for development and operation (PDO) was approved in 1975. The initial development consisted of three facilities: Eldfisk B (a combined drilling, wellhead and process facility), and Eldfisk A and Eldfisk FTP (wellhead and process facilities). Production started in 1979. A PDO for water injection was approved in 1997, and the injection facility Eldfisk E was installed in 1999. This facility also provides some the water to Ekofisk K for injection on the Ekofisk field. A PDO for Eldfisk II was approved in 2011, and included a new integrated facility, Eldfisk S, connected by bridge to Eldfisk E. Production from Eldfisk S started in 2015. This facility replaces several functions of Eldfisk A and Eldfisk FTP. Eldfisk A is converted into a wellhead platform and Eldfisk FTP is used as bridge-support facility. The Embla field, located south of Eldfisk, is tied to Eldfisk S." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/2/7-1> ;
     ns1:operator "ConocoPhillips Skandinavia AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -2386,6 +2791,7 @@ ns1:year a rdf:Property ;
 
 <http://www.semanticweb.org/gkb#Field/gudrun> a ns1:Field ;
     rdfs:label "GUDRUN" ;
+    ns1:description "Gudrun is a field in the central part of the North Sea, 50 kilometres north of the Sleipner field. The water depth is 110 metres. Gudrun was discovered in 1975, and the plan for development and operation (PDO) was approved in 2010. A PDO exemption for the discovery 15/3-9 was granted in 2013. The field is developed with a steel jacket and a topside first-stage process facility and living quarters. The field is tied-back to the Sleipner A facility with two pipelines, one for oil and one for wet gas. Production started in 2014." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/15/3-1s> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -2393,6 +2799,7 @@ ns1:year a rdf:Property ;
 
 <http://www.semanticweb.org/gkb#Field/gungne> a ns1:Field ;
     rdfs:label "GUNGNE" ;
+    ns1:description "Gungne is a field in the Sleipner area in the central part of the North Sea. The water depth is 85 metres. Gungne was discovered in 1982, and the plan for development and operation (PDO) was approved in 1995. The field has been developed by three wells drilled from the Sleipner A installation, and production started in 1996. A PDO exemption was granted for the Skagerrak and Hod Formations in 2000, and for a well to Gammahøyden in 2007." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/15/9-15> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -2400,6 +2807,7 @@ ns1:year a rdf:Property ;
 
 <http://www.semanticweb.org/gkb#Field/gyda> a ns1:Field ;
     rdfs:label "GYDA" ;
+    ns1:description "Gyda is a field in the southern part of the Norwegian sector in the North Sea, between the Ula and Ekofisk fields. The water depth is 65 metres. Gyda was discovered in 1980, and the plan for development and operation (PDO) was approved in 1987. The field was developed with a combined drilling, accommodation and processing facility with a steel jacket. Production started in 1990. A PDO for Gyda Sør was approved in 1993." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/2/1-3> ;
     ns1:operator "Repsol Norge AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/shutdown> ;
@@ -2407,6 +2815,7 @@ ns1:year a rdf:Property ;
 
 <http://www.semanticweb.org/gkb#Field/hod> a ns1:Field ;
     rdfs:label "HOD" ;
+    ns1:description "Hod is a field in the southern part of the Norwegian sector in the North Sea, about 13 kilometres south of the Valhall field. The water depth is 72 metres. Hod was discovered in 1974, and the plan for development and operation (PDO) was approved in 1988. The field was developed with an unmanned wellhead platform, remotely controlled from Valhall. Production started in 1990. A PDO for Hod Saddle was approved in 1994. A PDO for the redevelopment of Hod was approved in December 2020.  " ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/2/11-2> ;
     ns1:operator "Aker BP ASA" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -2414,6 +2823,7 @@ ns1:year a rdf:Property ;
 
 <http://www.semanticweb.org/gkb#Field/ivaraasen> a ns1:Field ;
     rdfs:label "IVAR AASEN" ;
+    ns1:description "Ivar Aasen is a field in the northern part of the North Sea, 30 kilometres south of the Grane and Balder fields. The water depth is 110 metres. Ivar Aasen was discovered in 2008, and the plan for development and operation (PDO) was approved in 2013. The development comprises a production, drilling and quarters (PDQ) platform with a steel jacket and a separate jack-up rig for drilling and completion. Production started in 2016. The platform is equipped for tie-in of a subsea template planned for the development of the Hanz field, and for possible development of other nearby discoveries. First stage processing is carried out on the Ivar Aasen platform, and the partly processed fluids are transported to the Edvard Grieg platform for final processing and export." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/16/1-9> ;
     ns1:operator "Aker BP ASA" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -2421,6 +2831,7 @@ ns1:year a rdf:Property ;
 
 <http://www.semanticweb.org/gkb#Field/sigyn> a ns1:Field ;
     rdfs:label "SIGYN" ;
+    ns1:description "Sigyn is a field in the central part of the North Sea, 12 kilometres southeast of the Sleipner Øst field. The water depth is 70 metres. Sigyn was discovered in 1982, and the plan for development and operation (PDO) was approved in 2001. The field is developed with a subsea template tied-back to Sleipner Øst. Production started in 2002." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/16/7-4> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -2428,6 +2839,7 @@ ns1:year a rdf:Property ;
 
 <http://www.semanticweb.org/gkb#Field/sleipnervest> a ns1:Field ;
     rdfs:label "SLEIPNER VEST" ;
+    ns1:description "Sleipner Vest is a field in the central part of the North Sea. The water depth is 110 metres. Sleipner Vest was discovered in 1974, and the plan for development and operation (PDO) was approved in 1992. The field is developed with the Sleipner B production/wellhead facility, which is remotely operated from the Sleipner A facility on the Sleipner Øst field. Production started in 1996." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/15/6-3> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -2435,6 +2847,7 @@ ns1:year a rdf:Property ;
 
 <http://www.semanticweb.org/gkb#Field/sleipnerøst> a ns1:Field ;
     rdfs:label "SLEIPNER ØST" ;
+    ns1:description "Sleipner Øst is a field in the central part of the North Sea. The water depth is 80 metres. Sleipner Øst was discovered in 1981, and the plan for development and operation (PDO) was approved in 1986. The field has been developed with Sleipner A, an integrated processing, drilling and accommodation facility with a concrete base structure. The development includes the Sleipner R riser facility, which connects Sleipner A to the pipelines for gas transport, and the Sleipner T facility for processing and CO2 removal. Production started in 1993. A PDO for Loke Heimdal was approved in 1991 and for Loke Triassic in 1995. Two subsea templates were installed, one for production from the northern part of Sleipner Øst and one for production from the Loke deposit. The Alpha Nord segment was developed in 2004 with a subsea template tied-back to the Sleipner T with an 18-kilometre pipeline. The Utgard field is tied-back to Sleipner T for processing and CO2 removal. The CO2 is injected into the Utsira Formation via a dedicated well at Sleipner A. The Sigyn, Gungne, Gudrun and Gina Krog fields are tied-back to Sleipner A." ;
     ns1:discovery_wellbore <http://www.semanticweb.org/gkb#Wellbore/15/9-9> ;
     ns1:operator "Equinor Energy AS" ;
     ns1:status <http://www.semanticweb.org/gkb#Status/producing> ;
@@ -2470,12 +2883,6 @@ ns1:year a rdf:Property ;
 <http://www.semanticweb.org/gkb#Formation/hegregp> a ns1:Formation ;
     rdfs:label "HEGRE GP" .
 
-<http://www.semanticweb.org/gkb#Formation/listafm> a ns1:Formation ;
-    rdfs:label "LISTA FM" ;
-    ns1:age "Late Paleocene." ;
-    ns1:lithology "The Lista Formation consists of brown to grey-brown shales, which are generally non-tuffaceous and poorly laminated. Occasionally it contains stringers of limestone, dolomite and pyrite. Thin sandstone layers are locally developed. They are less than 5 m thick, and are most common in the lower part of the formation." ;
-    ns1:parent_unit <http://www.semanticweb.org/gkb#Formation/rogalandgp> .
-
 <http://www.semanticweb.org/gkb#Formation/noformalname> a ns1:Formation ;
     rdfs:label "NO FORMAL NAME" .
 
@@ -2484,6 +2891,13 @@ ns1:year a rdf:Property ;
 
 <http://www.semanticweb.org/gkb#Formation/realgrunnensubgp> a ns1:Formation ;
     rdfs:label "REALGRUNNEN SUBGP" .
+
+<http://www.semanticweb.org/gkb#Formation/selefm> a ns1:Formation ;
+    rdfs:label "SELE FM",
+        "SELE FM             " .
+
+<http://www.semanticweb.org/gkb#Formation/skagerrakfm> a ns1:Formation ;
+    rdfs:label "SKAGERRAK FM        " .
 
 <http://www.semanticweb.org/gkb#Formation/statfjordgp> a ns1:Formation ;
     rdfs:label "STATFJORD GP" .
@@ -2521,14 +2935,15 @@ ns1:year a rdf:Property ;
     ns1:lithology "In the type well the formation consists of white to light grey, hard chalks with thin interbeds of grey to black shale in the lower part of the formation. Locally the formation is more marly with interbedded marly chalk and marl. The chalks are occasionally softer with abundant glauconite and pyrite. The colour may be white, grey, green, brown or pink. At the base of the formation in UK well 22/1-2 A, hard, black, carbonaceous and argillaceous limestones are present. Traces of pink waxy tuff occur in places. The formation is generally highly bioturbated." ;
     ns1:parent_unit <http://www.semanticweb.org/gkb#Formation/shetlandgp> .
 
-<http://www.semanticweb.org/gkb#Formation/hodfm> a ns1:Formation ;
-    rdfs:label "HOD FM" ;
-    ns1:age "Turonian to Campanian." ;
-    ns1:lithology "In the type well the formation consists of hard, white to light grey, crypto- to microcrystalline limestones which may become argillaceous or chalky in places. White, light grey to light brown, soft to hard chalk facies may dominate the formation or alternate with limestones. The limestones may be pink or pale orange. Thin, silty, white, light grey to green or brown, and soft, grey to black, calcareous clay/shale laminae are occasionally present. Pyrite and glauconite may occur throughout the formation and the latter may be common in the lower part." ;
-    ns1:parent_unit <http://www.semanticweb.org/gkb#Formation/shetlandgp> .
-
 <http://www.semanticweb.org/gkb#Formation/hordalandgp> a ns1:Formation ;
     rdfs:label "HORDALAND GP" .
+
+<http://www.semanticweb.org/gkb#Formation/listafm> a ns1:Formation ;
+    rdfs:label "LISTA FM",
+        "LISTA FM            " ;
+    ns1:age "Late Paleocene." ;
+    ns1:lithology "The Lista Formation consists of brown to grey-brown shales, which are generally non-tuffaceous and poorly laminated. Occasionally it contains stringers of limestone, dolomite and pyrite. Thin sandstone layers are locally developed. They are less than 5 m thick, and are most common in the lower part of the formation." ;
+    ns1:parent_unit <http://www.semanticweb.org/gkb#Formation/rogalandgp> .
 
 <http://www.semanticweb.org/gkb#Formation/nordlandgp> a ns1:Formation ;
     rdfs:label "NORDLAND GP" .
@@ -2536,20 +2951,20 @@ ns1:year a rdf:Property ;
 <http://www.semanticweb.org/gkb#Formation/sassendalengp> a ns1:Formation ;
     rdfs:label "SASSENDALEN GP" .
 
-<http://www.semanticweb.org/gkb#Formation/vålefm> a ns1:Formation ;
-    rdfs:label "VÅLE FM" .
-
 <http://www.semanticweb.org/gkb#Group/rotliegendgp> a ns1:Group ;
     rdfs:label "ROTLIEGEND GP" .
 
 <http://www.semanticweb.org/gkb#Resource/oil/gas> a ns1:Resource ;
     rdfs:label "OIL/GAS" .
 
-<http://www.semanticweb.org/gkb#Formation/tynegp> a ns1:Formation ;
-    rdfs:label "TYNE GP" .
+<http://www.semanticweb.org/gkb#Formation/vålefm> a ns1:Formation ;
+    rdfs:label "VÅLE FM",
+        "VÅLE FM             " .
 
 <http://www.semanticweb.org/gkb#Resource/gas> a ns1:Resource ;
     rdfs:label "GAS" .
+
+ns1:Status a <http://www.w3.org/2002/07/owl#Class> .
 
 <http://www.semanticweb.org/gkb#Formation/brentgp> a ns1:Formation ;
     rdfs:label "BRENT GP" .
@@ -2557,8 +2972,9 @@ ns1:year a rdf:Property ;
 <http://www.semanticweb.org/gkb#Formation/dunlingp> a ns1:Formation ;
     rdfs:label "DUNLIN GP" .
 
-<http://www.semanticweb.org/gkb#Formation/ulafm> a ns1:Formation ;
-    rdfs:label "ULA FM" .
+<http://www.semanticweb.org/gkb#Formation/tynegp> a ns1:Formation ;
+    rdfs:label "TYNE GP",
+        "TYNE GP             " .
 
 <http://www.semanticweb.org/gkb#Formation/vikinggp> a ns1:Formation ;
     rdfs:label "VIKING GP" .
@@ -2568,6 +2984,8 @@ ns1:year a rdf:Property ;
 
 <http://www.semanticweb.org/gkb#Group/nogroupdefined> a ns1:Group ;
     rdfs:label "NO GROUP DEFINED" .
+
+ns1:Resource a <http://www.w3.org/2002/07/owl#Class> .
 
 <http://www.semanticweb.org/gkb#Status/shutdown> a ns1:Status ;
     rdfs:label "Shut down" .
@@ -2584,8 +3002,15 @@ ns1:year a rdf:Property ;
 <http://www.semanticweb.org/gkb#Group/vestlandgp> a ns1:Group ;
     rdfs:label "VESTLAND GP" .
 
+<http://www.semanticweb.org/gkb#Formation/ulafm> a ns1:Formation ;
+    rdfs:label "ULA FM",
+        "ULA FM              " .
+
+ns1:Unit a <http://www.w3.org/2002/07/owl#Class> .
+
 <http://www.semanticweb.org/gkb#Formation/farsundfm> a ns1:Formation ;
-    rdfs:label "FARSUND FM" ;
+    rdfs:label "FARSUND FM",
+        "FARSUND FM          " ;
     ns1:age "Kimmeridgian to Volgian." ;
     ns1:lithology "The Farsund Formation consists predominantly of medium to dark grey shale. The shale is often well laminated and contains frequent calcareous streaks. Sandstone stringers are common in the type well 2/7-3, particularly in the lowermost part of the sequence. In the reference well 7/12-2, closer to the flank of the Southern Vestland Arch, a thinner Farsund Formation is present as a clear \"coarsening upward cycle\", becoming consistently less radioactive towards the top of the unit." ;
     ns1:parent_unit <http://www.semanticweb.org/gkb#Formation/tynegp> .
@@ -2596,18 +3021,31 @@ ns1:year a rdf:Property ;
 <http://www.semanticweb.org/gkb#Status/approvedforproduction> a ns1:Status ;
     rdfs:label "Approved for production" .
 
+<http://www.semanticweb.org/gkb#Formation/hodfm> a ns1:Formation ;
+    rdfs:label "HOD FM",
+        "HOD FM              " ;
+    ns1:age "Turonian to Campanian." ;
+    ns1:lithology "In the type well the formation consists of hard, white to light grey, crypto- to microcrystalline limestones which may become argillaceous or chalky in places. White, light grey to light brown, soft to hard chalk facies may dominate the formation or alternate with limestones. The limestones may be pink or pale orange. Thin, silty, white, light grey to green or brown, and soft, grey to black, calcareous clay/shale laminae are occasionally present. Pyrite and glauconite may occur throughout the formation and the latter may be common in the lower part." ;
+    ns1:parent_unit <http://www.semanticweb.org/gkb#Formation/shetlandgp> .
+
 <http://www.semanticweb.org/gkb#Formation/shetlandgp> a ns1:Formation ;
     rdfs:label "SHETLAND GP" .
 
 <http://www.semanticweb.org/gkb#Group/rogalandgp> a ns1:Group ;
     rdfs:label "ROGALAND GP" .
 
-ns1:Member rdfs:subClassOf ns1:Unit .
+<http://www.semanticweb.org/gkb#Formation/zechsteingp> a ns1:Formation ;
+    rdfs:label "ZECHSTEIN GP",
+        "ZECHSTEIN GP        " .
+
+ns1:Member a <http://www.w3.org/2002/07/owl#Class> ;
+    rdfs:subClassOf ns1:Unit .
 
 <http://www.semanticweb.org/gkb#Resource/gas/condensate> a ns1:Resource ;
     rdfs:label "GAS/CONDENSATE" .
 
-ns1:Group rdfs:subClassOf ns1:Unit .
+ns1:Group a <http://www.w3.org/2002/07/owl#Class> ;
+    rdfs:subClassOf ns1:Unit .
 
 <http://www.semanticweb.org/gkb#Group/tynegp> a ns1:Group ;
     rdfs:label "TYNE GP" .
@@ -2618,11 +3056,12 @@ ns1:Group rdfs:subClassOf ns1:Unit .
     ns1:lithology "In the type well, the formation comprises white, tan or beige, hard, dense, sometimes finely crystalline limestones, although softer chalky textures are also present. The formation usually consists of white to light grey, beige to brownish, mudstones or wackestones with occasional packstones/grainstones and pisolitic horizons, often alternating with argillaceous chalks, chalky limestones or limestones. Thin beds of grey, calcareous, often pyritic shales or clays are most common in the lower part while brownish-grey cherts occur rarely to abundantly throughout the formation." ;
     ns1:parent_unit <http://www.semanticweb.org/gkb#Formation/shetlandgp> .
 
-<http://www.semanticweb.org/gkb#Formation/torfm> a ns1:Formation ;
-    rdfs:label "TOR FM" .
-
 <http://www.semanticweb.org/gkb#Group/shetlandgp> a ns1:Group ;
     rdfs:label "SHETLAND GP" .
+
+<http://www.semanticweb.org/gkb#Formation/torfm> a ns1:Formation ;
+    rdfs:label "TOR FM",
+        "TOR FM              " .
 
 <http://www.semanticweb.org/gkb#Resource/oil> a ns1:Resource ;
     rdfs:label "OIL" .
@@ -2630,7 +3069,15 @@ ns1:Group rdfs:subClassOf ns1:Unit .
 <http://www.semanticweb.org/gkb#Status/producing> a ns1:Status ;
     rdfs:label "Producing" .
 
-ns1:Core rdfs:subClassOf ns1:Wellbore .
+ns1:Discovery a <http://www.w3.org/2002/07/owl#Class> .
 
-ns1:Formation rdfs:subClassOf ns1:Unit .
+ns1:Core a <http://www.w3.org/2002/07/owl#Class> ;
+    rdfs:subClassOf ns1:Wellbore .
+
+ns1:Formation a <http://www.w3.org/2002/07/owl#Class> ;
+    rdfs:subClassOf ns1:Unit .
+
+ns1:Field a <http://www.w3.org/2002/07/owl#Class> .
+
+ns1:Wellbore a <http://www.w3.org/2002/07/owl#Class> .
 

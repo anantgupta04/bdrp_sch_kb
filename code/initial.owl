@@ -3,10 +3,6 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ns1:Unit a rdfs:Class .
-
-ns1:Wellbore a rdfs:Class .
-
 <http://www.semanticweb.org/gkb#Core/1/2-1> a ns1:Core ;
     rdfs:label "1/2-1" ;
     ns1:bottomdepth 3335 ;
@@ -1151,198 +1147,276 @@ ns1:Wellbore a rdfs:Class .
 
 <http://www.semanticweb.org/gkb#Wellbore/1/3-10a> a ns1:Wellbore ;
     rdfs:label "1/3-10 A" ;
+    ns1:bottomdepth 3632 ;
     ns1:completion_date "2008-02-13" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Group/rogalandgp> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Group/rogalandgp> ;
+    ns1:topdepth 3320 .
 
 <http://www.semanticweb.org/gkb#Wellbore/1/3-2> a ns1:Wellbore ;
     rdfs:label "1/3-2" ;
+    ns1:bottomdepth 1533 ;
     ns1:completion_date "1969-07-27" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Group/nordlandgp> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Group/nordlandgp> ;
+    ns1:topdepth 98 .
 
 <http://www.semanticweb.org/gkb#Wellbore/1/5-1> a ns1:Wellbore ;
     rdfs:label "1/5-1" ;
+    ns1:bottomdepth 491 ;
     ns1:completion_date "1973-10-19" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Group/nordlandgp> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Group/nordlandgp> ;
+    ns1:topdepth 97 .
 
 <http://www.semanticweb.org/gkb#Wellbore/1/5-2> a ns1:Wellbore ;
     rdfs:label "1/5-2" ;
+    ns1:bottomdepth 3069 ;
     ns1:completion_date "1974-04-15" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Group/rogalandgp> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Group/rogalandgp> ;
+    ns1:topdepth 2831 .
 
 <http://www.semanticweb.org/gkb#Wellbore/1/5-3s> a ns1:Wellbore ;
     rdfs:label "1/5-3 S" ;
+    ns1:bottomdepth 1565 ;
     ns1:completion_date "1998-06-08" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Group/hordalandgp> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Group/hordalandgp> ;
+    ns1:topdepth 1309 .
 
 <http://www.semanticweb.org/gkb#Wellbore/1/5-4s> a ns1:Wellbore ;
     rdfs:label "1/5-4 S" ;
+    ns1:bottomdepth 3077 ;
     ns1:completion_date "2002-05-22" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Group/shetlandgp> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Group/shetlandgp> ;
+    ns1:topdepth 2994 .
 
 <http://www.semanticweb.org/gkb#Wellbore/1/5-5> a ns1:Wellbore ;
     rdfs:label "1/5-5" ;
+    ns1:bottomdepth 5540 ;
     ns1:completion_date "2016-09-16" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/tuxenfm> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/tuxenfm> ;
+    ns1:topdepth 5529 .
 
 <http://www.semanticweb.org/gkb#Wellbore/1/6-4> a ns1:Wellbore ;
     rdfs:label "1/6-4" ;
+    ns1:bottomdepth 3335 ;
     ns1:completion_date "1976-09-04" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/listafm> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/listafm> ;
+    ns1:topdepth 3253 .
 
 <http://www.semanticweb.org/gkb#Wellbore/1/9-1r> a ns1:Wellbore ;
     rdfs:label "1/9-1 R" ;
+    ns1:bottomdepth 3659 ;
     ns1:completion_date "1987-05-17" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/blodøksfm> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/blodøksfm> ;
+    ns1:topdepth 3645 .
 
 <http://www.semanticweb.org/gkb#Wellbore/1/9-3> a ns1:Wellbore ;
     rdfs:label "1/9-3" ;
+    ns1:bottomdepth 2771 ;
     ns1:completion_date "1977-11-27" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Group/hordalandgp> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Group/hordalandgp> ;
+    ns1:topdepth 1150 .
 
 <http://www.semanticweb.org/gkb#Wellbore/1/9-4r> a ns1:Wellbore ;
     rdfs:label "1/9-4 R" ;
+    ns1:bottomdepth 3494 ;
     ns1:completion_date "1991-04-26" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/blodøksfm> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/blodøksfm> ;
+    ns1:topdepth 3450 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/1-11> a ns1:Wellbore ;
     rdfs:label "2/1-11" ;
+    ns1:bottomdepth 4097 ;
     ns1:completion_date "1997-07-05" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Group/shetlandgp> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Group/shetlandgp> ;
+    ns1:topdepth 3310 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/1-12> a ns1:Wellbore ;
     rdfs:label "2/1-12" ;
+    ns1:bottomdepth 3158 ;
     ns1:completion_date "1999-10-02" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/tuxenfm> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/tuxenfm> ;
+    ns1:topdepth 3153 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/1-14s> a ns1:Wellbore ;
     rdfs:label "2/1-14 S" ;
+    ns1:bottomdepth 4955 ;
     ns1:completion_date "2009-02-28" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Group/rogalandgp> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Group/rogalandgp> ;
+    ns1:topdepth 4253 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/1-15> a ns1:Wellbore ;
     rdfs:label "2/1-15" ;
+    ns1:bottomdepth 3019 ;
     ns1:completion_date "2013-05-09" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/ekofiskfm> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/ekofiskfm> ;
+    ns1:topdepth 2941 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/1-16s> a ns1:Wellbore ;
     rdfs:label "2/1-16 S" ;
+    ns1:bottomdepth 3490 ;
     ns1:completion_date "2013-07-13" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/farsundfm> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/farsundfm> ;
+    ns1:topdepth 3448 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/2-4> a ns1:Wellbore ;
     rdfs:label "2/2-4" ;
+    ns1:bottomdepth 2666 ;
     ns1:completion_date "1988-07-06" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/noformalname> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/noformalname> ;
+    ns1:topdepth 2184 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/2-6> a ns1:Wellbore ;
     rdfs:label "2/2-6" ;
+    ns1:bottomdepth 3585 ;
     ns1:completion_date "2010-05-14" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Group/cromerknollgp> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Group/cromerknollgp> ;
+    ns1:topdepth 3486 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/3-1> a ns1:Wellbore ;
     rdfs:label "2/3-1" ;
+    ns1:bottomdepth 2563 ;
     ns1:completion_date "1969-03-04" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Group/cromerknollgp> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Group/cromerknollgp> ;
+    ns1:topdepth 2359 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/3-2> a ns1:Wellbore ;
     rdfs:label "2/3-2" ;
+    ns1:bottomdepth 2212 ;
     ns1:completion_date "1969-08-13" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/balderfm> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/balderfm> ;
+    ns1:topdepth 2186 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/3-3> a ns1:Wellbore ;
     rdfs:label "2/3-3" ;
+    ns1:bottomdepth 2875 ;
     ns1:completion_date "1971-11-20" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Group/tynegp> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Group/tynegp> ;
+    ns1:topdepth 2825 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/3-4> a ns1:Wellbore ;
     rdfs:label "2/3-4" ;
+    ns1:bottomdepth 2719 ;
     ns1:completion_date "1984-07-24" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/maureenfm> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/maureenfm> ;
+    ns1:topdepth 2613 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/4-1> a ns1:Wellbore ;
     rdfs:label "2/4-1" ;
+    ns1:bottomdepth 1662 ;
     ns1:completion_date "1969-09-16" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Group/nordlandgp> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Group/nordlandgp> ;
+    ns1:topdepth 98 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/4-10> a ns1:Wellbore ;
     rdfs:label "2/4-10" ;
+    ns1:bottomdepth 3162 ;
     ns1:completion_date "1973-12-20" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/vålefm> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/vålefm> ;
+    ns1:topdepth 3155 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/4-11> a ns1:Wellbore ;
     rdfs:label "2/4-11" ;
+    ns1:bottomdepth 2960 ;
     ns1:completion_date "1974-09-04" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/balderfm> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/balderfm> ;
+    ns1:topdepth 2939 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/4-13> a ns1:Wellbore ;
     rdfs:label "2/4-13" ;
+    ns1:bottomdepth 2518 ;
     ns1:completion_date "1988-06-10" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Group/hordalandgp> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Group/hordalandgp> ;
+    ns1:topdepth 1766 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/4-14> a ns1:Wellbore ;
     rdfs:label "2/4-14" ;
+    ns1:bottomdepth 3443 ;
     ns1:completion_date "1989-01-31" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/ekofiskfm> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/ekofiskfm> ;
+    ns1:topdepth 3318 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/4-14r> a ns1:Wellbore ;
     rdfs:label "2/4-14 R" ;
+    ns1:bottomdepth 3154 ;
     ns1:completion_date "1990-06-04" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Group/hordalandgp> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Group/hordalandgp> ;
+    ns1:topdepth 1778 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/4-14r2> a ns1:Wellbore ;
     rdfs:label "2/4-14 R2" ;
+    ns1:bottomdepth 4634 ;
     ns1:completion_date "1990-04-14" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/hidrafm> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/hidrafm> ;
+    ns1:topdepth 4561 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/4-15sr> a ns1:Wellbore ;
     rdfs:label "2/4-15 SR" ;
+    ns1:bottomdepth 4958 ;
     ns1:completion_date "2003-10-27" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/åsgardfm> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/åsgardfm> ;
+    ns1:topdepth 4910 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/4-16> a ns1:Wellbore ;
     rdfs:label "2/4-16" ;
+    ns1:bottomdepth 4638 ;
     ns1:completion_date "1991-04-11" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/hidrafm> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/hidrafm> ;
+    ns1:topdepth 4598 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/4-16r> a ns1:Wellbore ;
     rdfs:label "2/4-16 R" ;
+    ns1:bottomdepth 3317 ;
     ns1:completion_date "1992-07-15" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/vålefm> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/vålefm> ;
+    ns1:topdepth 3292 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/4-18> a ns1:Wellbore ;
     rdfs:label "2/4-18" ;
+    ns1:bottomdepth 622 ;
     ns1:completion_date "1993-04-29" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Group/nordlandgp> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Group/nordlandgp> ;
+    ns1:topdepth 94 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/4-20> a ns1:Wellbore ;
     rdfs:label "2/4-20" ;
+    ns1:bottomdepth 5631 ;
     ns1:completion_date "2008-03-14" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Group/zechsteingp> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Group/zechsteingp> ;
+    ns1:topdepth 5496 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/4-21a> a ns1:Wellbore ;
     rdfs:label "2/4-21 A" ;
+    ns1:bottomdepth 4540 ;
     ns1:completion_date "2012-07-24" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/hidrafm> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/hidrafm> ;
+    ns1:topdepth 4520 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/4-22s> a ns1:Wellbore ;
     rdfs:label "2/4-22 S" ;
+    ns1:bottomdepth 1790 ;
     ns1:completion_date "2015-02-22" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Group/nordlandgp> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Group/nordlandgp> ;
+    ns1:topdepth 115 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/4-23s> a ns1:Wellbore ;
     rdfs:label "2/4-23 S" ;
+    ns1:bottomdepth 4907 ;
     ns1:completion_date "2015-05-09" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/åsgardfm> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/åsgardfm> ;
+    ns1:topdepth 4886 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/4-9> a ns1:Wellbore ;
     rdfs:label "2/4-9" ;
+    ns1:bottomdepth 3021 ;
     ns1:completion_date "1973-09-10" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Group/nordlandgp> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Group/nordlandgp> ;
+    ns1:topdepth 104 .
 
 <http://www.semanticweb.org/gkb#Wellbore/2/5-4> a ns1:Wellbore ;
     rdfs:label "2/5-4" ;
+    ns1:bottomdepth 2988 ;
     ns1:completion_date "1972-10-31" ;
-    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/listafm> .
+    ns1:has_unit <http://www.semanticweb.org/gkb#Formation/listafm> ;
+    ns1:topdepth 2946 .
 
 ns1:age a rdf:Property ;
     rdfs:domain ns1:Unit ;
@@ -1561,6 +1635,8 @@ ns1:topdepth a rdf:Property ;
     ns1:lithology "The Farsund Formation consists predominantly of medium to dark grey shale. The shale is often well laminated and contains frequent calcareous streaks. Sandstone stringers are common in the type well 2/7-3, particularly in the lowermost part of the sequence. In the reference well 7/12-2, closer to the flank of the Southern Vestland Arch, a thinner Farsund Formation is present as a clear \"coarsening upward cycle\", becoming consistently less radioactive towards the top of the unit." ;
     ns1:parent_unit <http://www.semanticweb.org/gkb#Formation/tynegp> .
 
+ns1:Unit a <http://www.w3.org/2002/07/owl#Class> .
+
 <http://www.semanticweb.org/gkb#Formation/rogalandgp> a ns1:Formation ;
     rdfs:label "ROGALAND GP" .
 
@@ -1570,9 +1646,11 @@ ns1:topdepth a rdf:Property ;
 <http://www.semanticweb.org/gkb#Group/rogalandgp> a ns1:Group ;
     rdfs:label "ROGALAND GP" .
 
-ns1:Member rdfs:subClassOf ns1:Unit .
+ns1:Member a <http://www.w3.org/2002/07/owl#Class> ;
+    rdfs:subClassOf ns1:Unit .
 
-ns1:Group rdfs:subClassOf ns1:Unit .
+ns1:Group a <http://www.w3.org/2002/07/owl#Class> ;
+    rdfs:subClassOf ns1:Unit .
 
 <http://www.semanticweb.org/gkb#Group/tynegp> a ns1:Group ;
     rdfs:label "TYNE GP" .
@@ -1589,7 +1667,11 @@ ns1:Group rdfs:subClassOf ns1:Unit .
 <http://www.semanticweb.org/gkb#Group/shetlandgp> a ns1:Group ;
     rdfs:label "SHETLAND GP" .
 
-ns1:Core rdfs:subClassOf ns1:Wellbore .
+ns1:Wellbore a <http://www.w3.org/2002/07/owl#Class> .
 
-ns1:Formation rdfs:subClassOf ns1:Unit .
+ns1:Core a <http://www.w3.org/2002/07/owl#Class> ;
+    rdfs:subClassOf ns1:Wellbore .
+
+ns1:Formation a <http://www.w3.org/2002/07/owl#Class> ;
+    rdfs:subClassOf ns1:Unit .
 

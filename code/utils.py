@@ -28,7 +28,8 @@ def common_syns(word1, word2):
     syn_set1 = set(chain.from_iterable([word.lemma_names() for word in synonyms1]))
     synonyms2 = wordnet.synsets(word2)
     syn_set2 = set(chain.from_iterable([word.lemma_names() for word in synonyms2]))
-    if syn_set1 & syn_set2:
+    common_syn_rate = len(syn_set1 & syn_set2) / (len(syn_set1.union(syn_set2)) + 0.001)
+    if common_syn_rate > 0.1:
         return True
     else:
         return False
