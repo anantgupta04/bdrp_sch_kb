@@ -71,7 +71,7 @@ class Ontology():
 
     def load_units(self):
 
-        df = pd.read_csv('../data/lithostrat_units.csv', header=0, nrows=100)
+        df = pd.read_csv('../new_data/lithostrat_units.csv', header=0, nrows=100)
         df.dropna(inplace=True)
         groups = df[df['level'] =='GROUP']
         formations = df[df['level'] =='FORMATION']
@@ -83,6 +83,8 @@ class Ontology():
             self.graph.add((group_uri, RDFS.label, Literal(row['unit'].strip())))
             self.graph.add((group_uri, self.gkb.lithology, Literal(row['lithology'])))
             self.graph.add((group_uri, self.gkb.age, Literal(row['age'])))
+            if row['country']:
+                self.graph.add((group_uri, self.gkb.located_in, Literal(row['country'])))
 
         for _, row in formations.iterrows():
             formation_uri = self.gkb.Formation + '/' + neatstr(row['unit'])
@@ -96,6 +98,8 @@ class Ontology():
                 self.graph.add((parent_uri, RDF.type, getattr(self.gkb, row['level'].title())))
                 self.graph.add((parent_uri, RDFS.label, Literal(row['parent'])))
                 self.graph.add((formation_uri, self.gkb.parent_unit, parent_uri))
+            if row['country']:
+                self.graph.add((formation_uri, self.gkb.located_in, Literal(row['country'])))
         
         for _, row in members.iterrows():
             member_uri = self.gkb.Member + '/' + neatstr(row['unit'])
@@ -103,6 +107,8 @@ class Ontology():
             self.graph.add((member_uri, RDFS.label, Literal(row['unit'].strip())))
             self.graph.add((member_uri, self.gkb.lithology, Literal(row['lithology'])))
             self.graph.add((member_uri, self.gkb.age, Literal(row['age'])))
+            if row['country']:
+                self.graph.add((member_uri, self.gkb.located_in, Literal(row['country'])))
             
             if row['parent']:
                 parent_uri = getattr(self.gkb, row['level'].title()) + '/' + neatstr(row['parent'])

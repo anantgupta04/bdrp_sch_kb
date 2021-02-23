@@ -12,7 +12,7 @@ import rdflib
 BASE_URI = "<http://www.semanticweb.org/gkb#"
 
 g = rdflib.Graph()
-g.load("test.owl", format="turtle")
+g.load("initial.owl", format="turtle")
 
 formations = set([])
 for row in g.query(
