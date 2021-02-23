@@ -12,7 +12,7 @@ import rdflib
 BASE_URI = "<http://www.semanticweb.org/gkb#"
 
 g = rdflib.Graph()
-g.load("test.owl", format="turtle")
+g.load("initial.owl", format="turtle")
 
 formations = set([])
 for row in g.query(
@@ -70,7 +70,7 @@ def getNer():
         else:
             # add an instance
             print("Add to abox")
-    import pdb;pdb.set_trace()
+    # import pdb;pdb.set_trace()
     if "well" in query:
         # check whether current instance is found
         if "crosses" in query:
@@ -103,7 +103,12 @@ def getNer():
             print("Lithology of formation")
             final_query = "select ?ans where { " + formation_sub + "ns1:lithology ?ans.}"
     answers = [row.ans for row in g.query(final_query)]
+    pdb;pdb.set_trace
     print(f"The answer to the query\n{og_question} is \n {answers}")
+    # messagebox.showinfo("Answers = ",answers)
+    lbl_result["text"] = f"{answers}"
+
+     # lbl_result["text"] =
     return query
 
 
@@ -157,13 +162,17 @@ if __name__=="__main__":
     # Tkinter variable for storing entries
     namevalue = StringVar()
 
-    #Entries for our form
+    # Packing the Entries
     nameentry = Entry(root, textvariable=namevalue)
 
-    # Packing the Entries
-    nameentry.grid(row=1, column=3)
-
     #Button & packing it and assigning it a command
-    Button(text="Submit your query", command=getNer).grid(row=7, column=3)
+    btn_convert = Button(text="Submit your query", command=getNer)
+    lbl_result = Label(master=root, text="Answers is")
+
+    # grid assignment
+    nameentry.grid(row=1, column=3)
+    btn_convert.grid(row=7, column=3)
+    lbl_result.grid(row=9,column=3, pdx=10)
+
 
     root.mainloop()
