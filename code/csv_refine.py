@@ -3,16 +3,22 @@ import datetime
 import numpy as np
 from random import sample
 
-inpath = '../new_data/discovery_description.csv'
-outpath = '../test_data/discovery_description.csv'
+inpath = '../data/lithostrat_units.csv'
+outpath = '../new_data/lithostrat_units.csv'
 df = pd.read_csv(inpath,
                 header=0
                 )
-to_drop = []
-for i in df.columns:
-    if 'id' in i:
-        to_drop.append(i)
-df.drop(to_drop, axis=1, inplace=True)
+
+countries_df = pd.read_csv('../data/formations.csv',
+                header=0,
+                )             
+countries_df = countries_df[['unit', 'country']]
+df = df.set_index('unit').join(countries_df.set_index('unit'), on='unit')
+# to_drop = []
+# for i in df.columns:
+#     if 'id' in i:
+#         to_drop.append(i)
+# df.drop(to_drop, axis=1, inplace=True)
 # df = df[df['description_heading']=='Development ']
 # df.drop('description_heading', axis=1, inplace=True)
 # lithology = {}
@@ -35,7 +41,7 @@ df.drop(to_drop, axis=1, inplace=True)
 # print(df.head(100))
 
 # print(lithology)
-print(df.head(10))
+# print(df.head(10))
 # print(df.columns)
 
 # not_cores = df[df['core_length']==0].index
@@ -46,4 +52,4 @@ print(df.head(10))
 #     to_drop = sample(indices, len(indices)-1)
 #     df.drop(to_drop, inplace=True)
 
-df.to_csv(outpath, index=False)
+df.to_csv(outpath)
