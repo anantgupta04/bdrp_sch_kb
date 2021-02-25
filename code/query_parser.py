@@ -38,11 +38,12 @@ for row in g.query(
 
 def getNer():
     # import pdb;pdb.set_trace()
-    print("Submitting form")
-    print(f"{namevalue.get()} ")
+    # print("Submitting form")
+    # print(f"{namevalue.get()} ")
     query = namevalue.get()
     og_question = query
-    final_query = ""
+    final_query = None
+    formation_sub = None
     og_query = query
     stop_words = set(stopwords.words('english'))
     try:
@@ -57,7 +58,7 @@ def getNer():
 
 
     # query = nltk.pos_tag(query)
-    print("inside getNEr = ", query)
+    # print("inside getNEr = ", query)
 
     if "formation" in query:
         print("formation is located")
@@ -86,9 +87,8 @@ def getNer():
             elif wells.intersection([well_choice2]):
                 well_subject = well_choice2
             final_query = "select ? where { }"
-    else:
+    elif formation_sub:
         if "group" in query:
-            # print("parent group query")
             final_query = "select ?ans where { " + formation_sub + \
                             "ns1:parent_unit ?g. \
                              ?g rdfs:label ?ans}"
@@ -102,32 +102,39 @@ def getNer():
         elif "lithology" in query:
             print("Lithology of formation")
             final_query = "select ?ans where { " + formation_sub + "ns1:lithology ?ans.}"
-    answers = [row.ans for row in g.query(final_query)]
-    pdb;pdb.set_trace
+        elif "where" in og_question:
+            print("Location of formation")
+            final_query = "select ?ans where { " + formation_sub + "ns1:located_in ?ans.}"
+    if final_query:
+        answers = [row.ans.title() for row in g.query(final_query)]
+    else:
+        getvals()
+        answers = "Sorry, we cannot answer this question at the moment. \n" +\
+            "System admins have been informed regarding the evolvement of the graph."
+
     print(f"The answer to the query\n{og_question} is \n {answers}")
-    # messagebox.showinfo("Answers = ",answers)
     lbl_result["text"] = f"{answers}"
 
-     # lbl_result["text"] =
-    return query
+
+    # return query
 
 
 '''
 Questions that can be answered?
 
-* Where is X formation?
-
-* which well crosses X formation?
+* Where is X formation? -- WORKS
 
 * Which group does X formation belong to? --WORKS
 
 * What are members of Ekofisk formation?
 
-* What is lithology of Ekofisk formation?
+* What is lithology of Ekofisk formation? -- WORKS(NOT recommended)
+
+* What is the age of X formation? -- WORKS
 
 * What is the top of X Formation for the well A?
 
-* What is the period and age of X formation?
+* which well crosses X formation?
 
 '''
 
@@ -140,12 +147,12 @@ if __name__=="__main__":
 
     def getvals():
         print("Submitting form")
-        print(f"{namevalue.get(), phonevalue.get(), gendervalue.get(), emergencyvalue.get(), paymentmodevalue.get()} ")
+        # print(f"{namevalue.get(), } ")
 
 
 
         with open("records.txt", "a") as f:
-            f.write(f"{namevalue.get(), phonevalue.get(), gendervalue.get(), emergencyvalue.get(), paymentmodevalue.get()}\n ")
+            f.write(f"{namevalue.get()}\n ")
 
 
 
@@ -172,7 +179,7 @@ if __name__=="__main__":
     # grid assignment
     nameentry.grid(row=1, column=3)
     btn_convert.grid(row=7, column=3)
-    lbl_result.grid(row=9,column=3, pdx=10)
+    lbl_result.grid(row=10,column=3, padx=10, pady=10)
 
 
     root.mainloop()
