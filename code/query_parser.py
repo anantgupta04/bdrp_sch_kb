@@ -23,7 +23,7 @@ for row in g.query(
 
 wells = set([])
 for row in g.query(
-            'select ?w where {?s a ns1:Core; rdfs:label ?w}'
+            'select ?w where {?s a ns1:Wellbore; rdfs:label ?w}'
         ):
     wells = wells.union([str(row.w).title()])
 # print("Well Cores are \n", wells)
@@ -37,7 +37,6 @@ for row in g.query(
 
 
 def getNer():
-    # import pdb;pdb.set_trace()
     # print("Submitting form")
     # print(f"{namevalue.get()} ")
     query = namevalue.get()
@@ -76,17 +75,22 @@ def getNer():
         # check whether current instance is found
         if "crosses" in query:
             print("Which wells cross a particular formation")
-            final_query = "select ?ans where{ ?ws a ns:Wellbore; rdfs:label ?ans; \
+            final_query = "select ?ans where{ ?ws a ns1:Wellbore; rdfs:label ?ans; \
                         ns1:has_unit " + formation_sub + "}"
         else:
             wid = query.index("well")
-            well_choice1 = og_query[wid-1]
-            well_choice2 = og_query[wid+1]
+            well_choice1 = query[wid-1]
+            well_choice2 = query[wid+1]
             if wells.intersection([well_choice1]):
                 well_subject = well_choice1
             elif wells.intersection([well_choice2]):
                 well_subject = well_choice2
-            final_query = "select ? where { }"
+            well_ns = BASE_URI + f"Wellbore/{well_subject}>"
+            # print("Well subject is ", well_ns)
+            depth = "top"  if "top" in query else "bottom"
+            final_query = "select ?ans where {" + well_ns + " a ns1:Wellbore;\
+                            ns1:has_unit " + formation_sub + " ; ns1:" + \
+                                depth+"depth ?ans.}"
     elif formation_sub:
         if "group" in query:
             final_query = "select ?ans where { " + formation_sub + \
@@ -132,9 +136,10 @@ Questions that can be answered?
 
 * What is the age of X formation? -- WORKS
 
-* What is the top of X Formation for the well A?
+* what is the top depth for the well 2/1-15 in the ekofisk formation? -- WORKS
+* what is the bottom depth for the well 2/1-15 in the ekofisk formation? -- WORKS
 
-* which well crosses X formation?
+* which well crosses X formation? -- WORKS
 
 '''
 
