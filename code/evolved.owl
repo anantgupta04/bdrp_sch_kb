@@ -761,9 +761,6 @@
     ns1:resource <http://www.semanticweb.org/gkb#Resource/gas/condensate> ;
     ns1:year 1972 .
 
-<http://www.semanticweb.org/gkb#Discovery/1/9-1tommelitenalpha> a ns1:Discovery ;
-    rdfs:label "1/9-1 Tommeliten Alpha" .
-
 <http://www.semanticweb.org/gkb#Discovery/1/9-4tommelitengamma> a ns1:Discovery ;
     rdfs:label "1/9-4 Tommeliten Gamma" ;
     ns1:field <http://www.semanticweb.org/gkb#Field/tommelitengamma> ;
@@ -787,9 +784,6 @@
     ns1:field <http://www.semanticweb.org/gkb#Field/varg> ;
     ns1:resource <http://www.semanticweb.org/gkb#Resource/oil> ;
     ns1:year 2008 .
-
-<http://www.semanticweb.org/gkb#Discovery/15/12-21(grevling)> a ns1:Discovery ;
-    rdfs:label "15/12-21 (Grevling)" .
 
 <http://www.semanticweb.org/gkb#Discovery/15/12-4varg> a ns1:Discovery ;
     rdfs:label "15/12-4 Varg" ;
@@ -869,9 +863,6 @@
     ns1:resource <http://www.semanticweb.org/gkb#Resource/gas/condensate> ;
     ns1:year 2009 .
 
-<http://www.semanticweb.org/gkb#Discovery/16/1-12(rolvsnes)> a ns1:Discovery ;
-    rdfs:label "16/1-12 (Rolvsnes)" .
-
 <http://www.semanticweb.org/gkb#Discovery/16/1-7> a ns1:Discovery ;
     rdfs:label "16/1-7" ;
     ns1:field <http://www.semanticweb.org/gkb#Field/ivaraasen> ;
@@ -913,9 +904,6 @@
     ns1:field <http://www.semanticweb.org/gkb#Field/sigyn> ;
     ns1:resource <http://www.semanticweb.org/gkb#Resource/oil> ;
     ns1:year 1997 .
-
-<http://www.semanticweb.org/gkb#Discovery/17/12-1vette> a ns1:Discovery ;
-    rdfs:label "17/12-1 Vette" .
 
 <http://www.semanticweb.org/gkb#Discovery/2/1-3gyda> a ns1:Discovery ;
     rdfs:label "2/1-3 Gyda" ;
@@ -988,72 +976,6 @@
     ns1:field <http://www.semanticweb.org/gkb#Field/valhall> ;
     ns1:resource <http://www.semanticweb.org/gkb#Resource/oil> ;
     ns1:year 1975 .
-
-<http://www.semanticweb.org/gkb#Discovery/25/2-10s(frigg-gammadelta)> a ns1:Discovery ;
-    rdfs:label "25/2-10 S (Frigg-GammaDelta)" .
-
-<http://www.semanticweb.org/gkb#Discovery/25/2-18s(langfjellet)> a ns1:Discovery ;
-    rdfs:label "25/2-18 S (Langfjellet)" .
-
-<http://www.semanticweb.org/gkb#Discovery/25/2-5lillefrøy> a ns1:Discovery ;
-    rdfs:label "25/2-5 Lille Frøy" .
-
-<http://www.semanticweb.org/gkb#Discovery/25/4-2(trine)> a ns1:Discovery ;
-    rdfs:label "25/4-2 (Trine)" .
-
-<http://www.semanticweb.org/gkb#Discovery/25/5-9(trell)> a ns1:Discovery ;
-    rdfs:label "25/5-9 (Trell)" .
-
-<http://www.semanticweb.org/gkb#Discovery/25/8-4breidablikk> a ns1:Discovery ;
-    rdfs:label "25/8-4 Breidablikk" .
-
-<http://www.semanticweb.org/gkb#Discovery/30/11-7(fulla)> a ns1:Discovery ;
-    rdfs:label "30/11-7 (Fulla)" .
-
-<http://www.semanticweb.org/gkb#Discovery/30/11-8s(krafla)> a ns1:Discovery ;
-    rdfs:label "30/11-8 S (Krafla)" .
-
-<http://www.semanticweb.org/gkb#Discovery/31/7-1(brasse)> a ns1:Discovery ;
-    rdfs:label "31/7-1 (Brasse)" .
-
-<http://www.semanticweb.org/gkb#Discovery/34/6-2s(garantiana)> a ns1:Discovery ;
-    rdfs:label "34/6-2 S (Garantiana)" .
-
-<http://www.semanticweb.org/gkb#Discovery/35/2-1(peon)> a ns1:Discovery ;
-    rdfs:label "35/2-1 (Peon)" .
-
-<http://www.semanticweb.org/gkb#Discovery/6406/2-1lavrans> a ns1:Discovery ;
-    rdfs:label "6406/2-1 Lavrans" .
-
-<http://www.semanticweb.org/gkb#Discovery/6406/9-1linnorm> a ns1:Discovery ;
-    rdfs:label "6406/9-1 Linnorm" .
-
-<http://www.semanticweb.org/gkb#Discovery/6407/2-6s(flyndretind)> a ns1:Discovery ;
-    rdfs:label "6407/2-6 S (Flyndretind)" .
-
-<http://www.semanticweb.org/gkb#Discovery/6407/6-6mikkelsør> a ns1:Discovery ;
-    rdfs:label "6407/6-6 Mikkel Sør" .
-
-<http://www.semanticweb.org/gkb#Discovery/6407/9-9(hasselmus)> a ns1:Discovery ;
-    rdfs:label "6407/9-9 (Hasselmus)" .
-
-<http://www.semanticweb.org/gkb#Discovery/6506/12-3(lysing)> a ns1:Discovery ;
-    rdfs:label "6506/12-3 (Lysing)" .
-
-<http://www.semanticweb.org/gkb#Discovery/6506/9-2s(fogelberg)> a ns1:Discovery ;
-    rdfs:label "6506/9-2 S (Fogelberg)" .
-
-<http://www.semanticweb.org/gkb#Discovery/6507/3-8(gjøk)> a ns1:Discovery ;
-    rdfs:label "6507/3-8 (Gjøk)" .
-
-<http://www.semanticweb.org/gkb#Discovery/6705/10-1(asterix)> a ns1:Discovery ;
-    rdfs:label "6705/10-1 (Asterix)" .
-
-<http://www.semanticweb.org/gkb#Discovery/7120/12-2(alkesør)> a ns1:Discovery ;
-    rdfs:label "7120/12-2 (Alke Sør)" .
-
-<http://www.semanticweb.org/gkb#Discovery/7324/8-1(wisting)> a ns1:Discovery ;
-    rdfs:label "7324/8-1 (Wisting)" .
 
 <http://www.semanticweb.org/gkb#Field/alve> a ns1:Field ;
     rdfs:label "ALVE" ;
@@ -3094,10 +3016,10 @@ ns1:Group a <http://www.w3.org/2002/07/owl#Class> ;
 <http://www.semanticweb.org/gkb#Resource/oil> a ns1:Resource ;
     rdfs:label "OIL" .
 
+ns1:Discovery a <http://www.w3.org/2002/07/owl#Class> .
+
 <http://www.semanticweb.org/gkb#Status/producing> a ns1:Status ;
     rdfs:label "Producing" .
-
-ns1:Discovery a <http://www.w3.org/2002/07/owl#Class> .
 
 ns1:Core a <http://www.w3.org/2002/07/owl#Class> ;
     rdfs:subClassOf ns1:Wellbore .

@@ -102,8 +102,9 @@ def getNer():
         elif "lithology" in query:
             print("Lithology of formation")
             final_query = "select ?ans where { " + formation_sub + "ns1:lithology ?ans.}"
-    answers = [row.ans for row in g.query(final_query)]
-    pdb;pdb.set_trace
+    answers = [row.ans.title() for row in g.query(final_query)]
+    
+    # pdb;pdb.set_trace
     print(f"The answer to the query\n{og_question} is \n {answers}")
     # messagebox.showinfo("Answers = ",answers)
     lbl_result["text"] = f"{answers}"
@@ -172,7 +173,7 @@ if __name__=="__main__":
     # grid assignment
     nameentry.grid(row=1, column=3)
     btn_convert.grid(row=7, column=3)
-    lbl_result.grid(row=9,column=3, pdx=10)
+    lbl_result.grid(row=9,column=3)
 
 
     root.mainloop()

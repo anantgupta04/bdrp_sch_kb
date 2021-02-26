@@ -270,6 +270,7 @@ class Ontology():
         return properties
     
     def save(self):
+        # self.graph.serialize(destination=CURRENT_ONTOLOGY, format='turtle')
         self.graph.serialize(destination=NEW_ONTOLOGY, format='turtle')
     
     def sync_save(self):
@@ -283,14 +284,15 @@ g = Ontology()
 # g.generate_TBox()
 # g.generate_ABox()
 # g.save()
-g.graph.parse(CURRENT_ONTOLOGY, format='turtle')
-g.new_source('../test_data/field.csv')
+# g.graph.parse(CURRENT_ONTOLOGY, format='turtle')
+g.graph.parse(NEW_ONTOLOGY, format='turtle')
+# g.new_source('../test_data/field.csv')
 # g.save()
-g.new_source('../test_data/discovery.csv')
+# g.new_source('../test_data/discovery.csv')
 # g.save()
-g.new_source('../test_data/wellbore_exploration_all.csv')
-# g.save()
+# g.new_source('../test_data/wellbore_exploration_all.csv')
+# g.save()  
 g.new_source('../test_data/field_description.csv')
-# g.save()
-g.new_source('../test_data/discovery_description.csv')
 g.save()
+# g.new_source('../test_data/discovery_description.csv')
+# g.save()
