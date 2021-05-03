@@ -72,7 +72,7 @@ class Ontology():
     def load_units(self):
 
         df = pd.read_csv('../new_data/lithostrat_units.csv', header=0, nrows=100)
-        df.dropna(inplace=True)
+        # df.dropna(inplace=True)
         groups = df[df['level'] =='GROUP']
         formations = df[df['level'] =='FORMATION']
         members = df[df['level'] =='MEMBER']
@@ -94,7 +94,8 @@ class Ontology():
             self.graph.add((formation_uri, self.gkb.age, Literal(row['age'])))
 
             if row['parent']:
-                parent_uri = getattr(self.gkb, row['level'].title()) + '/' + neatstr(str(row['parent']))
+                # parent_uri = getattr(self.gkb, row['level'].title()) + '/' + neatstr(str(row['parent']))
+                parent_uri = self.gkb.Group + '/' + neatstr(str(row['parent']))
                 self.graph.add((parent_uri, RDF.type, getattr(self.gkb, row['level'].title())))
                 self.graph.add((parent_uri, RDFS.label, Literal(row['parent'])))
                 self.graph.add((formation_uri, self.gkb.parent_unit, parent_uri))
@@ -111,7 +112,8 @@ class Ontology():
                 self.graph.add((member_uri, self.gkb.located_in, Literal(row['country'])))
             
             if row['parent']:
-                parent_uri = getattr(self.gkb, row['level'].title()) + '/' + neatstr(row['parent'])
+                # parent_uri = getattr(self.gkb, row['level'].title()) + '/' + neatstr(row['parent'])
+                parent_uri = self.gkb.Formation + '/' + neatstr(row['parent'])
                 self.graph.add((parent_uri, RDF.type, getattr(self.gkb, row['level'].title())))
                 self.graph.add((parent_uri, RDFS.label, Literal(row['parent'])))
                 self.graph.add((member_uri, self.gkb.parent_unit, parent_uri))
@@ -172,7 +174,7 @@ class Ontology():
 
         class_uri = ''  # source means class
         df = pd.read_csv(file, header=0, nrows=100)
-        df.dropna(inplace=True)
+        # df.dropna(inplace=True)
         classname = file.split('/')[-1].split('.')[0]
         # col with names of class instances
         class_idx = maincol(classname, df.columns[:2])
@@ -200,13 +202,17 @@ class Ontology():
         col_ppty_dict = {}  # to keep col -> ppty_uri
         col_class = {}      # cols that contain classes: col -> class uri
         col_literal = []    # cols that contain literals
+        col_found = []
         for col in ppty_cols:
             ppty_uri = ''
             # get the closest existing property name
             ont_property = closest(col, ont_properties)
             print(f'{col} is similar to property {ont_property}')
             if ont_property:
-                ppty_uri = getattr(self.gkb, ont_property)
+                ppty_uri = getattr(self.gkb, ont_property.lower())
+                self.graph.add((class_uri, ppty_uri, RDFS.Literal))
+                self.graph.add((ppty_uri, RDFS.domain, class_uri))
+                col_found.append(col)
             else:
                 # create a new property
                 ppty_uri = getattr(self.gkb, neatstr(col, space='_'))
@@ -255,8 +261,10 @@ class Ontology():
                     self.graph.add((col_instance_uri, RDF.type, col_type))
                     self.graph.add((col_instance_uri, RDFS.label, Literal(row[col])))
                     self.graph.add(cls_triple)
-        
 
+            for col in col_found:
+                triple = (instance_uri, col_ppty_dict[col], Literal(row[col]))
+                self.graph.add(triple)
 
 
     def get_classes(self):
@@ -285,14 +293,18 @@ g = Ontology()
 # g.generate_ABox()
 # g.save()
 # g.graph.parse(CURRENT_ONTOLOGY, format='turtle')
-g.graph.parse(NEW_ONTOLOGY, format='turtle')
 # g.new_source('../test_data/field.csv')
 # g.save()
+
+g.graph.parse(NEW_ONTOLOGY, format='turtle')
 # g.new_source('../test_data/discovery.csv')
 # g.save()
-# g.new_source('../test_data/wellbore_exploration_all.csv')
-# g.save()  
+
+g.new_source('../test_data/wellbore_exploration_all.csv')
+g.save()  
+
 g.new_source('../test_data/field_description.csv')
 g.save()
-# g.new_source('../test_data/discovery_description.csv')
-# g.save()
+
+g.new_source('../test_data/discovery_description.csv')
+g.save()

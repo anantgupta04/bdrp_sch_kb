@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="https://raw.githubusercontent.com/anantgupta04/bdrp_sch_kb/main/code/person.owl"
+         xmlns="https://raw.githubusercontent.com/anantgupta04/bdrp_sch_kb/main/code/person.owl#">
+
+<owl:Ontology rdf:about="https://raw.githubusercontent.com/anantgupta04/bdrp_sch_kb/main/code/person.owl">
+  <owl:imports rdf:resource="https://raw.githubusercontent.com/anantgupta04/bdrp_sch_kb/main/code/human.owl"/>
+</owl:Ontology>
+
+<owl:Class rdf:about="#Person">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <owl:equivalentClass rdf:resource="https://raw.githubusercontent.com/anantgupta04/bdrp_sch_kb/main/code/human.owl#Human"/>
+</owl:Class>
+
+<rdf:Description rdf:about="https://raw.githubusercontent.com/anantgupta04/bdrp_sch_kb/main/code/human.owl#Human">
+  <owl:equivalentClass rdf:resource="#Person"/>
+</rdf:Description>
+
+<Person rdf:about="https://raw.githubusercontent.com/anantgupta04/bdrp_sch_kb/main/code/human.owl#Sarah"/>
+
+<Person rdf:about="https://raw.githubusercontent.com/anantgupta04/bdrp_sch_kb/main/code/human.owl#Michael"/>
+
+<Person rdf:about="https://raw.githubusercontent.com/anantgupta04/bdrp_sch_kb/main/code/human.owl#John"/>
+
+<Person rdf:about="https://raw.githubusercontent.com/anantgupta04/bdrp_sch_kb/main/code/human.owl#Marie"/>
+
+
+</rdf:RDF>

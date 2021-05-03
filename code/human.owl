@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="https://raw.githubusercontent.com/anantgupta04/bdrp_sch_kb/main/code/human.owl"
+         xmlns="https://raw.githubusercontent.com/anantgupta04/bdrp_sch_kb/main/code/human.owl#">
+
+<owl:Ontology rdf:about="https://raw.githubusercontent.com/anantgupta04/bdrp_sch_kb/main/code/human.owl"/>
+
+<owl:Class rdf:about="#Human">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<Human rdf:about="#Sarah">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Human>
+
+<Human rdf:about="#Michael">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Human>
+
+<Human rdf:about="#John">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Human>
+
+<Human rdf:about="#Marie">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Human>
+
+
+</rdf:RDF>

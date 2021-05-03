@@ -98,7 +98,8 @@ def getNer():
                              ?g rdfs:label ?ans}"
         elif "members" in query:
             print("members of a particular formation")
-            final_query = ""
+            final_query = "select ?ans where { ?b ns1:parent_unit " + formation_sub + ";\n"\
+                                            "a ns1:Member.\n ?b rdfs:label ?ans}"
         elif "age" in query:
             print("Age of formation")
             final_query = "select ?ans where { " + formation_sub + "ns1:age ?ans.}"
@@ -130,7 +131,7 @@ Questions that can be answered?
 
 * Which group does X formation belong to? --WORKS
 
-* What are members of Ekofisk formation?
+* What are members of heimdal formation?
 
 * What is lithology of Ekofisk formation? -- WORKS(NOT recommended)
 
